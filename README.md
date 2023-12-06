@@ -49,7 +49,7 @@
 
 **Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
 
-**Effort:** 175 Hours
+**Effort:** 350 Hours
 
 **Difficulty Level:** Medium
 
