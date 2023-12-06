@@ -77,7 +77,7 @@ An approach to creating shareable datasets from the DICOM images retrieved by Ni
 
 **Discussion Forum**: https://github.com/KathiraveluLab/Diomede/discussions
 
-**Effort:** 175 Hours
+**Effort:** 350 Hours
 
 **Difficulty Level:** Easy
 
