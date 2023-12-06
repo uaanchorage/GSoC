@@ -1,7 +1,7 @@
 # Alaska: Google Summer of Code (GSoC) 
-This is our first time participating as a mentoring organization in the Google Summer of Code (GSoC) as "Alaska." However, we consist of mature open-source projects. We also have mentors who have participated in several GSoC instances in the past.
+This is our first time participating as a mentoring organization in the Google Summer of Code (GSoC) as "Alaska." We consist of stable open-source projects in production use in research and relatively young projects. We also have mentors who have participated in several GSoC instances.
 
-We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, is home to a vibrant open-source community. This northern state, although often overlooked, also has a tech community. Through this GSoC initiative, industrial experts that are part of [Alaska Developer Alliance](https://www.akdevalliance.com/) and faculty and researchers from the [University of Alaska Anchorage (UAA)](https://www.uaa.alaska.edu/) join hands, to provide a perfect mentoring experience for interested students globally. We hope to provide a glimpse of this northern state to the outside world through this summer internship program organized by Google.
+We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has a vibrant open-source community. Through this GSoC initiative, industrial experts that are part of [Alaska Developer Alliance](https://www.akdevalliance.com/) and faculty and researchers from the [University of Alaska Anchorage (UAA)](https://www.uaa.alaska.edu/) join hands, to provide a perfect mentoring experience for interested students globally. We hope to provide a glimpse of this northern state and its tech landscape to the Lower 48 and the outside world through this summer internship program organized by Google.
 
 # List of Ideas
 
