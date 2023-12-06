@@ -59,7 +59,7 @@
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) aand Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
-**Overview:**  Niffler is a framework to retrieve DICOM images from PACS in real-time as a DICOM stream and retrospectively. Images can be retrieved from a PACS via Niffler in real-time (via the Niffler meta-extraction module) or on-demand (via the Niffler cold-extraction module). However, these downloaded data sets remain in the local environments, such as a research server or a cluster where Niffler is run. To use this data, researchers must identify certain subsets of data. This can be achieved by querying the retrieved data. For instance, Niffler stores the metadata of the data retrieved in real time in a Mongo database. By querying the metadata, subsets of images can be identified. However, currently, Niffler does not possess the ability to create such "albums" from a set of DICOM images retrieved by Niffler and shared with other users.
+**Overview:**  [Niffler](https://github.com/Emory-HITI/Niffler) is a framework to retrieve DICOM images from PACS in real-time as a DICOM stream and retrospectively. Images can be retrieved from a PACS via Niffler in real-time (via the Niffler meta-extraction module) or on-demand (via the Niffler cold-extraction module). However, these downloaded data sets remain in the local environments, such as a research server or a cluster where Niffler is run. To use this data, researchers must identify certain subsets of data. This can be achieved by querying the retrieved data. For instance, Niffler stores the metadata of the data retrieved in real time in a Mongo database. By querying the metadata, subsets of images can be identified. However, currently, Niffler does not possess the ability to create such "albums" from a set of DICOM images retrieved by Niffler and shared with other users.
 
 **Current Status:** Currently, Niffler does not have the ability to select subsets of images or create albums. We are sharing images through other orthogonal approaches (via rclone, for example). This project will implement a stand-alone utility to create albums from locally stored DICOM images effectively.
 
@@ -71,9 +71,9 @@ An approach to creating shareable datasets from the DICOM images retrieved by Ni
  
 **Required Skills:** Python and Java.
 
-**Code Challenge:** A demonstration of the potential integration of Niffler with such existing frameworks. The proposed frameworks are samples only. The contributors may choose their own.
+**Code Challenge:** Experience working with DICOM images from previous projects or through a sample dummy project will be a plus.
 
-**Source Code:** https://github.com/KathiraveluLab/Diomede
+**Source Code:** https://github.com/KathiraveluLab/Diomede (New Project).
 
 **Discussion Forum**: https://github.com/KathiraveluLab/Diomede/discussions
 
