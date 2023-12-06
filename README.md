@@ -13,6 +13,7 @@
 [osparc-control](https://github.com/ITISFoundation/osparc-control) is an extension of [ZeroMQ](https://zeromq.org/). osparc-control based implementation replaces the file-sharing mechanism restricted to one local machine with message queues that can be transmitted between locally networked machines. This osparc-control based communication should be promoted as a first-class approach to implement the edges of concore.
 
 ![The study with 0MQ](figures/0mq.png)
+
 **Current Status:** Currently, a [simple osparc-control based implementation](https://github.com/ControlCore-Project/concore/tree/main/0mq) exists in concore. However, these ZeroMQ edges are not visible in the concore editor, the browser-based visual editor for the concore. Consequently, studies with ZeroMQ edges are represented as forests instead of directed hypergraphs due to the "invisible" ZeroMQ edges. This also means to run a concore study with ZeroMQ-based edges, we have to run each hypergraph in the forest separately.
 
 **Expected Outcomes:** We need to promote a unified experience in concore, whether the edges are actually implemented via the default file-sharing approach or through this experimental osparc-control/ZeroMQ message-based approach. To illustrate the ZeroMQ-based edges, the contributor can choose to introduce a new assumption that all the ZeroMQ-edges must start with "0" in their labels. Usually, we label the edges with alphabetical characters. Therefore, this is a safe assumption. Once such a graph with ZeroMQ-edges is made (a single directed hypergraph, rather than a forest with disjoint two or more directed hypergraphs), we should be able to seamlessly build and run the study regardless of the underlying communication mechanism. Thus, we aim to demonstrate the possibility of a seamless local vs. distributed execution in a cluster through ZeroMQ.
@@ -33,7 +34,7 @@
 
 **[2] A Reference Implementation for concore Library in Java or Julia.**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pkathiravelu -at- emory.edu)
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Mayuresh Kothare (mvk2 -at- lehigh.edu)
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Java or Julia.
 
