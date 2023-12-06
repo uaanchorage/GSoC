@@ -55,7 +55,7 @@
 
 ***
 
-**[3] Creating shareable "albums" from DICOM images**
+**[3] Creating shareable "albums" from locally stored DICOM images**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) aand Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
