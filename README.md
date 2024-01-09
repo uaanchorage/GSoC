@@ -61,7 +61,7 @@ We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has 
 
 **[3] Creating shareable "albums" from locally stored DICOM images**
 
-**Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) aand Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+**Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
 **Overview:**  [Niffler](https://github.com/Emory-HITI/Niffler) is a framework to retrieve DICOM images from PACS in real-time as a DICOM stream and retrospectively. Images can be retrieved from a PACS via Niffler in real-time (via the Niffler meta-extraction module) or on-demand (via the Niffler cold-extraction module). However, these downloaded data sets remain in the local environments, such as a research server or a cluster where Niffler is run. To use this data, researchers must identify certain subsets of data. This can be achieved by querying the retrieved data. For instance, Niffler stores the metadata of the data retrieved in real time in a Mongo database. By querying the metadata, subsets of images can be identified. However, currently, Niffler does not possess the ability to create such "albums" from a set of DICOM images retrieved by Niffler and shared with other users.
 
@@ -86,6 +86,34 @@ An approach to creating shareable datasets from the DICOM images retrieved by Ni
 **Difficulty Level:** Easy
 
 ***
+
+
+**[4] Beehive: Integrated Community Health Metrics Framework for Behavioral Health to Supplement Healthcare Practice in Alaska.**
+
+**Mentors:** David Moxley (dpmoxley -at- alaska.edu) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+
+**Overview:** This project, a collaboration between the University of Alaska Anchorage Departments of Computer Science and Human Services, seeks to create a digital approach to translating the digitalization of art and photographic images into a digital database that stores in retrievable formats those images for use in advancing the delivery of human services and health care to people who experience considerable vulnerability and marginalization within the community. One of the project aims is to create a digital repository of these images, many of which reflect Outsider Art since the people who produce them are not formally trained as artists and experience considerable discrimination. The repository can be used to support research on Outsider art and Outsider Artists, education of health and human services practitioners about the impact of negative stereotypes on the health and well-being of people who are highly vulnerable, and arts programs devoted to advancing the health of vulnerable people.
+
+The accepted contributor will develop the Beehive platform for (1) translating digital images into the database, (2) developing the database to support user interactions with content, and (3) facilitating retrieval of images. The contributor will obtain an orientation to the project, instruction in how the arts and photography can represent health and well-being, and insight into using digital representations as an advocacy tool for improving the well-being of highly vulnerable people. 
+
+**Current Status:** This project is currently in the research stage.
+
+**Expected Outcomes:**  A prototype implementation of the project as an open-source project that can be used in research environments in Alaska and elsewhere.
+
+**Required Skills:** Database (MySQL or Mongo) and Python or Java.
+
+**Code Challenge:** Prior experience with database management through established coding examples.
+
+**Source Code:**  https://github.com/kathiraveluLab/beehive (New Project).
+
+**Discussion Forum**: https://github.com/KathiraveluLab/Beehive/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
+
 
 Please use the below template to create new project ideas.
 
