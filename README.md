@@ -3,6 +3,8 @@ This is our first time participating as a mentoring organization in the Google S
 
 We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has a vibrant open-source community. Through this GSoC initiative, industrial experts that are part of [Alaska Developer Alliance](https://www.akdevalliance.com/) and faculty and researchers from the [University of Alaska Anchorage (UAA)](https://www.uaa.alaska.edu/) join hands, to provide a perfect mentoring experience for interested contributors globally. We hope to provide a glimpse of this northern state and its tech landscape to the Lower 48 and the outside world through this summer internship program organized by Google.
 
+Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDE.md) for more details on how to apply and a standard template for the application. Please carefully review this [introductory presentation on GSoC](https://pradeeban.github.io/projects/), especially if you are new to GSoC and need some pointers/help on getting started.
+
 # List of Ideas
 
 
