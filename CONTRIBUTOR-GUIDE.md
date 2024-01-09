@@ -60,7 +60,7 @@ Please also indicate the work hours (including the timezone), that you hope to w
 
 Please indicate if you have any lectures/classes, examinations, or other personal commitments.
 
-GSoC 2022 also allows flexibility of an additional two months - to complete the project at a later time frame (a shift of up to 2 additional months). Please indicate if you expect to do that as we can plan accordingly.
+GSoC  also allows flexibility of an additional two months - to complete the project at a later time frame (a shift of up to 2 additional months). Please indicate if you expect to do that as we can plan accordingly.
 
 If you are choosing a full-time project, you may not have much flexibility. However, if you are working on a small project, obviously you can have several other parallel commitments.
 
