@@ -38,27 +38,29 @@ Many of the ideas proposed here have a research component. Contributors who work
 
 ***
 
-**[2] A Reference Implementation for concore Library in Java or Julia.**
+**[2] Dynamic DICOM Endpoints.**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Mayuresh Kothare (mvk2 -at- lehigh.edu)
+**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
 
-**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Java or Julia.
+**Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system), and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. DICOM implementations often have a queue to hold the images sent from the source. Since this is a networking communication, a queue may degrade the performance or introduce data loss. DICOM communications are defined by static source, query, and destination endpoints. Each endpoint is defined by hostname/IP address, port, and AE (Application Entity) Title. A DICOM endpoint such as a PACS or a scanner usually has these endpoints statically configured to ensure security and patient privacy.
 
-**Current Status:** We developed the concore library initially in Python and then implemented support for other languages. The contributor will work towards a reference implementation in Java or Julia in this project. The successful completion of this project will expand the user base of concore to include Java/Julia developers.
+This project attempts to send data from a source to dynamic destinations based on the queue and the performance. This can be a use case for teleradiology with multiple remote healthcare/radiologist sites present or a potential framework to enable federated learning on radiographic images. Niffler provides an efficient DICOM query endpoint for research. It also consists of instructions on setting up Orthanc as a PACS [1]. With multiple Orthanc servers configured, such a federated deployment can be prototyped. Ultimately, this project aims to study the possibilities and opportunities of supporting dynamic DICOM endpoints in practice. 
 
-**Expected Outcomes:** A complete reference implementation of the concore Library in Java or Julia.
+**Current Status:** This project is currently in the research stage.
 
-**Required Skills:** i) Java or Julia and ii) Python
+**Expected Outcomes:** A prototype implementation that supports dynamic DICOM endpoints.
 
-**Code Challenge:** Demonstration of previous expertise in Java/Julia and Python can be beneficial.
- 
-**Source Code:**  https://github.com/ControlCore-Project/concore
+**Required Skills:** Python
 
-**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
+**Code Challenge:** Experience working with DICOM images from previous projects or through a sample dummy project will be a plus.
+
+**Source Code:** https://github.com/KathiraveluLab/Diomede (New Project).
+
+**Discussion Forum**: https://github.com/KathiraveluLab/Diomede/discussions
 
 **Effort:** 350 Hours
 
-**Difficulty Level:** Medium
+**Difficulty Level:** Hard
 
 ***
 
@@ -136,6 +138,30 @@ The goal of this project is to develop [Beehive](https://github.com/KathiraveluL
 **Source Code:**  https://github.com/KathiraveluLab/AWANTA
 
 **Discussion Forum**: https://github.com/KathiraveluLab/AWANTA/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
+
+**[6] A Reference Implementation for concore Library in Java or Julia.**
+
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Mayuresh Kothare (mvk2 -at- lehigh.edu)
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Java or Julia.
+
+**Current Status:** We developed the concore library initially in Python and then implemented support for other languages. The contributor will work towards a reference implementation in Java or Julia in this project. The successful completion of this project will expand the user base of concore to include Java/Julia developers.
+
+**Expected Outcomes:** A complete reference implementation of the concore Library in Java or Julia.
+
+**Required Skills:** i) Java or Julia and ii) Python
+
+**Code Challenge:** Demonstration of previous expertise in Java/Julia and Python can be beneficial.
+ 
+**Source Code:**  https://github.com/ControlCore-Project/concore
+
+**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
 
 **Effort:** 350 Hours
 
