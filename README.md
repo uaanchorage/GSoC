@@ -170,7 +170,35 @@ The goal of this project is to develop [Beehive](https://github.com/KathiraveluL
 
 ***
 
-**[7] A Reference Implementation for concore Library in Java or Julia.**
+**[7] DICOM Image Retrieval and Processing in Matlab.**
+
+**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
+
+**Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system) and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. 
+
+Many DICOM processing tools exist. They support receiving images from the scanners and PACS to a research cluster in real-time as an imaging stream or on-demand selectively. They also provide means to anonymize the DICOM images to preserve patient privacy, export the DICOM images into a format such as PNG or JPEG, and extract the textual metadata from DICOM files to store it in a CSV file format or a database. We built the [Niffler](https://github.com/Emory-HITI/Niffler) DICOM open-source framework in Python to handle such use cases. Machine learning pipelines cannot be executed in clinical systems such as scanners and PACS. Therefore, the DICOM images and their metadata in the research clusters can be used to run machine learning pipelines. 
+
+Matlab has some out-of-the-box support for certain DICOM functions, and it seems it could make our job easy in certain projects. This facilitates processing the files from the file system [2](https://www.mathworks.com/help/images/dicom-support-in-the-image-processing-toolbox.html). Region-of-Interest is natively supported for DICOM-RT files in Matlab [3](https://www.mathworks.com/help/images/ref/dicomcontours.html). It also supports deep learning on DICOM and NifTi files [4](https://www.mathworks.com/help/deeplearning/ug/preprocess-volumes-for-deep-learning.html). Matlab currently does not support receiving images from DICOM systems such as PACS and Scanners over the network. Matlab used to have functions that utilize the Dicom toolkit to pull images from another server. It was available through Matlab's file exchange at one point called "dicom server connection". This is not publicly available anymore. However, we have the implementation available locally. The code was not recently tested, and therefore, its usability with the latest Matlab versions needs to be confirmed. 
+
+**Current Status:** This project is currently in the research stage.
+
+**Expected Outcomes:** This project aims to create an easy-to-use open-source Matlab DICOM processing framework as a Matlab alternative to the Niffler framework’s metadata extraction, anonymization, and PNG extraction capabilities. We start with processing DICOM images since the current status of the DICOM networking in Matlab is unknown. But we will explore it, if possible and time permitting. Since this is a research project, we should study the existing projects first to avoid re-inventing the wheel. From Google Scholar, we see many processing and pipelines (ROI, deep learning, ...) on DICOM/DICOM-RT have been implemented using Matlab. Regardless of the scientific novelty, we can get an open-source solution that could help with further ML stuff using Matlab on the DICOM files. However, we should also observe how this could be a scientific contribution and its merits beyond what is already available. We can use readily available public DICOM data sources to test our implementations, such as [the Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/), as that avoids having to deal with sensitive patient data with PHI. We will narrow down on a specific research use case to highlight the framework's usage in research.
+
+**Required Skills:** Matlab
+
+**Code Challenge:** Experience working with DICOM images from previous projects and prior experience with Matlab as demonstrated through code examples will be a plus.
+
+**Source Code:** https://github.com/KathiraveluLab/Diomede (New Project).
+
+**Discussion Forum**: https://github.com/KathiraveluLab/Diomede/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+***
+
+**[8] A Reference Implementation for concore Library in Java or Julia.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Mayuresh Kothare (mvk2 -at- lehigh.edu)
 
