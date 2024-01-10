@@ -116,6 +116,32 @@ The goal of this project is to develop [Beehive](https://github.com/KathiraveluL
 ***
 
 
+
+**[5] A Virtual Router based on RIPE Atlas Internet Measurements.**
+
+**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+
+**Overview:** RIPE Atlas [1](https://atlas.ripe.net/) is an Internet Measurement network composed by small network devices, known as RIPE Atlas Probes and Anchors, connected to the participating volunteers' routers. Using RIPE Atlas, we can measure the Internet latency and routing path through ping and traceroute measurements. This project aims to develop a software router that dynamically uses RIPE Atlas measurements to change the scheduling path. Before the implementation of the project, we should study the existing works on using RIPE Atlas probe for such network optimization tasks at the Internet scale [2](https://ieeexplore.ieee.org/abstract/document/9472847 ) to quickly understand the state-of-the-art and ensure scientific novelty in our approach. 
+
+**Current Status:** This project is currently in the research stage.
+
+**Expected Outcomes:** This project extends the RIPE Atlas client [3](https://github.com/RIPE-NCC/ripe-atlas-tools ) to use the measurements in network scheduling decisions. First, the measurements should be streamlined to perform periodically across several probes set as sources and destinations. The measurements across several probes in a single city can provide a more generalized measurement for a city rather than restricting to individual changes of any given probe when multiple such probes are available to a given city. Second, we will build a virtual router to use these measurements to influence the network scheduling decisions dynamically across several nodes. As the network performance changes with time, we can observe how the network path changes with time. Currently, we have more than 60 million RIPE Atlas credits that I accumulated by hosting a RIPE Atlas probe for the past 5 years. So, we have sufficient resources for these Internet measurement experiments.
+ 
+**Required Skills:** Python.
+
+**Code Challenge:** Prior experience in Python through established coding examples.
+
+**Source Code:**  https://github.com/KathiraveluLab/AWANTA
+
+**Discussion Forum**: https://github.com/KathiraveluLab/AWANTA/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
+
+
 Please use the below template to create new project ideas.
 
 ***
