@@ -5,10 +5,9 @@ We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has 
 
 Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDE.md) for more details on how to apply and a standard template for the application. Please carefully review this [introductory presentation on GSoC](https://pradeeban.github.io/projects/), especially if you are new to GSoC and need some pointers/help on getting started.
 
+The ideal way to contact the mentors is to use the Discussion Forums listed under each project idea. If you would like to introduce yourself, post them [here](https://github.com/uaanchorage/GSoC/discussions/1). If you have questions beyond the general introduction, you can also start a [separate thread](https://github.com/uaanchorage/GSoC/discussions/). Please use these discussion forums rather than individual private emails, to boost the open source environment.
+
 # List of Ideas
-
-
-
 **[1] Making ZeroMQ a first-class feature of concore.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
