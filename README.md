@@ -118,7 +118,7 @@ The goal of this project is to develop [Beehive](https://github.com/KathiraveluL
 
 
 
-**[5] A Virtual Router based on RIPE Atlas Internet Measurements.**
+**[5] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
