@@ -219,8 +219,7 @@ Matlab has some out-of-the-box support for certain DICOM functions, and it seems
 
 ***
 
-
-Please use the below template to create new project ideas.
+You are welcome to propose new open source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas.
 
 ***
 
