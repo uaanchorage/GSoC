@@ -220,7 +220,41 @@ Matlab has some out-of-the-box support for certain DICOM functions, and it seems
 
 ***
 
-**[9] A Reference Implementation for concore Library in Java or Julia.**
+**[9] Forest Fire Tracking from Aerial images and Measuring its Severity/Intensity.**
+
+**Mentors:**  Arghya Kusum Das (akdas -at- alaska.edu) and Yali Wang 
+
+**Overview:** Boreal forest fire causes a huge loss in the state of Alaska. Starting from loss of lives, to increased pollution, to hampering different services, forest fires pose several risks to society. Quick detection and tracking of forest fire and its severity can help develop better rescue missions and resilience planning. This project aims to create metrics to measure the severity and intensity of a forest fire. 
+
+**Current Status:**  University of Alaska Fairbanks (UAF) researchers created deep learning models to detect forest fires (deciding whether the picture has a forest or not) in an image, in a project partially supported by NASA. This project aims to precisely mark in the picture where the fire is appearing.
+
+**Expected Outcomes:** For the forest fire tracking and measuring its severity/intensity, the contributor needs to create a deep learning model to track the forest fire with a bounding box in a video (which is basically a collection of frames or images) and should be able to check how the size is changing through the video frames.
+
+We anticipate the following outcomes from the successful completion of this project
+
+- Extract the frames of the video and store them as a collection of images  
+
+- Create an accurate deep neural network model for tracking forest fire, i.e., creating a bounding box surrounding the fire in an image. 
+
+- Measure the size of the bounding box in consecutive frames and make a chart to see how the fire size changes. 
+
+- Deploy on Jetson Nano/xavier or some low-power device
+
+**Required Skills:** Python
+
+**Code Challenge:** Prior experience with creating deep learning models is expected.
+
+**Source Code:** New Project.
+
+**Discussion Forum**: https://github.com/uaanchorage/GSoC/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
+
+**[10] A Reference Implementation for concore Library in Java or Julia.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Mayuresh Kothare (mvk2 -at- lehigh.edu)
 
@@ -244,7 +278,7 @@ Matlab has some out-of-the-box support for certain DICOM functions, and it seems
 
 ***
 
-You are welcome to propose new open source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas.
+You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas.
 
 ***
 
