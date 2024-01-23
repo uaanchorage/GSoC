@@ -256,7 +256,7 @@ We anticipate the following outcomes from the successful completion of this proj
 
 **[10] A Reference Implementation for concore Library in Java or Julia.**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Mayuresh Kothare (mvk2 -at- lehigh.edu)
+**Mentors:** Mayuresh Kothare (mvk2 -at- lehigh.edu) and Gautam Kumar (gautam.kumar -at- sjsu.edu)
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Java or Julia.
 
