@@ -246,7 +246,7 @@ We anticipate the following outcomes from the successful completion of this proj
 
 **Source Code:** https://github.com/akdasUAF/ForestFireDetection
 
-**Discussion Forum**: https://github.com/akdasUAF/ForestFireDetection/issues
+**Discussion Forum**: https://github.com/akdasUAF/ForestFireDetection/discussions
 
 **Effort:** 350 Hours
 
