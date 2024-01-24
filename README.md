@@ -222,11 +222,11 @@ Matlab has some out-of-the-box support for certain DICOM functions, and it seems
 
 **[9] Forest Fire Tracking from Aerial images and Measuring its Severity/Intensity.**
 
-**Mentors:**  Arghya Kusum Das (akdas -at- alaska.edu) and Yali Wang 
+**Mentors:**  Arghya Kusum Das (akdas -at- alaska.edu) and Yali Wang (ywang35 -at- alaska.edu)
 
 **Overview:** Boreal forest fire causes a huge loss in the state of Alaska. Starting from loss of lives, to increased pollution, to hampering different services, forest fires pose several risks to society. Quick detection and tracking of forest fire and its severity can help develop better rescue missions and resilience planning. This project aims to create metrics to measure the severity and intensity of a forest fire. 
 
-**Current Status:**  University of Alaska Fairbanks (UAF) researchers created deep learning models to detect forest fires (deciding whether the picture has a forest or not) in an image, in a project partially supported by NASA. This project aims to precisely mark in the picture where the fire is appearing.
+**Current Status:**  University of Alaska Fairbanks (UAF) researchers created deep learning models to detect forest fires (deciding whether the picture has a forest or not) in an image in a project partially supported by NASA. This project aims to precisely mark in the picture where the fire is appearing.
 
 **Expected Outcomes:** For the forest fire tracking and measuring its severity/intensity, the contributor needs to create a deep learning model to track the forest fire with a bounding box in a video (which is basically a collection of frames or images) and should be able to check how the size is changing through the video frames.
 
@@ -240,17 +240,17 @@ We anticipate the following outcomes from the successful completion of this proj
 
 - Deploy on Jetson Nano/xavier or some low-power device
 
-**Required Skills:** Python
+**Required Skills:** Python and experience with Deep Neural Networks
 
-**Code Challenge:** Prior experience with creating deep learning models is expected.
+**Code Challenge:** Prior experience creating deep learning models is expected.
 
-**Source Code:** New Project.
+**Source Code:** https://github.com/akdasUAF/ForestFireDetection
 
-**Discussion Forum**: https://github.com/uaanchorage/GSoC/discussions
+**Discussion Forum**: https://github.com/akdasUAF/ForestFireDetection/issues
 
 **Effort:** 350 Hours
 
-**Difficulty Level:** Medium
+**Difficulty Level:** Hard
 
 ***
 
