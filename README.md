@@ -3,20 +3,9 @@
 
 We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has a vibrant open-source community. Through this GSoC initiative, industrial experts that are part of [Alaska Developer Alliance](https://www.akdevalliance.com/) and faculty and researchers from the [University of Alaska Anchorage (UAA)](https://www.uaa.alaska.edu/) and [University of Alaska Fairbanks (UAF)](https://www.uaf.edu/) join hands, to provide a perfect mentoring experience for interested contributors globally. We provide a glimpse of this northern state and its tech landscape to the Lower 48 and the outside world through this open-source remote summer coding program organized and funded by Google. Our projects focus on healthcare, climate science, polar science, and other research fields critical to the Circumpolar North and the rest of the world.
 
-# Getting Started
-Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDE.md) for details on applying and a standard application template. 
-
-Please carefully review this [introductory presentation on GSoC](https://pradeeban.github.io/projects/), especially if you are new to GSoC and need some pointers/help getting started.
-
-The ideal way to contact the mentors is to use the Discussion Forums listed under each project idea. If you want to introduce yourself, post them [here](https://github.com/uaanchorage/GSoC/discussions/1). 
-
-If you have questions beyond the general introduction, start a [separate thread](https://github.com/uaanchorage/GSoC/discussions/). 
-
-Each project idea listed below has a "Discussion Forum" listed. Please use these discussion forums to discuss your project ideas and approaches. That contributes to and boosts the open-source spirit in our community. 
+**Please first refer to the [contributor guidelines](/CONTRIBUTOR-GUIDE.md) to get started!** It puts you on the right track with application details and a standard application template. 
 
 **Please avoid sending individual private emails (or social media messages!!) to mentors.** However, the mentors' emails are listed below with each project idea in case the mentor initiated or recommended an email communication later. 
-
-We also have a [wiki](https://github.com/uaanchorage/GSoC/wiki) that we will use as a blog and announcement channel. We aim to unify the Google Summer of Code conversations and announcements in this repository rather than fragmenting it across different media. We hope our contributors will have an enriching and productive summer with Alaska.
 
 # Project Ideas
 Many of the ideas proposed here have a research component. Contributors who work on these ideas have the potential to author a research paper (as the first author, working with the researchers from the University of Alaska) or become co-authors in our ongoing research papers. We strongly encourage those interested in higher studies or research careers to apply for their GSoC with us.
