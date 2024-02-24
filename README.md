@@ -123,7 +123,7 @@ This project attempts to send data from a source to dynamic destinations based o
 
 This project aims to develop [Beehive](https://github.com/KathiraveluLab/Beehive/), a prototype implementation as an open-source data federation framework that can be used in research environments in Alaska and elsewhere.
 
-**Current Status:** This project is currently in the research stage. We are currently researching the approach for its use with our community partners in Anchorage, aiming to support marginalized folks such as the unhoused.
+**Current Status:** This project is currently in the research stage. We are researching the approach for its use with our community partners in Anchorage, aiming to support marginalized folks such as the unhoused.
 
 **Expected Outcomes:** In this project, the contributor will develop the Beehive platform for (1) translating digital images into the database, (2) developing the database to support user interactions with content, and (3) facilitating retrieval of images. The contributor will obtain an orientation to the project, instruction in how the arts and photography can represent health and well-being, and insight into using digital representations as an advocacy tool for improving the well-being of highly vulnerable people. 
 
@@ -147,11 +147,11 @@ This project aims to develop [Beehive](https://github.com/KathiraveluLab/Beehive
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Eleonora Stadtmüller Caballero (estadtmullercaballe -at- alaska.edu)
 
-**Overview:** [RIPE Atlas](https://atlas.ripe.net/) is an Internet Measurement network composed by small network devices, known as RIPE Atlas Probes and Anchors, connected to the participating volunteers' routers. Using RIPE Atlas, we can measure the Internet latency and routing path through ping and traceroute measurements. This project aims to develop a software router that dynamically uses RIPE Atlas measurements to change the scheduling path. Before the implementation of the project, we should study the [existing works](https://ieeexplore.ieee.org/abstract/document/9472847 ) on using RIPE Atlas probe for such network optimization tasks at the Internet scale to quickly understand the state-of-the-art and ensure scientific novelty in our approach. 
+**Overview:** [RIPE Atlas](https://atlas.ripe.net/) is an Internet Measurement network composed of small network devices, known as RIPE Atlas Probes and Anchors, connected to the participating volunteers' routers. Using RIPE Atlas, we can measure the Internet latency and routing path through ping and traceroute measurements. This project aims to develop a software router that dynamically uses RIPE Atlas measurements to change the scheduling path. Before the implementation of the project, we should study the [existing works](https://ieeexplore.ieee.org/abstract/document/9472847 ) on using RIPE Atlas probe for such network optimization tasks at the Internet scale to quickly understand the state-of-the-art and ensure scientific novelty in our approach. 
 
-**Current Status:** This project is currently in the research stage. We observe the use of such a framework in the Circumpolar North. Especially in Alaska and Canadian North where Internet connectivity can be spotty, such an approach can provide significant benefits.
+**Current Status:** This project is currently in the research stage. We observe the use of such a framework in the Circumpolar North. Such an approach can provide significant benefits, especially in Alaska and the Canadian North, where Internet connectivity can be spotty.
 
-**Expected Outcomes:** This project extends the [RIPE Atlas client](https://github.com/RIPE-NCC/ripe-atlas-tools) to use the measurements in network scheduling decisions. First, the measurements should be streamlined to perform periodically across several probes set as sources and destinations. The measurements across several probes in a single city can provide a more generalized measurement for a city rather than restricting to individual changes of any given probe when multiple such probes are available to a given city. Second, we will build a virtual router to use these measurements to influence the network scheduling decisions dynamically across several nodes. As the network performance changes with time, we can observe how the network path changes with time. Currently, we have more than 60 million RIPE Atlas credits that I accumulated by hosting a RIPE Atlas probe for the past 5 years. So, we have sufficient resources for these Internet measurement experiments.
+**Expected Outcomes:** This project extends the [RIPE Atlas client](https://github.com/RIPE-NCC/ripe-atlas-tools) to use the measurements in network scheduling decisions. First, the measurements should be streamlined to perform periodically across several probes set as sources and destinations. The measurements across several probes in a single city can provide a more generalized measurement for a city rather than restricting to individual changes of any given probe when multiple such probes are available to a given city. Second, we will build a virtual router to use these measurements to dynamically influence the network scheduling decisions across several nodes. As the network performance changes with time, we can observe how the network path changes with time. We have more than 60 million RIPE Atlas credits that we accumulated by hosting a RIPE Atlas probe for the past five years. So, we have sufficient resources for these Internet measurement experiments.
  
 **Required Skills:** Python.
 
@@ -220,17 +220,17 @@ Matlab has some out-of-the-box support for certain DICOM functions, and it could
 
 ***
 
-**[9] Forest Fire Tracking from Aerial images and Measuring its Severity/Intensity.**
+**[9] Forest Fire Tracking from Aerial Images and Measuring its Severity/Intensity.**
 
 **Mentors:**  Arghya Kusum Das (akdas -at- alaska.edu) and Yali Wang (ywang35 -at- alaska.edu)
 
-**Overview:** Boreal forest fire causes a huge loss in the state of Alaska. Starting from loss of lives, to increased pollution, to hampering different services, forest fires pose several risks to society. Quick detection and tracking of forest fire and its severity can help develop better rescue missions and resilience planning. This project aims to create metrics to measure the severity and intensity of a forest fire. 
+**Overview:** Boreal forest fire causes a huge loss in the state of Alaska. Starting from loss of lives to increased pollution to hampering different services, forest fires pose several risks to society. Quick detection and tracking of forest fires and their severity can help develop better rescue missions and resilience planning. This project aims to create metrics to measure the severity and intensity of a forest fire. 
 
 **Current Status:**  University of Alaska Fairbanks (UAF) researchers created deep learning models to detect forest fires (deciding whether the picture has a forest or not) in an image in a project partially supported by NASA. This project aims to precisely mark in the picture where the fire is appearing.
 
 **Expected Outcomes:** For the forest fire tracking and measuring its severity/intensity, the contributor needs to create a deep learning model to track the forest fire with a bounding box in a video (which is basically a collection of frames or images) and should be able to check how the size is changing through the video frames.
 
-We anticipate the following outcomes from the successful completion of this project
+We anticipate the following outcomes from the successful completion of this project.
 
 - Extract the frames of the video and store them as a collection of images  
 
