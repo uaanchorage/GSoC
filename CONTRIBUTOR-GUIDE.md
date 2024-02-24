@@ -1,9 +1,21 @@
+# Getting Started
+The ideal way to contact the mentors is to use the Discussion Forums listed under each project idea. 
+
+If you want to introduce yourself, post them [here](https://github.com/uaanchorage/GSoC/discussions/1). You can also instead introduce yourself in the respective project idea's discussion forum.
+
+If you have questions beyond the general introduction, start a [separate thread](https://github.com/uaanchorage/GSoC/discussions/). 
+
+**Please carefully review this [introductory presentation on GSoC](https://pradeeban.github.io/projects/)**, especially if you are new to GSoC and need some pointers/help getting started.
+
+Each project idea listed below has a "Discussion Forum" listed. Please use these discussion forums to discuss your project ideas and approaches. That contributes to and boosts the open-source spirit in our community. 
+
+We also have a [wiki](https://github.com/uaanchorage/GSoC/wiki) that we will use as a blog and announcement channel. We aim to unify the Google Summer of Code conversations and announcements in this repository rather than fragmenting it across different media. We hope our contributors will have an enriching and productive summer with Alaska.
 
 # Communicating with the mentors
 
 Each project idea has at least one mentor assigned. We aim to assign two mentors to each accepted project idea to ensure the contributors have continuous mentoring even during a brief absence of a mentor. Each project also has a relevant discussion forum in their GitHub source repository, listed under each project idea. Specific discussions on each project idea happen in those discussion forums.
 
-Please feel free to introduce yourself in the respective project idea's discussion forum or through this GitHub repository's general discussion forum.
+The mentors do not reply to messages sent through unconventional channels such as LinkedIn or Facebook. Emails are discouraged, to promote open communications through GitHub discussions.
 
 ## Large (full-time) vs. Medium-size (half-time) vs. Small projects
 
