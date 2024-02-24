@@ -5,7 +5,7 @@ We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has 
 
 Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDE.md) for more details on how to apply and a standard template for the application. Please carefully review this [introductory presentation on GSoC](https://pradeeban.github.io/projects/), especially if you are new to GSoC and need some pointers/help on getting started.
 
-The ideal way to contact the mentors is to use the Discussion Forums listed under each project idea. If you would like to introduce yourself, post them [here](https://github.com/uaanchorage/GSoC/discussions/1). If you have questions beyond the general introduction, start a [separate thread](https://github.com/uaanchorage/GSoC/discussions/). Please use these discussion forums rather than individual private emails (unless recommended by the mentor) to boost the open-source environment. We also have a [wiki](https://github.com/uaanchorage/GSoC/wiki) that we will use as a blog and announcement channel. Our aim is to unify the Google Summer of Code conversations and announcements in this repository rather than fragmenting it across different media. We hope our contributors will have an enriching and productive summer with Alaska.
+The ideal way to contact the mentors is to use the Discussion Forums listed under each project idea. If you would like to introduce yourself, post them [here](https://github.com/uaanchorage/GSoC/discussions/1). If you have questions beyond the general introduction, start a [separate thread](https://github.com/uaanchorage/GSoC/discussions/). **Please use these discussion forums rather than individual private emails to mentors (unless an email was initiated or recommended by the mentor) to boost the open-source environment.** We also have a [wiki](https://github.com/uaanchorage/GSoC/wiki) that we will use as a blog and announcement channel. Our aim is to unify the Google Summer of Code conversations and announcements in this repository rather than fragmenting it across different media. We hope our contributors will have an enriching and productive summer with Alaska.
 
 Many of the ideas proposed here have a research component. Contributors who work on these ideas have the potential to author a research paper (as the first author, working with the researchers from the University of Alaska) or become co-authors in our ongoing research papers. We strongly encourage those interested in higher studies or research careers to apply for their GSoC with us.
 
@@ -117,7 +117,7 @@ This project attempts to send data from a source to dynamic destinations based o
 
 **[5] Beehive: Integrated Community Health Metrics Framework for Behavioral Health to Supplement Healthcare Practice in Alaska.**
 
-**Mentors:** David Moxley (dpmoxley -at- alaska.edu) and RJ Michael (rjmichaelii -at- alaska.edu)
+**Mentors:** David Moxley (dpmoxley -at- alaska.edu), Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu), and RJ Michael (rjmichaelii -at- alaska.edu)
 
 **Overview:** This project, a collaboration between the University of Alaska Anchorage Departments of Computer Science and Human Services, seeks to create a digital approach to translating the digitalization of art and photographic images into a digital database that stores in retrievable formats those images for use in advancing the delivery of human services and health care to people who experience considerable vulnerability and marginalization within the community. One of the project aims is to create a digital repository of these images, many of which reflect Outsider Art since the people who produce them are not formally trained as artists and experience considerable discrimination. The repository can be used to support research on Outsider art and Outsider Artists, education of health and human services practitioners about the impact of negative stereotypes on the health and well-being of people who are highly vulnerable, and arts programs devoted to advancing the health of vulnerable people.
 
@@ -256,7 +256,7 @@ We anticipate the following outcomes from the successful completion of this proj
 
 **[10] A Reference Implementation for concore Library in Java or Julia.**
 
-**Mentors:** Mayuresh Kothare (mvk2 -at- lehigh.edu) and Gautam Kumar (gautam.kumar -at- sjsu.edu)
+**Mentors:** Mayuresh Kothare (mvk2 -at- lehigh.edu) and Mark Arnold (markgarnold -at- yahoo.com)
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Java or Julia.
 
