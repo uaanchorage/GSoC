@@ -1,0 +1,29 @@
+# Alaskan Summer of Code
+
+Google Summer of Code (GSoC) is a wonderful program that funds several open-source organizations and open-source research entities such as Alaska. Due to the limited funding (Google cannot always fund all the contributors we like to hire) and fixed schedule of GSoC, often we miss some of the best candidates.
+
+This is especially unfortunate when we lose one of the top candidates for a project idea when,
+1) Another slightly better candidate gets accepted.
+2) No one gets accepted into that project idea despite the candidate being the top choice, as Google has to decide how many contributors are accepted for each organization. So, that means, we are ranking the candidates on a global organizational-wide scale, rather than individually for each project idea.
+3) The candidate decides to give up on GSoC as they realize they are not eligible (already participated in GSoC more than twice or conflict of interest due to being a student at the University of Alaska System) or lack of time during the GSoC timeframe.
+This can be a disappointing outcome for both the applicants and mentors, especially when the applicants have already put in effort on research and implementation.
+
+We propose an "Alaskan Summer of Code" for the top candidates who do not getting accepted into GSoC for whatever reasons, but specifically for the reasons listed above.
+
+The goal of this initiative is supporting and recognizing the applicant's effort and preference to work outside the support frame of GSoC. At this point, we do not have funding opportunities available through this initiative. But we are working towards that. We will also likely be hit with roadblocks with funding contributors outside the USA under this initiative, based on the funder requirements. But a funding opportunity for US-based residents can be a reality in the upcoming years.
+
+In the meantime, the Alaskan Summer of Code aims to provide the below support systems in place.
+
+1. For those who contributors applied through the GSoC system and couldn't get accepted, they could seek out to the  mentor to see whether there is a potential to volunteer to work on the topic.
+2. The contributors get direct one-to-one mentoring similar to GSoC.
+3. The contributors have a more flexible timeline, especially when they are not funded (which is true for this initiative at this point). If the students are funded, we will have to follow a timeline similar to that of GSoC, to satisfy the funder's requirements.
+4. The contributors can finetune the goals to fit their timeline and available time frame.
+5. Continued research and implementation, similar to GSoC.
+6. Support letters and completion documents to successful participants.
+7. Potential to be a co-author (and even first authors!) on research papers (similar to how we do research with GSoC).
+
+This model is not new. We are only mimicking previous success stories such as [Xorg EVoC](https://www.x.org/wiki/XorgEVoC/) and [Season of KDE](https://mentorship.kde.org/sok/).
+
+If you are someone who did not get accepted into GSoC or did not apply to GSoC due to other reasons, feel free to reach out to us for potential collaborations under the Alaskan Summer of Code.
+
+As we are just starting, please keep an eye open for further updates.
