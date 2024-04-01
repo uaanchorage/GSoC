@@ -53,7 +53,7 @@ Summarize the project in your own words.
 
 **8) Project Schedule**
 
-Break the timeline into periods of up to 7 days
+Break the timeline into periods of around seven days. Smaller time windows (7 days or fewer) are encouraged to make progress easier to track.
 
 **8.1) Community Bonding Period**
 
@@ -64,9 +64,14 @@ Break the timeline into periods of up to 7 days
 **9) Planned GSoC work hours**
 
 This year, the full-time projects are expected to contribute 35 hours a week (large projects, 350 hours in total), half-time projects are expected to make an 18-hour-a-week contribution (medium-sized size projects, 175 hours total), and small projects, a 90-hour contribution. Please indicate your choice of the project length. 
-Each project idea lists how many hours of contribution we typically expect the project to be. However, the students can propose their estimated work hours (350, 175, or 90 hours for the project) in the proposal.
 
-Please also indicate the work hours (including the timezone) you hope to work on your project. 
+Each project idea lists the number of hours of contribution we typically expect the project to have. However, the students can propose their estimated work hours (350, 175, or 90 hours for the project) in the proposal. Underestimating the workload is discouraged. For example, if your project requires you to work 350 hours during the coding period, please do not indicate you will work 25 hours a week for ten weeks (unless you are repositioning it as a shorter-time project: medium project instead of a long project; short project instead of a medium project).
+
+Please also indicate the work hours (including the time zone) during which you hope to work on your project. 
+
+We recommend daily commits (and pull requests, if appropriate) to ensure progress.
+
+We also usually meet weekly with each accepted contributor during the GSoC. We use Zoom or Skype for this. Please indicate your preferences and availability.
 
 **10) Planned absence/vacation days and other commitments during the GSoC period (including the community bonding period)**
 
