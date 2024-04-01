@@ -1,4 +1,4 @@
-We will be listing out a few frequently asked questions (FAQs) here.
+We will keep this page updated as we start receiving recurring questions that are of common interest to this organization and its contributors.
 
 # Do you mandate pull requests as a pre-requisite for acceptance to the GSoC?
 
