@@ -23,3 +23,15 @@ We appreciate your enthusiasm. We want to support you to make meaningful ones. I
 
 * proper testing was done prior to submitting the pull request. Do not submit the pull request, giving the task of testing the changes. While the mentor will still do the testing, we often end up getting several pull requests that are buggy or do not do the task that they claim to do. Such pull requests often end up hurting the applicant.
  
+
+# Why did I not receive a reply to my question?
+
+Depends.
+
+If your question was, "hi, I am new here. Can you help me get started?" the question will likely go unanswered. Getting started guides are plenty in this repository and under individual projects. Questions that show a lack of effort will rarely get useful feedback from open-source communities, especially in the context of competitive programs such as the Google Summer of Code (GSoC). The rationale is simple. These are easy questions to ask. But answering them means rephrasing what we have already mentioned elsewhere.
+
+If you think your question is not such a generic question, check the project repository and its discussion forums to make sure the question was not answered before.
+
+On the other hand, occasionally, we also may miss some thoughtful question that deserves a reply. This is especially true during the GSoC application deadlines. In such cases, it makes sense to post a follow up message to the GitHub discussion, tagging the mentor.
+
+Also, please note that as we encourage GitHub discussions, we discourage private emails to the mentors, except to share the project proposal draft.
