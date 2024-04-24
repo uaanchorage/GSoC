@@ -144,7 +144,7 @@ This project aims to develop [Beehive](https://github.com/KathiraveluLab/Beehive
 
 **[6] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
 
-**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Eleonora Stadtmüller Caballero (estadtmullercaballe -at- alaska.edu)
+**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu), Eleonora Stadtmüller Caballero (estadtmullercaballe -at- alaska.edu), and Ananth Reddy (bananthreddy30 -at- gmail.com) 
 
 **Overview:** [RIPE Atlas](https://atlas.ripe.net/) is an Internet Measurement network composed of small network devices, known as RIPE Atlas Probes and Anchors, connected to the participating volunteers' routers. Using RIPE Atlas, we can measure the Internet latency and routing path through ping and traceroute measurements. This project aims to develop a software router that dynamically uses RIPE Atlas measurements to change the scheduling path. Before the implementation of the project, we should study the [existing works](https://ieeexplore.ieee.org/abstract/document/9472847 ) on using RIPE Atlas probe for such network optimization tasks at the Internet scale to quickly understand the state-of-the-art and ensure scientific novelty in our approach. 
 
