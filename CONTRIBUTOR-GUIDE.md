@@ -5,7 +5,7 @@ If you want to introduce yourself, post them [here](https://github.com/uaanchora
 
 If you have questions beyond the general introduction, start a [separate thread](https://github.com/uaanchorage/GSoC/discussions/). 
 
-**Please carefully review this [introductory presentation on GSoC](https://pradeeban.github.io/projects/)**, especially if you are new to GSoC and need some pointers/help getting started.
+**Please carefully review this [introductory presentation on GSoC](https://pradeeban.github.io/_pages/foss.html/)**, especially if you are new to GSoC and need some pointers/help getting started.
 
 Each project idea listed below has a "Discussion Forum" listed. Please use these discussion forums to discuss your project ideas and approaches. That contributes to and boosts the open-source spirit in our community. 
 
