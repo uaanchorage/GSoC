@@ -8,7 +8,7 @@ This is especially unfortunate when we lose one of the top candidates for a proj
 3) The candidate decides to give up on GSoC as they realize they are not eligible (already participated in GSoC more than twice or have a conflict of interest due to being a student at the University of Alaska System) or lack of time during the GSoC timeframe.
 This can be a disappointing outcome for both the applicants and mentors, especially when the applicants have already put effort into research and implementation.
 
-We propose an "Alaskan Season of Code" for the top candidates who are not accepted into GSoC for whatever reason, but specifically for the reasons listed above. We also aim to mentor contributors throughout the year (not limiting to May - August, the summer in Alaska) to support diverse populations whenever we can.
+We condut an [Alaskan Season of Code](https://github.com/KathiraveluLab/Alaskan-Season-of-Code/) for the top candidates who are not accepted into GSoC for whatever reason, but specifically for the reasons listed above. We also aim to mentor contributors throughout the year (not limiting to May - August, the summer in Alaska) to support diverse populations whenever we can.
 
 The goal of this initiative is supporting and recognizing the applicant's effort and preference to work outside the support frame of GSoC. At this point, we do not have funding opportunities available through this initiative. But we are working towards that. We will also likely be hit with roadblocks with funding contributors outside the USA under this initiative, based on the funder requirements. But a funding opportunity for US-based residents can be a reality in the upcoming years.
 
@@ -24,6 +24,4 @@ In the meantime, the Alaskan Season of Code aims to provide the below support sy
 
 This model is not new. We are only mimicking previous success stories such as [Xorg EVoC](https://www.x.org/wiki/XorgEVoC/) and [Season of KDE](https://mentorship.kde.org/sok/).
 
-If you are someone who did not get accepted into GSoC or did not apply to GSoC because of other reasons, you can contact us for potential collaborations under the Alaskan Season of Code.
-
-As we are just starting, please keep an eye open for further updates.
+If you are someone who did not get accepted into GSoC or did not apply to GSoC because of other reasons, you can contact us for potential collaborations under the [Alaskan Season of Code](https://github.com/KathiraveluLab/Alaskan-Season-of-Code/).
