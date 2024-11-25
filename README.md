@@ -70,7 +70,7 @@ This project attempts to send data from a source to dynamic destinations based o
 
 This project aims to develop [Beehive](https://github.com/KathiraveluLab/Beehive/), a prototype implementation as an open-source data federation framework that can be used in research environments in Alaska and elsewhere.
 
-**Current Status:** This project is currently in the research stage. We are researching the approach for its use with our community partners in Anchorage, aiming to support marginalized folks such as the unhoused.
+**Current Status:** A prototype has been built as part of Alaska Season of Code. We are researching the approach for its use with our community partners in Anchorage, aiming to support marginalized folks such as the unhoused.
 
 **Expected Outcomes:** In this project, the contributor will develop the Beehive platform for (1) translating digital images into the database, (2) developing the database to support user interactions with content, and (3) facilitating retrieval of images. The contributor will obtain an orientation to the project, instruction in how the arts and photography can represent health and well-being, and insight into using digital representations as an advocacy tool for improving the well-being of highly vulnerable people. 
 
@@ -78,7 +78,7 @@ This project aims to develop [Beehive](https://github.com/KathiraveluLab/Beehive
 
 **Code Challenge:** Prior experience with database management through established coding examples.
 
-**Source Code:**  https://github.com/kathiraveluLab/beehive (New Project).
+**Source Code:**  https://github.com/kathiraveluLab/beehive.
 
 **Discussion Forum**: https://github.com/KathiraveluLab/Beehive/discussions/
 
@@ -116,6 +116,35 @@ Matlab has some out-of-the-box support for certain DICOM functions, and it could
 **Effort:** 350 Hours
 
 **Difficulty Level:** Hard
+
+***
+
+**[5] Making ZeroMQ a first-class feature of concore.**
+
+**Mentors:** Rahul Jagwani (rahuljagwani1012 -at- gmail.com) and Mayuresh Kothare (mvk2 -at- lehigh.edu) 
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. _concore_ consists of a file-sharing based _concore_ protocol to communicate between the programs in a study. _concore_ also allows a shared-memory based communication between programs. This project will implement a [ZeroMQ](https://zeromq.org/)-based communication between programs, as an alternative to the file-sharing based and shared-memory based communications. ZeroMQ is a message-oriented middleware implemented in multiple languages, which natively supports communications across computing nodes. Such an implementation will improve the usability of _concore_ in distributed environments.
+
+
+![The study with 0MQ](figures/zeromq.png)
+
+**Current Status:** We experimented with an [osparc-control](https://pypi.org/project/osparc-control/0.0.2/) based communication as an alternative to this default file-sharing based concore protocol. [osparc-control](https://github.com/ITISFoundation/osparc-control) is an extension of ZeroMQ. Our experimental osparc-control based implementation replaces the file-sharing mechanism restricted to one local machine with message queues that can be transmitted between locally networked machines. The contributor will use this osparc-control based communication as an inspiration for the proposed ZeroMQ-based implementation, which will function as a first-class approach to implement the edges of concore without using osparc-control. In our current experimental [osparc-control based implementation](https://github.com/ControlCore-Project/concore/tree/main/0mq), these ZeroMQ edges are not visible in the _concore_ editor, the browser-based visual editor for _concore_. Consequently, studies with osparc-control are represented as forests instead of directed hypergraphs due to the "invisible" ZeroMQ communication. This also means to run a concore study with ZeroMQ communication, we have to run each hypergraph in the forest separately.
+
+**Expected Outcomes:** We need to promote a unified experience in concore, whether the edges are implemented via the default file-sharing approach, shared-memory approach, or through this ZeroMQ message-based approach. In the _concore_ file-sharing approach, we label the edges with alphabetical characters. In the _concore_ shared-memory approach, we label the edges starting with positive decimal integers (specifying the memory channels used for the sharing). Therefore, to denote the _concore_ ZeroMQ-based edges, the contributor should assume that all the ZeroMQ-edges must start with "0" in their labels, followed by a hexadecimal port, followed by an underscore (_). For example, edge 0x1234_Y assigns the logical Y to port 1234 and edge 0xabcd_U assigns the logical U to port abcd. Once such a graph with ZeroMQ-edges is made (a single directed hypergraph, rather than a forest with disjoint two or more directed hypergraphs), we should be able to seamlessly build and run the study regardless of the underlying communication mechanism. Thus, we aim to demonstrate the possibility of a seamless local vs. distributed execution in a cluster through ZeroMQ.
+
+As the expected outcome of this project, we propose a ZeroMQ-based communication for _concore_ with Python. In addition, the contributor may also implement the ZeroMQ-based communication with other programming languages supported by _concore_ such as Matlab and C++. The contributor may also get inspiration from how the shared-memory based communication is implemented in _concore_.
+
+**Required Skills:** Python
+
+**Code Challenge:** Prior experience in Python must be demonstrated. Prior experience with message-oriented middleware frameworks such as ZeroMQ can be a plus, although not mandatory.
+
+**Source Code:**  https://github.com/ControlCore-Project/concore
+
+**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
 
 ***
 
