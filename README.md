@@ -177,6 +177,30 @@ This project attempts to send data from a source to dynamic destinations based o
 
 ***
 
+**[7] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
+
+**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and  Ananth Reddy (bananthreddy30 -at- gmail.com) 
+
+**Overview:** [RIPE Atlas](https://atlas.ripe.net/) is an Internet Measurement network composed of small network devices, known as RIPE Atlas Probes and Anchors, connected to the participating volunteers' routers. Using RIPE Atlas, we can measure the Internet latency and routing path through ping and traceroute measurements. This project aims to develop a software router that dynamically uses RIPE Atlas measurements to change the scheduling path. Before the implementation of the project, we should study the [existing works](https://ieeexplore.ieee.org/abstract/document/9472847 ) on using RIPE Atlas probe for such network optimization tasks at the Internet scale to quickly understand the state-of-the-art and ensure scientific novelty in our approach. 
+
+**Current Status:** A prototype has been built as part of the GSoC 2024. We observe the use of such a framework in the Circumpolar North. Such an approach can provide significant benefits, especially in Alaska and the Canadian North, where Internet connectivity can be spotty.
+
+**Expected Outcomes:** This project extends the [RIPE Atlas client](https://github.com/RIPE-NCC/ripe-atlas-tools) to use the measurements in network scheduling decisions. First, the measurements should be streamlined to perform periodically across several probes set as sources and destinations. The measurements across several probes in a single city can provide a more generalized measurement for a city rather than restricting to individual changes of any given probe when multiple such probes are available to a given city. Second, we will build a virtual router to use these measurements to dynamically influence the network scheduling decisions across several nodes. As the network performance changes with time, we can observe how the network path changes with time. We have more than 60 million RIPE Atlas credits that we accumulated by hosting a RIPE Atlas probe for the past five years. So, we have sufficient resources for these Internet measurement experiments.
+ 
+**Required Skills:** Python.
+
+**Code Challenge:** Prior experience in Python through established coding examples.
+
+**Source Code:**  https://github.com/KathiraveluLab/AWANTA
+
+**Discussion Forum**: https://github.com/KathiraveluLab/AWANTA/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
+
 You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas. However, if you are proposing a new project idea as a contributor, make sure they are relevant to Alaska specifically and the circumpolar north in general. Also, contact potential mentors from the above-listed mentors and confirm their interest in your project idea before drafting an entire proposal based on your own idea.
 
 ***
