@@ -182,13 +182,13 @@ This project attempts to send data from a source to dynamic destinations based o
 
 **Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Erik Zvaigzne (erik.zvaigzne-at-gmail.com), and Forrester Kane Manis (Forrester-at-headword.co) 
 
-**Overview:** Most biological, genomic, genetic, medical, and behavioral data are currently collected, stored and sold by vendors who initially offer products and services to clients in order to accumulate this data. The data, once given to companies, remains the property of the company, with very little compensation and autonomy offered to customers who provided the data in the first place. Can we create a secure, decentralized, and scalable data repository of such information, for humans and animals, a true bio-block, that is available to all and open-sourced, whereby the owners of that data get directly compensated? This project offers a response in the affirmative, and leverages blockchains for data distribution, archiving, recording, and payments, using a dual-chain (or triple?) structure on the Ethereum (?) blockchain. 
+**Overview:** Most biological, genomic, genetic, medical, and behavioral data are currently collected, stored, and sold by vendors who initially offer products and services to clients in order to accumulate this data. The data, once given to companies, remains the property of the company, with very little compensation and autonomy offered to customers who provided the data in the first place. Can we create a secure, decentralized, and scalable data repository of such information for humans and animals, a true bio-block available to all and open-sourced, whereby the data owners get directly compensated? This project offers a response in the affirmative and leverages blockchains for data distribution, archiving, recording, and payments using a dual-chain structure on the Ethereum blockchain. 
 
 **Current Status:** This project is currently in the research stage.
 
-**Expected Outcomes:** This overall project will be one of the first offerings of an open-source platform for all biological/medical/genomic/behavioral data that leverages the advantages of blockchains. While proprietary dual chain blockchain architectures are used by companies in this space, our endeavor, through its sub-projects, aims to proof up the architecture that can be scaled and extended to all forms of client submitted data, and multiple retrieval and payments options.  A proof of concept of the architecture will be tested using multivariate, heterogenous synthetic data. 
+**Expected Outcomes:** This overall project will be one of the first offerings of an open-source platform for all biological/medical/genomic/behavioral data that leverages the advantages of blockchains. While proprietary dual-chain blockchain architectures are used by companies in this space, our endeavor, through its sub-projects, aims to proof up the architecture that can be scaled and extended to all forms of client-submitted data and multiple retrieval and payment options.  A proof of concept of the architecture will be tested using multivariate, heterogenous synthetic data. 
 
-**Required Skills:** Python is proposed as the programming language. But students can also propose their preferred alternative programming language and frameworks. Prior experience developing on Ethereum is a plus. 
+**Required Skills:** Python is proposed as the programming language. However, students can also propose their preferred alternative programming language and frameworks. Prior experience developing on Ethereum is a plus. 
 
 **Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples.
 
@@ -198,7 +198,7 @@ This project attempts to send data from a source to dynamic destinations based o
 
 **Effort:** 350 hours 
 
-
+***
 
 
 **[8] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
