@@ -178,7 +178,7 @@ This project attempts to send data from a source to dynamic destinations based o
 ***
 
 
-**[7] Data Repository and Payment Portal for Bio-Block.**
+**[7] Bio-Block: A Blockchain-based Data Repository and Payment Portal.**
 
 **Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Erik Zvaigzne (erik.zvaigzne-at-gmail.com), and Forrester Kane Manis (Forrester-at-headword.co) 
 
