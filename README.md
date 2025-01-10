@@ -12,9 +12,32 @@ Many of the ideas proposed here have a research component. Contributors who work
 
 
 
+**[1] Automated coastline extraction for erosion modeling in Alaska.**
+
+**Mentors:** Frank Witmer (fwitmer -at- alaska.edu) and Rawan Elframawy (rawann.elframawy -at- gmail.com)
+
+**Overview:** The rapidly warming Arctic is leading to increased rates of coastal erosion, placing hundreds of Alaska communities at the frontline of climate change. Understanding current rates of coastline change and accurately forecasting future changes is critical for communities to mitigate and adapt to these changes. Current modeling approaches typically use a simple linear model based solely on historical coastline positions to measure rates of change and extrapolate them into the future. In doing so, these models fail to capture the dynamic effects associated with decreasing sea ice, increasing annual wave energy, and increasing temperatures. To improve the quality of these coastal models, we need to increase the quantity of digitized coastlines, but manual photointerpretation is slow and laborious.
+
+**Current Status:** An initial model and pipeline have been developed to automatically extract coastlines from PlanetLabs imagery. The current approach uses a simple Normalized Difference Water Index (NDWI) thresholding technique and a more complex DeepWaterMap algorithm. The DeepWaterMap algorithm was re-trained using finer resolution satellite imagery and two sets of labeled training data. One set of labels is based on a Global Surface Water (GSW) dataset, and the other set of labeled imagery is created from a sliding window NDWI thresholding method. The GSW model training is finished, but there is still more work to be done on the NDWI thresholding method. A GSoC 2024 project has made an initial implementation of the project. This project extends and expands on the progress made in 2024.
+
+**Expected Outcomes:** A finished model with high accuracy that automatically extracts a vectorized coastline representation from PlanetLabs satellite imagery. Then, the model can be applied to large amounts of imagery to model coastline changes over time.
+
+**Required Skills:** Python 
+
+**Code Challenge:** Experience with multi-band satellite imagery, geospatial data processing, and machine learning.
+
+**Source Code:** https://github.com/fwitmer/CoastlineExtraction
+
+**Discussion Forum:** https://github.com/fwitmer/CoastlineExtraction/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
 
 
-**[1] Telehealth over L4S.**
+**[2] Telehealth over L4S.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com)
 
@@ -40,7 +63,7 @@ Many of the ideas proposed here have a research component. Contributors who work
 
 
 
-**[2] Creating shareable "albums" from locally stored DICOM images**
+**[3] Creating shareable "albums" from locally stored DICOM images**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
@@ -65,7 +88,7 @@ Many of the ideas proposed here have a research component. Contributors who work
 ***
 
 
-**[3] Beehive: Integrated Community Health Metrics Framework for Behavioral Health to Supplement Healthcare Practice in Alaska.**
+**[4] Beehive: Integrated Community Health Metrics Framework for Behavioral Health to Supplement Healthcare Practice in Alaska.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and David Moxley (dpmoxley -at- alaska.edu)
 
@@ -94,7 +117,7 @@ This project aims to develop [Beehive](https://github.com/KathiraveluLab/Beehive
 
 
 
-**[4] DICOM Image Retrieval and Processing in Matlab.**
+**[5] DICOM Image Retrieval and Processing in Matlab.**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
@@ -122,7 +145,7 @@ Matlab has some out-of-the-box support for certain DICOM functions, and it could
 
 ***
 
-**[5] Making ZeroMQ a first-class feature of concore.**
+**[6] Making ZeroMQ a first-class feature of concore.**
 
 **Mentors:** Rahul Jagwani (rahuljagwani1012 -at- gmail.com), Shivang vijay (shivangvijay -at- gmail.com), and Mayuresh Kothare (mvk2 -at- lehigh.edu) 
 
@@ -151,7 +174,7 @@ As the expected outcome of this project, we propose a ZeroMQ-based communication
 
 ***
 
-**[6] Dynamic DICOM Endpoints.**
+**[7] Dynamic DICOM Endpoints.**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
@@ -178,7 +201,7 @@ This project attempts to send data from a source to dynamic destinations based o
 ***
 
 
-**[7] Bio-Block: A Blockchain-based Data Repository and Payment Portal.**
+**[8] Bio-Block: A Blockchain-based Data Repository and Payment Portal.**
 
 **Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Erik Zvaigzne (erik.zvaigzne-at-gmail.com), and Forrester Kane Manis (Forrester-at-headword.co) 
 
@@ -201,7 +224,7 @@ This project attempts to send data from a source to dynamic destinations based o
 ***
 
 
-**[8] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
+**[9] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and  Ananth Reddy (bananthreddy30 -at- gmail.com) 
 
