@@ -39,7 +39,7 @@ Many of the ideas proposed here have a research component. Contributors who work
 
 **[2] Telehealth over L4S.**
 
-**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com)
+**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Kolawole Daramola (koladaramola -at- icloud.com)
 
 **Overview:** Low Latency, Low Loss, and Scalable Throughput (L4S) Internet Service [1](https://datatracker.ietf.org/doc/rfc9330/), [2](http://www.watersprings.org/pub/id/draft-ietf-tsvwg-l4s-arch-06.html), [3](http://www.ring.gr.jp/archives/doc/RFC/rfc9330.pdf) has shown promising performance, by rethinking congestion control. Can we have a telehealth deployment with pairs of L4S nodes? Perhaps starting with something simple, such as two DICOM endpoints to send radiographic images in between? [Linux kernel with L4S patches](https://github.com/L4STeam/linux) can be a good point to start for the endpoints. How L4S, with telehealth and other applications, as well as classic non-L4S traffic, share the network will be an interesting test. 
 
