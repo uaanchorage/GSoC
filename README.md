@@ -10,7 +10,7 @@ We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has 
 # Project Ideas
 Many of the ideas proposed here have a research component. Contributors who work on these ideas have the potential to author a research paper (as the first author, working with the researchers from the University of Alaska) or become co-authors in our ongoing research papers. We strongly encourage those interested in higher studies or research careers to apply for their GSoC with us.
 
-
+***
 
 **[1] Automated coastline extraction for erosion modeling in Alaska.**
 
