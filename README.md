@@ -43,8 +43,35 @@ _Potential areas of improvement:_
 
 ***
 
+**[2] Developing Distributed Algorithm for Metagenomic Error Correction and Assembly.**
 
-**[2] Telehealth over L4S.**
+**Mentors:** Arghya Kusum Das (akdas -at- alaska.edu) and Yali Wang (ywang35 -at- alaska.edu)
+
+**Overview:** A metagenomics study of Alaska would explore the diverse microbial communities in its unique environments, including the Arctic, marine, and terrestrial ecosystems. Such research could uncover insights into microbial adaptation to extreme conditions and contribute to understanding environmental and climate-related changes in the region. Metagenomic study has an immense impact on multiple science and engineering projects in Alaska such as, arctic healthcare, arctic water pollution, bio leaching on rare earth elements, arctic environmental sustainability and resilience, understanding boreal forest dynamics, wildfire mitigation, and so on. The list is never ending.
+Shotgun metagenomics, which involves sequencing DNA from a mixed sample of genomes within a community, offers a high-throughput approach to examine the genomic diversity of microbial populations. A key step in metagenomic analysis is assembling the shotgun reads into longer contiguous sequences, or contigs. However, genome assemblies from short reads are often highly fragmented, potentially generating millions of contigs per sample, especially in diverse communities. This challenge arises due to issues like sequence repeats within and between genomes, low coverage of certain species, and strain variability.
+
+**Current Status:** Because of the variability in abundance in multiple species in the mixed sample of genomes, it is hard to design a theoretically solid algorithm to rectify the error in the sample and assemble it accurately. The low abundance species in the mixed sample are often wrongly classified as error if we use a traditional/existing algorithms that can rectify the error in a single species’ whole genome sequence. For the similar reason, the existing metagenomic assemblers are perform sub-optimally. 
+Further, the existing software are limited in terms of their data handling capability. Most of them are capable to operate in a single node only. So, their data nailing is severely limited by the RAM available in one node. Also the time consumed for large datasets are often unreasonable.
+
+**Expected Outcomes:** In this project, we will address the first two steps in metagenomic analysis i.e., error correction and assembly which are paramount for any downstream project. Metagenomic data is often large in size spanning to hundreds of gigabytes to terabyte scale. Our motivation is to develop distributed, HPC compatible solution for metagenomic error correction and assembly
+
+(1) We are looking for working solutions (a solid algorithm and its implementation) for metagenomic error correction and assembly. The solutions should be theoretically justifiable and/or biologically meaningful. (2) The algorithm and the software implementation for both error correction and assembly should be distributed in nature. (3) We are open for AI/ML-enabled solutions but that is not a requirement. (4) GPU-enabled solutions are also encouraged but, it’s also not a requirement.
+
+**Required Skills:** Python and experience with Deep Neural Networks
+
+**Code Challenge:** Prior experience creating deep learning models is expected.
+
+**Source Code:** https://github.com/akdasUAF/Metagenome.git
+
+**Discussion Forum:**  https://github.com/akdasUAF/Metagenome/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium/Hard
+
+***
+
+**[3] Telehealth over L4S.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Kolawole Daramola (koladaramola -at- icloud.com)
 
@@ -70,7 +97,7 @@ _Potential areas of improvement:_
 
 
 
-**[3] Creating shareable "albums" from locally stored DICOM images**
+**[4] Creating shareable "albums" from locally stored DICOM images**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
@@ -95,7 +122,7 @@ _Potential areas of improvement:_
 ***
 
 
-**[4] Beehive: Integrated Community Health Metrics Framework for Behavioral Health to Supplement Healthcare Practice in Alaska.**
+**[5] Beehive: Integrated Community Health Metrics Framework for Behavioral Health to Supplement Healthcare Practice in Alaska.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and David Moxley (dpmoxley -at- alaska.edu)
 
@@ -124,7 +151,7 @@ This project aims to develop [Beehive](https://github.com/KathiraveluLab/Beehive
 
 
 
-**[5] DICOM Image Retrieval and Processing in Matlab.**
+**[6] DICOM Image Retrieval and Processing in Matlab.**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
@@ -152,7 +179,7 @@ Matlab has some out-of-the-box support for certain DICOM functions, and it could
 
 ***
 
-**[6] Making ZeroMQ a first-class feature of concore.**
+**[7] Making ZeroMQ a first-class feature of concore.**
 
 **Mentors:** Rahul Jagwani (rahuljagwani1012 -at- gmail.com), Shivang vijay (shivangvijay -at- gmail.com), and Mayuresh Kothare (mvk2 -at- lehigh.edu) 
 
@@ -181,7 +208,7 @@ As the expected outcome of this project, we propose a ZeroMQ-based communication
 
 ***
 
-**[7] Dynamic DICOM Endpoints.**
+**[8] Dynamic DICOM Endpoints.**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
@@ -208,7 +235,7 @@ This project attempts to send data from a source to dynamic destinations based o
 ***
 
 
-**[8] Bio-Block: A Blockchain-based Data Repository and Payment Portal.**
+**[9] Bio-Block: A Blockchain-based Data Repository and Payment Portal.**
 
 **Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Erik Zvaigzne (erik.zvaigzne-at-gmail.com), and Forrester Kane Manis (Forrester-at-headword.co) 
 
@@ -231,7 +258,7 @@ This project attempts to send data from a source to dynamic destinations based o
 ***
 
 
-**[9] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
+**[10] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and  Ananth Reddy (bananthreddy30 -at- gmail.com) 
 
