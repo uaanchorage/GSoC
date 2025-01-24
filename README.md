@@ -121,15 +121,15 @@ Such operations are supported by the frameworks (rather than here from np).  Thi
  
 **References:**
 
-[1] G. Alsuhli, et al., “Number Systems for Deep Neural Network Architectures: A Survey,” arXiv: 2307.05035, 2023. 
+[1] G. Alsuhli, et al., “Number Systems for Deep Neural Network Architectures: A Survey,” https://arxiv.org/abs/2307.05035, 2023. 
 
-[2] M. Arnold, E. Chester, et al., “Training neural nets using only an approximate tableless LNS ALU”.  31st International Conference on Application-specific Systems, Architectures and Processors. IEEE. 2020, pp. 69–72. doi: 10.1109/ASAP49362.2020.00020
+[2] M. Arnold, E. Chester, et al., “Training neural nets using only an approximate tableless LNS ALU”.  31st International Conference on Application-specific Systems, Architectures and Processors. IEEE. 2020, pp. 69–72. https://doi.org/10.1109/ASAP49362.2020.00020
 
 [3] O. Kosheleva, et al., “Logarithmic Number System Is Optimal for AI Computations: Theoretical Explanation of Empirical Success”, https://www.cs.utep.edu/vladik/2024/tr24-55.pdf
 
-[4] D. Miyashita, et al., “Convolutional Neural Networks using Logarithmic Data Representation,” arXiv:1603.01025, Mar 2016.
+[4] D. Miyashita, et al., “Convolutional Neural Networks using Logarithmic Data Representation,” https://arxiv.org/abs/1603.01025, Mar 2016.
 
-[5] J. Zhao et al., “LNS-Madam: Low-Precision Training in Logarithmic Number System Using Multiplicative Weight Update,” IEEE Trans. Computers, vol. 71, no. 12, pp.3179–3190, Dec. 2022, doi: 10.1109/TC.2022.3202747
+[5] J. Zhao et al., “LNS-Madam: Low-Precision Training in Logarithmic Number System Using Multiplicative Weight Update,” IEEE Trans. Computers, vol. 71, no. 12, pp.3179–3190, Dec. 2022, https://doi.org/10.1109/TC.2022.3202747
 
 **Source Code:** https://github.com/xlnsresearch/xlns
 
