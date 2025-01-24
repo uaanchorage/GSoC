@@ -43,7 +43,106 @@ _Potential areas of improvement:_
 
 ***
 
-**[2] Developing Distributed Algorithm for Metagenomic Error Correction and Assembly.**
+
+
+**[2] Support for Logarithmic Number Systems in a Deep-Learning Framework.**
+
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Ed Chester (ed.chester -at- gmail.com)
+
+**Overview:** The Logarithmic Number System (LNS) is an alternative to built-in Floating Point (FP) which makes multiplication and division easy at the expense of more difficult addition. Using overloaded operators, xlns provides an open-source Python library for LNS arithmetic. Interest in fabricating LNS hardware has grown since it may reduce power consumption for applications that tolerate approximate results, such as deep learning (see [1]-[5]).  The problem is deep learning often relies on open-source Python frameworks (like Tensorflow or Pytorch) that are hardcoded to use FP hardware. A key feature of these frameworks is the ability to automatically compute gradients (based on the chain rule) by recording extra information about the computation stored in FP format. Such gradients are used during backpropagation training to update network weights. 
+
+**Current Status:** xlns, Tensorflow and Pytorch are all interoperable with the widely-used open-source Numpy library, but xlns is not interoperable with the Tensorflow and Pytorch frameworks because both frameworks are hard coded to use built-in int or FP data internally instead of LNS. 
+
+**Expected Outcomes:** The goal of this project is to provide support for a deep learning framework that uses xlns instead of FP internally (including network specification, automatic gradient, forward inference, and back-propagation training) while keeping high-level compatibility with the framework.  This might be as part of xlns, or as a forked version of the chosen framework, or both.  The contributor may choose either Pytorch or Tensorflow.  The contributor should justify these decisions as part of the proposed design.
+
+**Required Skills:** Calculus, Python, Numpy, and either Pytorch or Tensorflow
+
+
+**Code Challenge:**The following three challenges illustrate the breath of issues involved.  Each involves only a few lines of Python.  Each involves working with both xlns and the framework.  Doing all three in both Tensorflow and Pytorch might give evidence for which framework is more likely to lead to the expect outcome.
+
+ 1) Give short Python code snippets that demonstrate the problem we are attempting to solve:  even if data starts in xlns format, Pytorch/Tensorflow converts the data and carries out the automatic differentiation, etc. in FP. 
+
+2) In xlns/examples there is a hard-coded illustration of training a fully connected MLP with 28*28 input nodes, 100 hidden nodes and 10 output nodes using MNIST digit set.  The hidden layer uses RELU and the output layer uses softmax.  The FP weights for this are initialized as: 
+
+W1 = np.array((list(np.random.normal(0, 0.1, (785, 100)))))                    
+W2 = np.array((list(np.random.normal(0, 0.1, (101, 10)))))
+
+Because there is an extra weight for a constant 1.0 input in each layer, the number of rows is one larger than the inputs to the layer.  The example can be run with various data types, for example with xlnsnp (LNS internally implemented with int64 Numpy ufuncs):
+
+arn_generic.py --type xlnsnp --num_epoch 7
+
+or more conventionally
+
+arn_generic.py --type float --num_epoch 7
+
+The code challenge is to implement a similar size fully connected network (in FP) using the provided features of Pytorch or Tensorflow and compare its convergence with arn_generic.py (Note: arn_generic.py uses manual differentiation, ie, the derivative of RELU is a constant, which depends on the sign of the argument, and elementary backpropagation implements the chain rule).
+
+3) Consider LNS addition (1+2=3 and 3-1=2). The following illustrates the overloaded operator and xlnsnp internal representation (sign is LSB of the int64 value; the log portion is the rest): 
+
+>>> import xlns as xl
+>>> x=xl.xlnsnp([2.0, 3.0])
+>>> x
+xlnsnp([xlns(1.9999999986889088) xlns(2.9999999688096786)])
+>>> x.nd
+array([16777216, 26591258])
+
+By default, the log portion here is given with 23 bits of precision (see help for xl.xlnssetF for details on how to lower the precision as would be useful in machine learning), which is why the log(2.0) is given as 16777216.  
+
+>>> 2*np.int64(np.log2([2.0, 3.0])*2**23)
+array([16777216, 26591258])
+
+The expression with log2 double checks the answer for x in 23-bit format (with the additional *2 to make room for the sign bit).  Had the +2.0 been -2.0, the representation would have been 16777217.
+
+>>> y=xl.xlnsnp([1.,-1.])
+>>> y
+xlnsnp([xlns(1.0) xlns(-1.0)])
+>>> y.nd
+array([0, 1])
+
+The above illustrates that the log(1.0)=0, and that the sign bit is one for negative values.
+
+>>> x+y
+xlnsnp([xlns(2.9999999688096786) xlns(1.9999999986889088)])
+>>> (x+y).nd
+array([26591258, 16777216])
+
+Although the Pytorch/Tensorflow frameworks don’t support LNS, LNS can be constructed from int64 and float operations (which is how xlnsnp works).  In xlns/src/xlns.py, there is a function sbdb_ufunc_ideal(x,y). If you call this with the following code:
+
+>>> import numpy as np
+>>> def myadd(x,y):  
+          return np.maximum(x,y)+xl.sbdb_ufunc_ideal(-np.abs(x//2-y//2), (x^y)&1) ))
+
+it performs the same operation internally on int64 values as the overloaded operator: 
+
+>>> myadd(x.nd,y.nd)
+array([26591258, 16777216])
+
+Such operations are supported by the frameworks (rather than here from np).  This code challenge is to do a similar toy example within the tensor types provided by the framework, which gives a small taste of the difficulty involved in this project. (The code above for myadd is a slight oversimplification of xl.xlnsnp.__add__; see this for details on the treatment of 0.0.) 
+ 
+**References:**
+
+[1] G. Alsuhli, et al., “Number Systems for Deep Neural Network Architectures: A Survey,” arXiv: 2307.05035, 2023. 
+
+[2] M. Arnold, E. Chester, et al., “Training neural nets using only an approximate tableless LNS ALU”.  31st International Conference on Application-specific Systems, Architectures and Processors. IEEE. 2020, pp. 69–72. doi: 10.1109/ASAP49362.2020.00020
+
+[3] O. Kosheleva, et al., “Logarithmic Number System Is Optimal for AI Computations: Theoretical Explanation of Empirical Success”, https://www.cs.utep.edu/vladik/2024/tr24-55.pdf
+
+[4] D. Miyashita, et al., “Convolutional Neural Networks using Logarithmic Data Representation,” arXiv:1603.01025, Mar 2016.
+
+[5] J. Zhao et al., “LNS-Madam: Low-Precision Training in Logarithmic Number System Using Multiplicative Weight Update,” IEEE Trans. Computers, vol. 71, no. 12, pp.3179–3190, Dec. 2022, doi: 10.1109/TC.2022.3202747
+
+**Source Code:** https://github.com/xlnsresearch/xlns
+
+**Discussion Forum:** https://github.com/xlnsresearch/xlns/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+***
+
+
+**[3] Developing Distributed Algorithm for Metagenomic Error Correction and Assembly.**
 
 **Mentors:** Arghya Kusum Das (akdas -at- alaska.edu) and Yali Wang (ywang35 -at- alaska.edu)
 
@@ -71,7 +170,7 @@ Further, the existing software are limited in terms of their data handling capab
 
 ***
 
-**[3] Telehealth over L4S.**
+**[4] Telehealth over L4S.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Kolawole Daramola (koladaramola -at- icloud.com)
 
@@ -97,7 +196,7 @@ Further, the existing software are limited in terms of their data handling capab
 
 
 
-**[4] Creating shareable "albums" from locally stored DICOM images**
+**[5] Creating shareable "albums" from locally stored DICOM images**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
@@ -122,7 +221,7 @@ Further, the existing software are limited in terms of their data handling capab
 ***
 
 
-**[5] Beehive: Integrated Community Health Metrics Framework for Behavioral Health to Supplement Healthcare Practice in Alaska.**
+**[6] Beehive: Integrated Community Health Metrics Framework for Behavioral Health to Supplement Healthcare Practice in Alaska.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and David Moxley (dpmoxley -at- alaska.edu)
 
@@ -151,7 +250,7 @@ This project aims to develop [Beehive](https://github.com/KathiraveluLab/Beehive
 
 
 
-**[6] DICOM Image Retrieval and Processing in Matlab.**
+**[7] DICOM Image Retrieval and Processing in Matlab.**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
@@ -179,7 +278,7 @@ Matlab has some out-of-the-box support for certain DICOM functions, and it could
 
 ***
 
-**[7] Making ZeroMQ a first-class feature of concore.**
+**[8] Making ZeroMQ a first-class feature of concore.**
 
 **Mentors:** Rahul Jagwani (rahuljagwani1012 -at- gmail.com), Shivang vijay (shivangvijay -at- gmail.com), and Mayuresh Kothare (mvk2 -at- lehigh.edu) 
 
@@ -208,7 +307,7 @@ As the expected outcome of this project, we propose a ZeroMQ-based communication
 
 ***
 
-**[8] Dynamic DICOM Endpoints.**
+**[9] Dynamic DICOM Endpoints.**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
@@ -235,7 +334,7 @@ This project attempts to send data from a source to dynamic destinations based o
 ***
 
 
-**[9] Bio-Block: A Blockchain-based Data Repository and Payment Portal.**
+**[10] Bio-Block: A Blockchain-based Data Repository and Payment Portal.**
 
 **Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Erik Zvaigzne (erik.zvaigzne-at-gmail.com), and Forrester Kane Manis (Forrester-at-headword.co) 
 
@@ -258,7 +357,7 @@ This project attempts to send data from a source to dynamic destinations based o
 ***
 
 
-**[10] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
+**[11] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and  Ananth Reddy (bananthreddy30 -at- gmail.com) 
 
