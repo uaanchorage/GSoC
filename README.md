@@ -78,61 +78,45 @@ arn_generic.py --type float --num_epoch 7
 The code challenge is to implement a similar size fully connected network (in FP) using the provided features of Pytorch or Tensorflow and compare its convergence with arn_generic.py (Note: arn_generic.py uses manual differentiation, ie, the derivative of RELU is a constant, which depends on the sign of the argument, and elementary backpropagation implements the chain rule).
 
 3) Consider LNS addition (1+2=3 and 3-1=2). The following illustrates the overloaded operator and xlnsnp internal representation (sign is LSB of the int64 value; the log portion is the rest): 
-
+````
 >>> import xlns as xl
-
 >>> x=xl.xlnsnp([2.0, 3.0])
-
 >>> x
-
 xlnsnp([xlns(1.9999999986889088) xlns(2.9999999688096786)])
-
 >>> x.nd
-
 array([16777216, 26591258])
-
+````
 By default, the log portion here is given with 23 bits of precision (see help for xl.xlnssetF for details on how to lower the precision as would be useful in machine learning), which is why the log(2.0) is given as 16777216.  
-
+````
 >>> 2*np.int64(np.log2([2.0, 3.0])*2**23)
-
 array([16777216, 26591258])
-
+````
 The expression with log2 double checks the answer for x in 23-bit format (with the additional *2 to make room for the sign bit).  Had the +2.0 been -2.0, the representation would have been 16777217.
-
+````
 >>> y=xl.xlnsnp([1.,-1.])
-
 >>> y
-
 xlnsnp([xlns(1.0) xlns(-1.0)])
-
 >>> y.nd
-
 array([0, 1])
-
+````
 The above illustrates that the log(1.0)=0, and that the sign bit is one for negative values.
-
+````
 >>> x+y
-
 xlnsnp([xlns(2.9999999688096786) xlns(1.9999999986889088)])
-
 >>> (x+y).nd
-
 array([26591258, 16777216])
-
+````
 Although the Pytorch/Tensorflow frameworks don’t support LNS, LNS can be constructed from int64 and float operations (which is how xlnsnp works).  In xlns/src/xlns.py, there is a function sbdb_ufunc_ideal(x,y). If you call this with the following code:
-
+````
 >>> import numpy as np
-
 >>> def myadd(x,y):  
-
           return np.maximum(x,y)+xl.sbdb_ufunc_ideal(-np.abs(x//2-y//2), (x^y)&1) ))
-
+````
 it performs the same operation internally on int64 values as the overloaded operator: 
-
+````
 >>> myadd(x.nd,y.nd)
-
 array([26591258, 16777216])
-
+````
 Such operations are supported by the frameworks (rather than here from np).  This code challenge is to do a similar toy example within the tensor types provided by the framework, which gives a small taste of the difficulty involved in this project. (The code above for myadd is a slight oversimplification of xl.xlnsnp.__add__; see this for details on the treatment of 0.0.) 
  
 **References:**
