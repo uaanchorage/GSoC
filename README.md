@@ -62,7 +62,7 @@ _Potential areas of improvement:_
 
  1) Currently, when the data starts in xlns format, Pytorch/Tensorflow converts to FP. As part of the code challenge, we expect the contributor to provide short Python code snippets that demonstrate that if the data starts in xlns format, the computation cannot be carried out in the xlns format.
     
- 2) In xlns/examples there is a hard-coded illustration of training a fully connected MLP with 28*28 input nodes, 100 hidden nodes and 10 output nodes using MNIST digit set.  The hidden layer uses RELU and the output layer uses softmax.  The FP weights for this are initialized as: 
+ 2) xlns/examples/arn_generic.py is a hard-coded illustration of training a fully connected MLP with 28*28 input nodes, 100 hidden nodes and 10 output nodes using MNIST digit set.  The hidden layer uses RELU and the output layer uses softmax.  The FP weights for this are initialized as: 
 ````
 W1 = np.array((list(np.random.normal(0, 0.1, (785, 100)))))                    
 W2 = np.array((list(np.random.normal(0, 0.1, (101, 10)))))
