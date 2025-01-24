@@ -47,9 +47,9 @@ _Potential areas of improvement:_
 
 **[2] Support for Logarithmic Number Systems in a Deep-Learning Framework.**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Ed Chester (ed.chester -at- gmail.com)
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
-**Overview:** The Logarithmic Number System (LNS) is an alternative to built-in Floating Point (FP) which makes multiplication and division easy at the expense of more difficult addition. Using overloaded operators, xlns provides an open-source Python library for LNS arithmetic. Interest in fabricating LNS hardware has grown since it may reduce power consumption for applications that tolerate approximate results, such as deep learning (see [1]-[5]).  The problem is deep learning often relies on open-source Python frameworks (like Tensorflow or Pytorch) that are hardcoded to use FP hardware. A key feature of these frameworks is the ability to automatically compute gradients (based on the chain rule) by recording extra information about the computation stored in FP format. Such gradients are used during backpropagation training to update network weights. 
+**Overview:** The Logarithmic Number System (LNS) is an alternative to built-in Floating Point (FP), which makes multiplication and division easy at the expense of more difficult addition. Using overloaded operators, xlns provides an open-source Python library for LNS arithmetic. Interest in fabricating LNS hardware has grown since it may reduce power consumption for applications that tolerate approximate results, such as deep learning (see [1]-[5]).  The problem is deep learning often relies on open-source Python frameworks (like Tensorflow or Pytorch) that are hardcoded to use FP hardware. A key feature of these frameworks is the ability to automatically compute gradients (based on the chain rule) by recording extra information about the computation stored in FP format. Such gradients are used during backpropagation training to update network weights. 
 
 **Current Status:** xlns, Tensorflow and Pytorch are all interoperable with the widely-used open-source Numpy library, but xlns is not interoperable with the Tensorflow and Pytorch frameworks because both frameworks are hard coded to use built-in int or FP data internally instead of LNS. 
 
