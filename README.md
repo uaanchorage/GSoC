@@ -117,7 +117,7 @@ it performs the same operation internally on int64 values as the overloaded oper
 >>> myadd(x.nd,y.nd)
 array([26591258, 16777216])
 ````
-Such operations are supported by the frameworks (rather than here from np).  This code challenge is to do a similar toy example within the tensor types provided by the framework, which gives a small taste of the difficulty involved in this project. (The code above for myadd is a slight oversimplification of xl.xlnsnp.__add__; see this for details on the treatment of 0.0.) 
+Such operations are supported by the frameworks (rather than here from np).  This code challenge is to do a similar toy example within the tensor types provided by the framework, which gives a small taste of the difficulty involved in this project. (The code above for myadd is a slight oversimplification of ````xl.xlnsnp.__add__;```` see this for details on the treatment of 0.0.) 
  
 **References:**
 
