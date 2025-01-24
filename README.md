@@ -58,7 +58,7 @@ _Potential areas of improvement:_
 **Required Skills:** Calculus, Python, Numpy, and either Pytorch or Tensorflow
 
 
-**Code Challenge:** The following three challenges illustrate the breath of issues involved.  Each involves only a few lines of Python.  Each involves working with both xlns and the framework.  Doing all three in both Tensorflow and Pytorch might give evidence for which framework is more likely to lead to the expect outcome.
+**Code Challenge:** The following three challenges illustrate the breath of issues involved.  Each involves only a few lines of Python.  Each involves working with both xlns and the framework.  Doing all three in both Tensorflow and Pytorch might give evidence for which framework is more likely to lead to the expected outcome.
 
  1) Give short Python code snippets that demonstrate the problem we are attempting to solve:  even if data starts in xlns format, Pytorch/Tensorflow converts the data and carries out the automatic differentiation, etc. in FP. 
 
