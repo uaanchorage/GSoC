@@ -69,11 +69,11 @@ W2 = np.array((list(np.random.normal(0, 0.1, (101, 10)))))
 ````
 Because there is an extra weight for a constant 1.0 input in each layer, the number of rows is one larger than the inputs to the layer.  The example can be run with various data types, for example with xlnsnp (LNS internally implemented with int64 Numpy ufuncs):
 ````
-arn_generic.py --type xlnsnp --num_epoch 7
+python3 arn_generic.py --type xlnsnp --num_epoch 7
 ````
 or more conventionally
 ````
-arn_generic.py --type float --num_epoch 7
+python3 arn_generic.py --type float --num_epoch 7
 ````
 The code challenge is to implement a similar size fully connected network (in FP) using the provided features of Pytorch or Tensorflow and compare its convergence with arn_generic.py (Note: arn_generic.py uses manual differentiation, ie, the derivative of RELU is a constant, which depends on the sign of the argument, and elementary backpropagation implements the chain rule).
 
