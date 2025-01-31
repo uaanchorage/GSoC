@@ -160,7 +160,7 @@ Further, the existing software are limited in terms of their data handling capab
 
 **Code Challenge:** Prior experience creating deep learning models is expected.
 
-**Source Code:** https://github.com/akdasUAF/Metagenome.git
+**Source Code:** https://github.com/akdasUAF/Metagenome
 
 **Discussion Forum:**  https://github.com/akdasUAF/Metagenome/discussions/
 
