@@ -346,7 +346,7 @@ This project attempts to send data from a source to dynamic destinations based o
 
 **Required Skills:** Python is proposed as the programming language. However, students can also propose their preferred alternative programming language and frameworks. Prior experience developing on Ethereum is a plus. 
 
-**Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples.
+**Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples. Students are expected to establish their experience with Blockchain technologies and architecting and programming them through previous projects - ideally through their respective GitHub repository (or similar code repositories).
 
 **Source Code:** https://github.com/bio-block/healthy (New Project).
 
