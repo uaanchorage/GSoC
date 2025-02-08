@@ -354,6 +354,8 @@ This project attempts to send data from a source to dynamic destinations based o
 
 **Effort:** 350 hours 
 
+**Difficulty Level:** Hard
+
 ***
 
 
@@ -376,6 +378,8 @@ This project attempts to send data from a source to dynamic destinations based o
 **Discussion Forum:** https://github.com/Nughejagh/nughejagh/discussions 
 
 **Effort:** 350 hours 
+
+**Difficulty Level:** Medium
 
 ***
 
