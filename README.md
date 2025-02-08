@@ -381,6 +381,27 @@ This project attempts to send data from a source to dynamic destinations based o
 
 ***
 
+**[12] Adopting Nunaliit for Alaska Native Healthcare Practices.**
+
+**Mentors:** Jessica Ross (jmross2 -at- alaska.edu) and Maria Williams (mdwilliams6 -at- alaska.edu) 
+
+**Overview:** [Nughejagh](https://www.uaa.alaska.edu/academics/college-of-health/departments/human-services/nughejagh-project/index.cshtml) is an Alaska Native holistic healthcare application. It uses [Nunaliit](https://github.com/GCRC/nunaliit) as its map-based interface to store its data.
+
+**Current Status:** This project is currently in the research stage.
+
+**Expected Outcomes:** Nunaliit configured to run Nughejagh. 
+
+**Required Skills:** Prior experience in Javascript, Java, and Python. 
+
+**Code Challenge:** Deploy and configure Nunaliit locally and share a screenshot of a locally-running Nunaliit instance. [Nunaliit runs well on Ubuntu 24.04](https://kkpradeeban.blogspot.com/2024/12/nunaliit-on-ubuntu-2404.html).
+
+**Source Code:** https://github.com/Nughejagh/nughejagh (New Project).
+
+**Discussion Forum:** https://github.com/Nughejagh/nughejagh/discussions 
+
+**Effort:** 350 hours 
+
+***
 You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas. However, if you are proposing a new project idea as a contributor, make sure they are relevant to Alaska specifically and the circumpolar north in general. Also, contact potential mentors from the above-listed mentors and confirm their interest in your project idea before drafting an entire proposal based on your own idea.
 
 ***
