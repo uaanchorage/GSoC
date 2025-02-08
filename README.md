@@ -385,11 +385,11 @@ This project attempts to send data from a source to dynamic destinations based o
 
 **Mentors:** Jessica Ross (jmross2 -at- alaska.edu) and Maria Williams (mdwilliams6 -at- alaska.edu) 
 
-**Overview:** [Nughejagh](https://www.uaa.alaska.edu/academics/college-of-health/departments/human-services/nughejagh-project/index.cshtml) is an Alaska Native holistic healthcare application. It uses [Nunaliit](https://github.com/GCRC/nunaliit) as its map-based interface to store its data.
+**Overview:** [Nughejagh](https://www.uaa.alaska.edu/academics/college-of-health/departments/human-services/nughejagh-project/index.cshtml) is an Alaska Native holistic healthcare application. It uses [Nunaliit](https://github.com/GCRC/nunaliit) as its map-based interface to store its data. The data is curated from various sources in the form of images, stories, and videos - which are stored using the Nunaliit map-based interface, supported by its CouchDB database. However, currently, Nunaliit lacks several desired features for Nughejagh. This project aims to fill the gap by implementing those features and developing scripts to automate the installation, configuration, and data loading process.
 
 **Current Status:** This project is currently in the research stage.
 
-**Expected Outcomes:** Nunaliit configured to run Nughejagh. 
+**Expected Outcomes:** The expected goal is to have Nunaliit fine-tuned and configured to run Nughejagh with all its requirements. The project outcome might be a [new stand-alone repository](https://github.com/Nughejagh/nughejagh) that uses [Nunaliit](http://nunaliit.org/), [a forked version of Nunaliit](https://github.com/Nughejagh/nunaliit), or more likely both.  The contributor should justify their design decisions as part of the proposed design.
 
 **Required Skills:** Prior experience in Javascript, Java, and Python. 
 
