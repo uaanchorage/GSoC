@@ -357,7 +357,29 @@ This project attempts to send data from a source to dynamic destinations based o
 ***
 
 
-**[11] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
+**[11] Adopting Nunaliit for Alaska Native Healthcare Practices.**
+
+**Mentors:** Jessica Ross (jmross2 -at- alaska.edu) and Maria Williams (mdwilliams6 -at- alaska.edu) 
+
+**Overview:** [Nughejagh](https://www.uaa.alaska.edu/academics/college-of-health/departments/human-services/nughejagh-project/index.cshtml) is an Alaska Native holistic healthcare application. It uses [Nunaliit](https://github.com/GCRC/nunaliit) as its map-based interface to store its data. The data is curated from various sources in the form of images, stories, and videos - which are stored using the Nunaliit map-based interface, supported by its CouchDB database. However, currently, Nunaliit lacks several desired features for Nughejagh. This project aims to fill the gap by implementing those features and developing scripts to automate the installation, configuration, and data loading process.
+
+**Current Status:** This project is currently in the research stage.
+
+**Expected Outcomes:** The expected goal is to have Nunaliit fine-tuned and configured to run Nughejagh with all its requirements. The project outcome might be a [new stand-alone repository](https://github.com/Nughejagh/nughejagh) that uses [Nunaliit](http://nunaliit.org/), [a forked version of Nunaliit](https://github.com/Nughejagh/nunaliit), or more likely both.  The contributor should justify their design decisions as part of the proposed design.
+
+**Required Skills:** Prior experience in Javascript, Java, and Python. 
+
+**Code Challenge:** Deploy and configure Nunaliit locally and share a screenshot of a locally-running Nunaliit instance. [Nunaliit runs well on Ubuntu 24.04](https://kkpradeeban.blogspot.com/2024/12/nunaliit-on-ubuntu-2404.html).
+
+**Source Code:** https://github.com/Nughejagh/nughejagh (New Project).
+
+**Discussion Forum:** https://github.com/Nughejagh/nughejagh/discussions 
+
+**Effort:** 350 hours 
+
+***
+
+**[12] AWANTA: A Virtual Router based on RIPE Atlas Internet Measurements.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and  Ananth Reddy (bananthreddy30 -at- gmail.com) 
 
@@ -381,27 +403,6 @@ This project attempts to send data from a source to dynamic destinations based o
 
 ***
 
-**[12] Adopting Nunaliit for Alaska Native Healthcare Practices.**
-
-**Mentors:** Jessica Ross (jmross2 -at- alaska.edu) and Maria Williams (mdwilliams6 -at- alaska.edu) 
-
-**Overview:** [Nughejagh](https://www.uaa.alaska.edu/academics/college-of-health/departments/human-services/nughejagh-project/index.cshtml) is an Alaska Native holistic healthcare application. It uses [Nunaliit](https://github.com/GCRC/nunaliit) as its map-based interface to store its data. The data is curated from various sources in the form of images, stories, and videos - which are stored using the Nunaliit map-based interface, supported by its CouchDB database. However, currently, Nunaliit lacks several desired features for Nughejagh. This project aims to fill the gap by implementing those features and developing scripts to automate the installation, configuration, and data loading process.
-
-**Current Status:** This project is currently in the research stage.
-
-**Expected Outcomes:** The expected goal is to have Nunaliit fine-tuned and configured to run Nughejagh with all its requirements. The project outcome might be a [new stand-alone repository](https://github.com/Nughejagh/nughejagh) that uses [Nunaliit](http://nunaliit.org/), [a forked version of Nunaliit](https://github.com/Nughejagh/nunaliit), or more likely both.  The contributor should justify their design decisions as part of the proposed design.
-
-**Required Skills:** Prior experience in Javascript, Java, and Python. 
-
-**Code Challenge:** Deploy and configure Nunaliit locally and share a screenshot of a locally-running Nunaliit instance. [Nunaliit runs well on Ubuntu 24.04](https://kkpradeeban.blogspot.com/2024/12/nunaliit-on-ubuntu-2404.html).
-
-**Source Code:** https://github.com/Nughejagh/nughejagh (New Project).
-
-**Discussion Forum:** https://github.com/Nughejagh/nughejagh/discussions 
-
-**Effort:** 350 hours 
-
-***
 You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas. However, if you are proposing a new project idea as a contributor, make sure they are relevant to Alaska specifically and the circumpolar north in general. Also, contact potential mentors from the above-listed mentors and confirm their interest in your project idea before drafting an entire proposal based on your own idea.
 
 ***
