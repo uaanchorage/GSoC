@@ -477,6 +477,74 @@ You are welcome to propose new open-source project ideas, especially those that 
 
 ***
 
+**[14] Support for Logarithmic Number Systems in Large Language Models.**
+
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+
+**Overview:** The Logarithmic Number System (LNS) is an alternative to built-in Floating Point (FP), which makes multiplication and division easy at the expense of more difficult addition. Using overloaded operators, xlnscpp provides an open-source C++ library for both 16- and 32-bit LNS arithmetic. Interest in fabricating LNS hardware has grown since it may reduce power consumption for applications that tolerate approximate results, such as deep learning (see [1]-[5]).  Although LNS has been studied extensively for feed-forward networks, only recently [6] has LNS been considered for Large Language Models (LLMs). 
+
+LLMs consist of two main computations: a) feed-forward neural networks for which LNS has been shown to be useful, and b) an operation known as attention.  The training of an LLM produces weights for both of these computations, which are often quantized to reduce data storage requirements. These quantized weights are reconstructed (usually in either 16- or 32-bit FP) and operated on by vectors of tokens (usually in similar FP format).  
+
+Existing LLM engines, such as the open-source [llama.cpp](https://github.com/ggerganov/llama.cpp), perform vector/matrix/tensor operations (mostly matrix multiply) 
+between the FP tokens and the weights (in a variety of formats, not including LNS). 
+
+llama.cpp uses a library called [ggml](https://github.com/ggml-org) to do the actual math. The design of ggml supports a variety of FP hardware, such as CPUs and GPUs.   
+
+**Current Status:** xlnscpp is not supported by llama.cpp or ggml. Weights can be stored in a variety of built-in int or FP formats instead of LNS. Matrix operations are carried out in FP.
+
+**Expected Outcomes:** The goal of this project is to provide support for xlnscpp instead of FP in ggml (and indirectly) llama.com. 
+At a minimum, this involves modifying ggml to support a "virtual" LNS "machine" using xlnscpp to perform the actual LNS computation,
+but which appears to the calling llama.cpp like another hardware platform, like a GPU.  The storage format of the quantized weights would still be the same, but they would be converted to LNS for computations like attention on LNS-format tokens. It is not expected that the speed would be as fast as if hardware FP were used, although a design that minimizes the slowdown is desirable (for instance, converting to LNS once, and reusing LNS many times, much as data is transferred to GPU memory and reused many times there).  The purpose is a proof of concept that LNS yields valid output from an LLM. The design needs to implement enough ggml features to support an actual LLM, like Deepseek.
+
+**Required Skills:** C++ and some familarity with LLMs 
+
+**Code Challenge:**
+
+1) Run the xlns16test.cpp and xlns32test.cpp examples.
+
+2) Go through the ggml example for 32-bit FP matrix multiplication on CPU (
+https://huggingface.co/blog/introduction-to-ggml) which illustrates concepts like:
+ggml_backend (the code that does the computation on a GPU or CPU),
+ggml_context (a "container" that holds data),
+ggml_cgraph: (what computation the backend performs),
+ggml_backend_buffer: (hold the data of multiple tensors), and
+ggml_backend_buffer_type: (a "memory allocator" connected to each ggml_backend). 
+This is quite involved because of the ggml_backend concept.  Such experience will help you design a new ggml_backend for LNS (which your design proposal will describe as running on CPU using xlnscpp).  
+
+3) Write a standalone C++ program that has a function to do 32-bit FP matrix multiply with a main program that prints the FP result. Test it with the same matrix data as the previous ggml example. (Hint: use nested for loops to compute the sum of products that form the matrix product).  
+
+4) Modify this program to include xlns32.cpp and perform the internal computation in LNS format. The main program and the signature of the function it calls remain the same (32-bit FP), which requires that the function convert to/from LNS before and after the matrix multiply. (Hint: if you do it properly, the overloaded xlnscpp assignment operator takes care of this automatically.) The sum of products should be computed entirely in LNS (not FP). Notice the numeric results are close to what FP produces.  
+
+5) Modify the program to include xlns16.cpp instead. Notice the numeric results are slightly less accurate (the 16-bit LNS product is stored in the 32-bit FP result).  This illustrates the tradeoff of using reduced precision LNS, which is what we want to experiment with in this project.
+
+These code challenges provide possible insight as to how the LNS-CPU backend your design proposal will describe can "look like" an FP backend to llama.cpp. When data would be transferred to the backend, it is converted to LNS.  When data is transfered back to llama.cpp, it is converted back to 32-bit FP.  This is one idea for this project.  You may incorporate improvements to this concept in your design proposal that considers the features of ggml.  
+
+
+**References:**
+
+[1] G. Alsuhli, et al., “Number Systems for Deep Neural Network Architectures: A Survey,” https://arxiv.org/abs/2307.05035, 2023. 
+
+[2] M. Arnold, E. Chester, et al., “Training neural nets using only an approximate tableless LNS ALU”.  31st International Conference on Application-specific Systems, Architectures and Processors. IEEE. 2020, pp. 69–72. https://doi.org/10.1109/ASAP49362.2020.00020
+
+[3] O. Kosheleva, et al., “Logarithmic Number System Is Optimal for AI Computations: Theoretical Explanation of Empirical Success”, https://www.cs.utep.edu/vladik/2024/tr24-55.pdf
+
+[4] D. Miyashita, et al., “Convolutional Neural Networks using Logarithmic Data Representation,” https://arxiv.org/abs/1603.01025, Mar 2016.
+
+[5] J. Zhao et al., “LNS-Madam: Low-Precision Training in Logarithmic Number System Using Multiplicative Weight Update,” IEEE Trans. Computers, vol. 71, no. 12, pp.3179–3190, Dec. 2022, https://doi.org/10.1109/TC.2022.3202747
+
+[6] P. Haghi, C. Wu, Z. Azad, Y. Li, A. Gui, Y. Hao, A. Li, and T. T. Geng, “Bridging the Gap Between LLMs and LNS with Dynamic Data Format and Architecture Codesign ,” in 2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO). Los Alamitos, CA, USA: IEEE Computer Society, Nov. 2024, pp. 1617–1631. https://doi.ieeecomputersociety.org/10.1109/MICRO61859.2024.00118
+
+
+**Source Code:** https://github.com/xlnsresearch/xlnscpp
+
+**Discussion Forum:** https://github.com/xlnsresearch/xlnscpp/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+***
+
 **[N] PROJECT TITLE.**
 
 **Mentors:** FIRSTNAME1 LASTNAME1 (email-address) and FIRSTNAME2 LASTNAME2 (email-address)
