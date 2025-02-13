@@ -513,7 +513,7 @@ This is quite involved because of the ggml_backend concept.  Such experience wil
 
 3) Write a standalone C++ program that has a function to do 32-bit FP matrix multiply with a main program that prints the FP result. Test it with the same matrix data as the previous ggml example. (Hint: use nested for loops to compute the sum of products that form the matrix product).  
 
-4) Modify this program to include xlns32.cpp and perform the internal computation in LNS format. The main program and the signature of the function it calls remain the same (32-bit FP), which requires that the function convert to/from LNS before and after the matrix multiply. (Hint: if you do it properly, the overloaded xlnscpp assignment operator takes care of this automatically.) The sum of products should be computed entirely in LNS (not FP). Notice the numeric results are close to what FP produces.  
+4) Modify this program to include xlns32.cpp (define xlns_ideal first) and perform the internal computation in LNS format. The main program and the signature of the function it calls remain the same (32-bit FP), which requires that the function convert to/from LNS before and after the matrix multiply. (Hint: if you do it properly, the overloaded xlnscpp assignment operator takes care of this automatically.) The sum of products should be computed entirely in LNS (not FP). Notice the numeric results are close to what FP produces.  
 
 5) Modify the program to include xlns16.cpp instead. Notice the numeric results are slightly less accurate (the 16-bit LNS product is stored in the 32-bit FP result).  This illustrates the tradeoff of using reduced precision LNS, which is what we want to experiment with in this project.
 
