@@ -35,3 +35,11 @@ If you think your question is not such a generic question, check the project rep
 On the other hand, occasionally, we also may miss some thoughtful question that deserves a reply. This is especially true during the GSoC application deadlines. In such cases, it makes sense to post a follow up message to the GitHub discussion, tagging the mentor.
 
 Also, please note that as we encourage GitHub discussions, we discourage private emails to the mentors, except to share the project proposal draft.
+
+# What is the Alaskan Season of Code (ASoC)? Is it related to Google or Google Summer of Code (GSoC)?
+
+[Alaskan Season of Code (ASoC)](Alaskan-Season-of-Code.md) is an initiative from Alaska to provide open-source mentoring to interested contributors on a volunteer (with a 1-to-1 mentoring similar to GSoC, but an unpaid program) basis. Please note that it is not affiliated with or endorsed by GSoC/Google. But when an excellent applicant is not accepted by GSoC (because we get many excellent applicants than what we can get from GSoC), we may be able to work with the applicant as part of the ASoC. However, be aware that it is an independent mentoring program and does not have the same structure and timeline (although it is heavily influenced by the GSoC model).
+
+# I participated in GSoC last year with Alaska. Can I apply again?
+
+Sure. But please note that the contributions you made as part of your GSoC and prior to the GSoC won't be considered in evaluating your GSoC for the current year. Any contributions made after your past GSoC will be considered positively. However, note that you will still be competing with many talented applicants, and that will be a fair battle. We encourage you to apply to other organizations as a contributor for your second year, or apply to be a mentor with Alaska. This restriction is not applicable for ASoC, since ASoC contributions are volunteer contributions. You are welcome to apply to GSoC!
