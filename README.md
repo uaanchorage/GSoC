@@ -545,6 +545,31 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 
 ***
 
+**[15] Time and Ordering in Beehive.**
+
+**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and David Moxley (dpmoxley -at- alaska.edu) 
+
+**Overview:** Beehive was initiated as a collaboration between the University of Alaska Anchorage Departments of Computer Science and Human Services, but grew largely into a software platform through open-source contributions. Beehive seeks to create a digital approach to translating the digitalization of art and photographic images into a digital database that stores in retrievable formats those images for use in advancing the delivery of human services and health care to people who experience considerable vulnerability and marginalization within the community. One of the project goals is to extend the current Beehive software as a repository of photomemories (a 2D projection of 3D spaces) X time. This project aims to extend [Beehive](https://github.com/KathiraveluLab/Beehive/) with these additional capacities and develop data mining algorithms to support this use case of photos as frozen snapshots in an individual's life.
+
+**Current Status:** The current Beehive prototype does not consider the complexities of time and ordering in the use of behavioral patterns and narratives in the journey to recovery.
+
+**Expected Outcomes:** In this project, the contributor will (1) extend the Beehive platform to support time and ordering as attributes across images, (2) develop algorithms to understand the impact of past events through the series of images and their narratives, and (3) implement data mining algorithms that could fetch and understannd evolving narratives around photomemories. We see spaces as 3D or 2D if we are referring to geolocations. Photos are 2D projections of a 3D space. There is one dimension that we omit in most of these projections. That is time. Time as a 4th dimension is not entirely new in research and applications. A search on spatiotemporal data and space-time continuum will give you plenty of examples, from climate change to science novels. Time, or more specifically, ordering, is an essential variable in behavior. Don't you wonder how you see places differently just because you have seen the same or something similar before? Where it gets more interesting or challenging (depending on how you see it) is how the time affects the exact location and even those "near" it. When we say "near," it is in terms of data, not necessarily in terms of geographical proximity. Sometimes, it is just a minor change, and the location is the same! In data mining, we call this "near duplicates." A change in the name of a place (can be a city or a restaurant!). Other times, these are two entirely different places. Perhaps, Kivalina has moved over time due to the Arctic Erosion (sadly). But that is still geographical proximity. For instance, your visit to Portugal will influence your visits to other Portuguese-speaking nations (such as Angola and Brazil) because they share a language and culture, although they are oceans apart. On a smaller scale, your experience in a library will impact how you perceive another library in a different location. How do we consider time (or in a more accurate sense, "relative time" or "ordering") in our analysis/perception? This is intertwined as the 4th dimension (or 3rd dimension, if you are already projecting the 3D world into a 2D map/photo). This project aims to understand these complexities in a prototype version over simulated/synthetic data.
+
+**Required Skills:** Database (MySQL or Mongo) and Python or Java. Experience and interest in data mining is a plus.
+
+**Code Challenge:** Prior experience with database management through established coding examples.
+
+**Source Code:**  https://github.com/kathiraveluLab/beehive.
+
+**Discussion Forum**: https://github.com/KathiraveluLab/Beehive/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
+
+
 **[N] PROJECT TITLE.**
 
 **Mentors:** FIRSTNAME1 LASTNAME1 (email-address) and FIRSTNAME2 LASTNAME2 (email-address)
