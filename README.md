@@ -152,9 +152,9 @@ Shotgun metagenomics, which involves sequencing DNA from a mixed sample of genom
 **Current Status:** Because of the variability in abundance in multiple species in the mixed sample of genomes, it is hard to design a theoretically solid algorithm to rectify the error in the sample and assemble it accurately. The low abundance species in the mixed sample are often wrongly classified as error if we use a traditional/existing algorithms that can rectify the error in a single species’ whole genome sequence. For the similar reason, the existing metagenomic assemblers are perform sub-optimally. 
 Further, the existing software are limited in terms of their data handling capability. Most of them are capable to operate in a single node only. So, their data nailing is severely limited by the RAM available in one node. Also the time consumed for large datasets are often unreasonable.
 
-**Expected Outcomes:** In this project, we will address the first two steps in metagenomic analysis i.e., error correction and assembly which are paramount for any downstream project. Metagenomic data is often large in size spanning to hundreds of gigabytes to terabyte scale. Our motivation is to develop distributed, HPC compatible solution for metagenomic error correction and assembly
+**Expected Outcomes:** In this project, we will address the first two steps in metagenomic analysis i.e., error correction and assembly which are paramount for any downstream project. Metagenomic data is often large in size, spanning to hundreds of gigabytes to terabyte scale. Our motivation is to develop distributed, an HPC-compatible solution for metagenomic error correction and assembly.
 
-(1) We are looking for working solutions (a solid algorithm and its implementation) for metagenomic error correction and assembly. The solutions should be theoretically justifiable and/or biologically meaningful. (2) The algorithm and the software implementation for both error correction and assembly should be distributed in nature. (3) We are open for AI/ML-enabled solutions but that is not a requirement. (4) GPU-enabled solutions are also encouraged but, it’s also not a requirement.
+(1) We are looking for working solutions (a solid algorithm and its implementation) for metagenomic error correction and assembly. The solutions should be theoretically justifiable and/or biologically meaningful. (2) The algorithm and the software implementation for both error correction and assembly should be distributed in nature. (3) We are open for AI/ML-enabled solutions, but that is not a requirement. (4) GPU-enabled solutions are also encouraged but, it’s also not a requirement.
 
 **Required Skills:** Python and experience with Deep Neural Networks
 
@@ -311,7 +311,7 @@ As the expected outcome of this project, we propose a ZeroMQ-based communication
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
-**Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system), and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. DICOM implementations often have a queue to hold the images sent from the source. Since this is a networking communication, a queue may degrade the performance or introduce data loss. DICOM communications are defined by static source, query, and destination endpoints. Each endpoint is defined by hostname/IP address, port, and AE (Application Entity) Title. A DICOM endpoint such as a PACS or a scanner usually has these endpoints statically configured to ensure security and patient privacy.
+**Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system), and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. DICOM implementations often have a queue to hold the images sent from the source. Since this is a networking communication, a queue may degrade the performance or introduce data loss. DICOM communications are defined by static source, query, and destination endpoints. Each endpoint is defined by hostname/IP address, port, and AE (Application Entity) Title. A DICOM endpoint, such as a PACS or a scanner, usually has these endpoints statically configured to ensure security and patient privacy.
 
 This project attempts to send data from a source to dynamic destinations based on the queue and the performance. This can be a use case for teleradiology with multiple remote healthcare/radiologist sites present or a potential framework to enable federated learning on radiographic images. [Orthanc](https://www.orthanc-server.com/) can be set up as a DICOM endpoint that mimics a PACS [1](https://github.com/Emory-HITI/Niffler/tree/master/modules/cold-extraction). With multiple Orthanc servers configured, such a federated deployment can be prototyped. Ultimately, this project aims to study the possibilities and opportunities of supporting dynamic DICOM endpoints in practice. 
 
@@ -346,7 +346,7 @@ This project attempts to send data from a source to dynamic destinations based o
 
 **Required Skills:** Python is proposed as the programming language. However, students can also propose their preferred alternative programming language and frameworks. Prior experience developing on Ethereum is a plus. 
 
-**Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples. Students are expected to establish their experience with Blockchain technologies and architecting and programming them through previous projects - ideally through their respective GitHub repository (or similar code repositories).
+**Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples. Students are expected to establish their experience with Blockchain technologies in architecting and programming them through previous projects - ideally through their respective GitHub repository (or similar code repositories).
 
 **Source Code:** https://github.com/bio-block/healthy (New Project).
 
@@ -444,7 +444,7 @@ Minimum viable product (MVP):
 
 Fire risk classification: Given pre-fire satellite images, the model predicts the probability of a fire occurring within a defined time frame like 1 month, 3 months, or 6 months. The classifications should be "High Fire Risk," "Moderate Risk," or "No Risk."
 
-1). Data pipeline development:
+1) Data pipeline development:
 
 Preprocessing satellite images: Band selection, geospatial cropping, cloud removal (For this step, we are mostly interested in analyzing [Sentinel-2 data](https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-2));
 
@@ -452,7 +452,7 @@ Synthetic Aperture Radar (SAR) analysis: Extracting fuel moisture & terrain feat
 
 Time-series weather data integration: Incorporating temperature, wind, and humidity. We have access to past decades of weather data for almost the past 30 years for multiple different places in Alaska.
 
-2). Model training and prediction:
+2) Model training and prediction:
 
 A hybrid model such as CNN-LSTM that analyzes satellite data and time-series weather trends (CNN-LSTM is just an example. We are open to multiple different types of analysis methodology);
 
@@ -472,8 +472,6 @@ A report on model performance and fire risk metrics.
 
 **Difficulty Level:** Medium/Hard
 
-
-You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas. However, if you are proposing a new project idea as a contributor, make sure they are relevant to Alaska specifically and the circumpolar north in general. Also, contact potential mentors from the above-listed mentors and confirm their interest in your project idea before drafting an entire proposal based on your own idea.
 
 ***
 
@@ -553,7 +551,9 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 
 **Current Status:** The current Beehive prototype does not consider the complexities of time and ordering in the use of behavioral patterns and narratives in the journey to recovery.
 
-**Expected Outcomes:** In this project, the contributor will (1) extend the Beehive platform to support time and ordering as attributes across images, (2) develop algorithms to understand the impact of past events through the series of images and their narratives, and (3) implement data mining algorithms that could fetch and understannd evolving narratives around photomemories. We see spaces as 3D or 2D if we are referring to geolocations. Photos are 2D projections of a 3D space. There is one dimension that we omit in most of these projections. That is time. Time as a 4th dimension is not entirely new in research and applications. A search on spatiotemporal data and space-time continuum will give you plenty of examples, from climate change to science novels. Time, or more specifically, ordering, is an essential variable in behavior. Don't you wonder how you see places differently just because you have seen the same or something similar before? Where it gets more interesting or challenging (depending on how you see it) is how the time affects the exact location and even those "near" it. When we say "near," it is in terms of data, not necessarily in terms of geographical proximity. Sometimes, it is just a minor change, and the location is the same! In data mining, we call this "near duplicates." A change in the name of a place (can be a city or a restaurant!). Other times, these are two entirely different places. Perhaps, Kivalina has moved over time due to the Arctic Erosion (sadly). But that is still geographical proximity. For instance, your visit to Portugal will influence your visits to other Portuguese-speaking nations (such as Angola and Brazil) because they share a language and culture, although they are oceans apart. On a smaller scale, your experience in a library will impact how you perceive another library in a different location. How do we consider time (or in a more accurate sense, "relative time" or "ordering") in our analysis/perception? This is intertwined as the 4th dimension (or 3rd dimension, if you are already projecting the 3D world into a 2D map/photo). This project aims to understand these complexities in a prototype version over simulated/synthetic data.
+**Expected Outcomes:** In this project, the contributor will (1) extend the Beehive platform to support time and ordering as attributes across images, (2) develop algorithms to understand the impact of past events through the series of images and their narratives, and (3) implement data mining algorithms that could fetch and understannd evolving narratives around photomemories. 
+
+We see spaces as 3D or 2D if we are referring to geolocations. Photos are 2D projections of a 3D space. There is one dimension that we omit in most of these projections. That is time. Time as a 4th dimension is not entirely new in research and applications. A search on spatiotemporal data and space-time continuum will give you plenty of examples, from climate change to science novels. Time, or more specifically, ordering, is an essential variable in behavior. Don't you wonder how you see places differently just because you have seen the same or something similar before? Where it gets more interesting or challenging (depending on how you see it) is how the time affects the exact location and even those "near" it. When we say "near," it is in terms of data, not necessarily in terms of geographical proximity. Sometimes, it is just a minor change, and the location is the same! In data mining, we call this "near duplicates." A change in the name of a place (can be a city or a restaurant!). Other times, these are two entirely different places. Perhaps, Kivalina has moved over time due to the Arctic Erosion (sadly). But that is still geographical proximity. For instance, your visit to Portugal will influence your visits to other Portuguese-speaking nations (such as Angola and Brazil) because they share a language and culture, although they are oceans apart. On a smaller scale, your experience in a library will impact how you perceive another library in a different location. How do we consider time (or in a more accurate sense, "relative time" or "ordering") in our analysis/perception? This is intertwined as the 4th dimension (or 3rd dimension, if you are already projecting the 3D world into a 2D map/photo). This project aims to understand these complexities in a prototype version over simulated/synthetic data.
 
 **Required Skills:** Database (MySQL or Mongo) and Python or Java. Experience and interest in data mining is a plus.
 
@@ -568,6 +568,8 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 **Difficulty Level:** Medium
 
 ***
+
+You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas. However, if you are proposing a new project idea as a contributor, make sure they are relevant to Alaska specifically and the circumpolar north in general. Also, contact potential mentors from the above-listed mentors and confirm their interest in your project idea before drafting an entire proposal based on your own idea.
 
 
 **[N] PROJECT TITLE.**
