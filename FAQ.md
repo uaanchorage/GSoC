@@ -48,7 +48,7 @@ Sure. But please note that the contributions you made as part of your GSoC and p
 Of course! We encourage you to! ASoC is not affiliated with Google or GSoC. It is simply an unpaid volunteer remote coding experience inspired by GSoC.
 
 # Can I apply to multiple project ideas from Alaska?
-Yes, but not exceeding the overall limit imposed by Google (3 proposals per contributor, as of 2025). Indicate your preference order in the proposals. We cannot guarantee that such preferences will be respected (since they are largely evaluated for their strength and how many other strong applications that idea has), when we have the freedom, and if both the proposals from the candidate are strong, we will consider the provided preference order. Cross-reference the contributions to other Alaska projects so that for the mentors who evaluate that proposal, your contributions will be visible.
+Yes, but not exceeding the overall limit imposed by Google (3 proposals per contributor, as of 2025). Indicate your preference order in the proposals. We cannot guarantee that such preferences will be respected since the proposals are largely evaluated for their strength and how many other strong applications that idea has. However, when we have the freedom, and if both the proposals from the candidate are strong, we will consider the provided preference order. Cross-reference the contributions to other Alaska projects in your proposals so that your contributions will be visible to the mentors who evaluate your proposals.
 
 # Can I email the proposals to the mentors?
-Yes, please draft the proposal and email the mentors. CC all the mentors in one email rather than individual emails to each mentor.
+Yes, please draft the proposal and email it to the mentors. CC all the mentors in one email rather than sending individual emails to each mentor. Make sure your proposal is in complete shape before sending it for reviews. You do not want mentors to review a very early draft.
