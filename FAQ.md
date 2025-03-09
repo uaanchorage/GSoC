@@ -1,4 +1,4 @@
-We will keep this page updated as we start receiving recurring questions that are of common interest to this organization and its contributors.
+We will keep this page updated as we start receiving recurring questions that are of common interest to this organization and its contributors. Please check this [FAQ](https://developers.google.com/open-source/gsoc/faq) first.
 
 # Do you mandate pull requests as a pre-requisite for acceptance to the GSoC?
 
@@ -43,3 +43,12 @@ Also, please note that as we encourage GitHub discussions, we discourage private
 # I participated in GSoC last year with Alaska. Can I apply again?
 
 Sure. But please note that the contributions you made as part of your GSoC and prior to the GSoC won't be considered in evaluating your GSoC for the current year. Any contributions made after your past GSoC will be considered positively. However, note that you will still be competing with many talented applicants, and that will be a fair battle. We encourage you to apply to other organizations as a contributor for your second year, or apply to be a mentor with Alaska. This restriction is not applicable for ASoC, since ASoC contributions are volunteer contributions. You are welcome to apply to GSoC!
+
+# I participated in ASoC last year with Alaska. Can I apply later as a GSoC contributor this year or later?
+Of course! We encourage you to! ASoC is not affiliated with Google or GSoC. It is simply an unpaid volunteer remote coding experience inspired by GSoC.
+
+# Can I apply to multiple project ideas from Alaska?
+Yes, but not exceeding the overall limit imposed by Google (3 proposals per contributor, as of 2025). Indicate your preference order in the proposals. We cannot guarantee that such preferences will be respected (since they are largely evaluated for their strength and how many other strong applications that idea has), when we have the freedom, and if both the proposals from the candidate are strong, we will consider the provided preference order. Cross-reference the contributions to other Alaska projects so that for the mentors who evaluate that proposal, your contributions will be visible.
+
+# Can I email the proposals to the mentors?
+Yes, please draft the proposal and email the mentors. CC all the mentors in one email rather than individual emails to each mentor.
