@@ -1,6 +1,6 @@
 Due to the overwhelming amount of AI use in our GSoC-related conversations and contributions, we have introduced an **Acceptable and Ethical AI Use Policy**, which is detailed below. We will keep improving this working document as we navigate this new territory. This document clarifies our stance on the unethical and undisclosed use of AI.
 
-# The so-called vibe coding and its impact on code quality
+# The so-called "vibe coding" and its impact on code quality
 The growing access to AI/ML technologies such as LLM tools (ChatGPT, etc.) has given rise to a phenomenon now known as [Vibe Coding](https://en.wikipedia.org/wiki/Vibe_coding). In simple words, it is a practice of writing code by simply using AI without understanding what it is actually doing. While vibe coding might help in certain toy projects, it does not fit in a collaborative open-source organization or a competitive landscape such as the Google Summer of Code (GSoC). This is not to ban any and all the uses of AI. But to use it sparingly. Even before the LLM-era, we all copy-pasted Stackoverflow fixes. So, this is not entirely new. However, the barrier to entry is largely reduced, thus giving way to allowing new developers to write bloated code and documentation for simple matters. 
 
 # LLM-generated lengthy conversations
