@@ -295,7 +295,7 @@ As the expected outcome of this project, we propose a ZeroMQ-based communication
 
 **Required Skills:** Python
 
-**Code Challenge:** Prior experience in Python must be demonstrated. Prior experience with message-oriented middleware frameworks such as ZeroMQ can be a plus, although not mandatory.
+**Code Challenge:** Prior experience in Python must be demonstrated. Prior experience with message-oriented middleware frameworks such as ZeroMQ can be a plus, although not mandatory. Pull requests to CONTROL-CORE projects to address open issues are encouraged (although not expected).
 
 **Source Code:**  https://github.com/ControlCore-Project/concore
 
