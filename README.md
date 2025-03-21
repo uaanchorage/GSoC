@@ -235,7 +235,7 @@ This project aims to develop [Beehive](https://github.com/KathiraveluLab/Beehive
 
 **Required Skills:** Database (MySQL or Mongo) and Python or Java. A build management tool such as Apache Maven is recommended if using Java.
 
-**Code Challenge:** Prior experience with database management through established coding examples.
+**Code Challenge:** Prior experience with database management through established coding examples. Pull requests to Beehive to address open issues are highly encouraged (although not mandatory).
 
 **Source Code:**  https://github.com/kathiraveluLab/beehive.
 
@@ -557,7 +557,7 @@ We see spaces as 3D or 2D if we are referring to geolocations. Photos are 2D pro
 
 **Required Skills:** Database (MySQL or Mongo) and Python or Java. Experience and interest in data mining is a plus.
 
-**Code Challenge:** Prior experience with database management through established coding examples.
+**Code Challenge:** Prior experience with database management through established coding examples. Pull requests to Beehive to address open issues are highly encouraged (although not mandatory).
 
 **Source Code:**  https://github.com/kathiraveluLab/beehive.
 
