@@ -206,7 +206,7 @@ Further, the existing software are limited in terms of their data handling capab
 
 **Expected Outcomes:** Several approaches to implementing such album features exist. One approach is to use [Kheops](https://docs.kheops.online/) to provide an interface to create and view the albums. [MEDIator](https://github.com/sharmalab/MEDIator) can be extended to create subsets and share the images via a unique URL as well. The proposed feature will make the images accessible to more researchers for their experiments by replacing the current manual data sharing efforts. Moreover, Kheops natively integrates with OHIF Viewer. As such, images retrieved locally can be viewed through OHIF Viewer by creating albums with Kheops. Contributors are encouraged to use Kheops or alternatives rather than reinventing the wheel (unless there is a convincing reason).
  
-**Required Skills:** Python and Java.
+**Required Skills:** Python or Java.
 
 **Code Challenge:** Experience working with DICOM images from previous projects or through a sample dummy project will be a plus.
 
