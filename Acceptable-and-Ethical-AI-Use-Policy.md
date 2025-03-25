@@ -31,11 +31,11 @@ We also have identified the difficulty level for each project idea. For example,
 
 Please definitely AVOID using AI/LLM/ChatGPT in any research reports you produce as part of this GSoC. Those should be in your own words.
 
-### Acceptable vs Not Acceptable Use of AI (ChatGPT, etc.)
+### Acceptable vs Unacceptable Use of AI (ChatGPT, etc.)
 
-To make things more clear, here's a simple table that shows what kind of AI usage is okay and what should be avoided.
+Here is a simple table that shows what kind of AI usage is okay and what should be avoided.
 
-| Acceptable Use of AI | Not Acceptable Use of AI |
+| Acceptable Use of AI | Unacceptable Use of AI |
 |------------------------|----------------------------|
 | Using LLM to fix specific bugs or errors in your code (like "Why is this Python error happening?") | Generating full code or documentation using LLM without understanding what it does |
 | Using AI to help understand a difficult concept (e.g., “What is a Git rebase?”) | Submitting AI-written code as your own without testing or modifying it |
