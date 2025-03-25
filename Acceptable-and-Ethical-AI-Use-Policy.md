@@ -31,4 +31,18 @@ We also have identified the difficulty level for each project idea. For example,
 
 Please definitely AVOID using AI/LLM/ChatGPT in any research reports you produce as part of this GSoC. Those should be in your own words.
 
+### Acceptable vs Not Acceptable Use of AI (ChatGPT, etc.)
+
+To make things more clear, here's a simple table that shows what kind of AI usage is okay and what should be avoided.
+
+| Acceptable Use of AI | Not Acceptable Use of AI |
+|------------------------|----------------------------|
+| Using LLM to fix specific bugs or errors in your code (like "Why is this Python error happening?") | Generating full code or documentation using LLM without understanding what it does |
+| Using AI to help understand a difficult concept (e.g., “What is a Git rebase?”) | Submitting AI-written code as your own without testing or modifying it |
+| Using LLM to improve your writing tone or grammar (like checking an email) | Writing entire GitHub discussions, proposals, or PR descriptions using AI that sound overly formal or bloated |
+| Asking AI for help with troubleshooting (like how to install a tool or debug a config file) | Copy-pasting long, AI-generated explanations/questions that waste mentor time |
+| Briefly summarizing or organizing your thoughts using AI before writing in your own words | Sending in GSoC proposals or research reports that are heavily written by ChatGPT |
+| Getting ideas or suggestions for solving a problem, then implementing it yourself | Submitting “vibe code”, code that looks good but you don’t understand or cannot explain |
+
+
 Please feel free to discuss this **Acceptable and Ethical AI Use Policy** in the associated GitHub Discussion forum with your comments and questions.
