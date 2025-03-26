@@ -1,7 +1,7 @@
 # Getting Started
 The ideal way to contact the mentors is to use the Discussion Forums listed under each project idea. 
 
-If you want to introduce yourself, post them [here](https://github.com/uaanchorage/GSoC/discussions/1). You can also instead introduce yourself in the respective project idea's discussion forum.
+If you want to introduce yourself, post them [here](https://github.com/uaanchorage/GSoC/discussions/1). You can also introduce yourself in the discussion forum of the respective project.
 
 If you have questions beyond the general introduction, start a [separate thread](https://github.com/uaanchorage/GSoC/discussions/). 
 
@@ -9,13 +9,13 @@ If you have questions beyond the general introduction, start a [separate thread]
 
 Each project idea listed below has a "Discussion Forum" listed. Please use these discussion forums to discuss your project ideas and approaches. That contributes to and boosts the open-source spirit in our community. 
 
-We also have a [wiki](https://github.com/uaanchorage/GSoC/wiki) that we will use as a blog and announcement channel. We aim to unify the Google Summer of Code conversations and announcements in this repository rather than fragmenting it across different media. We hope our contributors will have an enriching and productive summer with Alaska.
+We also have a [wiki](https://github.com/uaanchorage/GSoC/wiki) that we will use as a blog and announcement channel. We aim to unify the Google Summer of Code conversations and announcements in this repository rather than fragmenting them across different media. We hope our contributors will have an enriching and productive summer with Alaska.
 
 # Communicating with the mentors
 
-Each project idea has at least one mentor assigned. We aim to assign two mentors to each accepted project idea to ensure the contributors have continuous mentoring even during a brief absence of a mentor. Each project also has a relevant discussion forum in their GitHub source repository, listed under each project idea. Specific discussions on each project idea happen in those discussion forums.
+Each project idea has at least one mentor assigned. We aim to assign two mentors to each accepted project idea to ensure the contributors have continuous mentoring even during a brief absence of a mentor. Each project also has a relevant discussion forum in its GitHub source repository, listed under each project idea. Specific discussions on each project idea happen in those discussion forums.
 
-The mentors do not reply to messages sent through unconventional channels such as LinkedIn or Facebook. Emails are discouraged, to promote open communications through GitHub discussions.
+The mentors do not reply to messages sent through unconventional channels such as LinkedIn or Facebook. Emails are discouraged to promote open communication through GitHub discussions.
 
 ## Large (full-time) vs. Medium-size (half-time) vs. Small projects
 
@@ -28,7 +28,7 @@ However, applicants can propose their estimated work hours (350, 175, or 90 hour
 
 # Application Template
 
-The contributors are encouraged to follow this template. However, they are not expected to follow this template strictly. They are advised to include all the requested information in their application.
+Contributors are encouraged to follow this template, but they are not expected to do so strictly. They are advised to include all the requested information in their application.
 
 **1) Project Title:**
 
@@ -68,9 +68,9 @@ Break the timeline into periods of around seven days. Smaller time windows (7 da
 
 This year, the full-time projects are expected to contribute 35 hours a week (large projects, 350 hours in total), half-time projects are expected to make an 18-hour-a-week contribution (medium-sized size projects, 175 hours total), and small projects, a 90-hour contribution. Please indicate your choice of the project length. 
 
-Please also indicate the work hours (including the time zone) during which you hope to work on your project. 
+Please also indicate the work hours (including the time zone) in which you hope to work on your project. It is best practice to indicate the time in the organization's local time zone (Alaska time), as that will be convenient for most mentors.
 
-We recommend daily commits (and pull requests, if appropriate) to ensure progress.
+We recommend daily commits (and pull requests, if appropriate) to ensure you're doing well.
 
 We also usually meet weekly with each accepted contributor during the GSoC. We use Zoom or Skype for this. Please indicate your preferences and availability.
 
@@ -78,7 +78,7 @@ We also usually meet weekly with each accepted contributor during the GSoC. We u
 
 Please indicate if you have any lectures/classes, examinations, or other personal commitments.
 
-GSoC  also allows flexibility of an additional two months - to complete the project at a later time frame (a shift of up to 2 additional months). Please indicate if you expect to do that so we can plan accordingly.
+GSoC  also allows flexibility of an additional two months to complete the project at a later time frame (a shift of up to 2 additional months). Please indicate if you expect to do that so we can plan accordingly.
 
 If you choose a full-time project, you may not have much flexibility. However, if you are working on a small project, you can have several other parallel commitments.
 
