@@ -545,7 +545,7 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 
 **[15] Time and Ordering in Beehive.**
 
-**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and David Moxley (dpmoxley -at- alaska.edu) 
+**Mentors:** Jihye Kwon (jkwon2 -at- alaska.edu), David Moxley (dpmoxley -at- alaska.edu), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu).
 
 **Overview:** Beehive was initiated as a collaboration between the University of Alaska Anchorage Departments of Computer Science and Human Services, but grew largely into a software platform through open-source contributions. Beehive seeks to create a digital approach to translating the digitalization of art and photographic images into a digital database that stores in retrievable formats those images for use in advancing the delivery of human services and health care to people who experience considerable vulnerability and marginalization within the community. One of the project goals is to extend the current Beehive software as a repository of photomemories (a 2D projection of 3D spaces) X time. This project aims to extend [Beehive](https://github.com/KathiraveluLab/Beehive/) with these additional capacities and develop data mining algorithms to support this use case of photos as frozen snapshots in an individual's life.
 
