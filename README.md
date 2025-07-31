@@ -38,7 +38,7 @@ MATLAB [Medical Imaging Toolbox](https://www.mathworks.com/products/medical-imag
 
 **Effort:** 350 Hours
 
-**Difficulty Level:** Medium
+**Difficulty Level:** Intermediate
 
 ***
 
@@ -106,7 +106,7 @@ A report on model performance and fire risk metrics.
 
 **Effort:** 350 Hours
 
-**Difficulty Level:** Medium/Hard
+**Difficulty Level:** Intermediate/Hard
 
 
 ***
@@ -173,7 +173,7 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 
 **Discussion Forum:** https://github.com/xlnsresearch/xlnscpp/discussions
 
-**Effort:** 350 Hours
+**Effort:** 350 Hours 
 
 **Difficulty Level:** Hard
 
@@ -203,6 +203,6 @@ You are welcome to propose new open-source project ideas, especially those that 
 
 **Effort:** 90/175/350 Hours
 
-**Difficulty Level:** Easy/Medium/Hard
+**Difficulty Level:** Easy/Intermediate/Hard
 
 ***
