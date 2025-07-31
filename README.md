@@ -15,33 +15,7 @@ Many of the ideas proposed here have a research component. Contributors who work
 
 
 
-**[1] Creating shareable "albums" from locally stored DICOM images**
-
-**Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
-
-**Overview:**  DICOM data sets downloaded from PACS environments typically remain in the local environments, such as a research server or a cluster where the DICOM retriever (C-MOVE) is run. To use this data, researchers must identify certain subsets of data. This can be achieved by querying the retrieved data. DICOM images consist of textual metadata. By querying the metadata, subsets of images can be identified. However, currently, creating "albums" from locally stored DICOM images is not seamless.
-
-**Current Status:** This feature does not exist in our open-source frameworks. We share images through other orthogonal approaches (via rclone, for example). This project will implement a stand-alone utility to effectively create albums from locally stored DICOM images.
-
-**Expected Outcomes:** Several approaches to implementing such album features exist. One approach is to use [Kheops](https://docs.kheops.online/) to provide an interface to create and view the albums. [MEDIator](https://github.com/sharmalab/MEDIator) can be extended to create subsets and share the images via a unique URL as well. The proposed feature will make the images accessible to more researchers for their experiments by replacing the current manual data sharing efforts. Moreover, Kheops natively integrates with OHIF Viewer. As such, images retrieved locally can be viewed through OHIF Viewer by creating albums with Kheops. Contributors are encouraged to use Kheops or alternatives rather than reinventing the wheel (unless there is a convincing reason).
- 
-**Required Skills:** Python or Java.
-
-**Code Challenge:** Experience working with DICOM images from previous projects or through a sample dummy project will be a plus.
-
-**Source Code:** https://github.com/KathiraveluLab/Diomede (New Project).
-
-**Discussion Forum**: https://github.com/KathiraveluLab/Diomede/discussions
-
-**Effort:** 350 Hours
-
-**Difficulty Level:** Easy
-
-***
-
-
-
-**[2] DICOM Image Retrieval and Processing in MATLAB.**
+**[1] DICOM Image Retrieval and Processing in MATLAB.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
 
@@ -69,34 +43,8 @@ MATLAB [Medical Imaging Toolbox](https://www.mathworks.com/products/medical-imag
 ***
 
 
-**[3] Dynamic DICOM Endpoints.**
 
-**Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
-
-**Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system), and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. DICOM implementations often have a queue to hold the images sent from the source. Since this is a networking communication, a queue may degrade the performance or introduce data loss. DICOM communications are defined by static source, query, and destination endpoints. Each endpoint is defined by hostname/IP address, port, and AE (Application Entity) Title. A DICOM endpoint, such as a PACS or a scanner, usually has these endpoints statically configured to ensure security and patient privacy.
-
-This project attempts to send data from a source to dynamic destinations based on the queue and the performance. This can be a use case for teleradiology with multiple remote healthcare/radiologist sites present or a potential framework to enable federated learning on radiographic images. [Orthanc](https://www.orthanc-server.com/) can be set up as a DICOM endpoint that mimics a PACS [1](https://github.com/Emory-HITI/Niffler/tree/master/modules/cold-extraction). With multiple Orthanc servers configured, such a federated deployment can be prototyped. Ultimately, this project aims to study the possibilities and opportunities of supporting dynamic DICOM endpoints in practice. 
-
-**Current Status:** This project is currently in the research stage.
-
-**Expected Outcomes:** A prototype implementation that supports dynamic DICOM endpoints.
-
-**Required Skills:** Python
-
-**Code Challenge:** Experience working with DICOM images from previous projects or through a sample dummy project will be a plus.
-
-**Source Code:** https://github.com/KathiraveluLab/Diomede (New Project).
-
-**Discussion Forum**: https://github.com/KathiraveluLab/Diomede/discussions
-
-**Effort:** 350 Hours
-
-**Difficulty Level:** Hard
-
-***
-
-
-**[4] Alaska Wildfire Prediction Using Satellite Imagery.**
+**[2] Alaska Wildfire Prediction Using Satellite Imagery.**
 
 **Mentors:**  Yali Wang (ywang35 -at- alaska.edu) and Arghya Kusum Das (akdas -at- alaska.edu)
 
@@ -163,7 +111,7 @@ A report on model performance and fire risk metrics.
 
 ***
 
-**[5] Support for Logarithmic Number Systems in Large Language Models.**
+**[3] Support for Logarithmic Number Systems in Large Language Models.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com) 
 
