@@ -14,15 +14,38 @@ Many of the ideas proposed here have a research component. Contributors who work
 ***
 
 
+**[1] Understanding proximity in locations and emotions through digitized memories.**
 
-**[1] DICOM Image Retrieval and Processing in MATLAB.**
+**Mentors:** David Moxley (dpmoxley -at- alaska.edu), Jihye Kwon (jkwon2 -at- alaska.edu), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu).
+
+**Overview:** The project [DREAMS](https://github.com/KathiraveluLab/DREAMS) looks into how emotions evolve with time and uses the photos as a contributing factor towards the journey of recovery in marginalized folks, such as those battling drug use, alcohol use, or those with serious mental illnesses. This project extends our scope further, to understand how even seemingly unrelated places could be connected. While proximity is usually considered based on geo-coordinates, there can be other factors in determining how two locations are proximate in their digital representation. Taking two photos at the same spot will result in duplicate location or, more likely (due to minor changes in positioning), a near-duplicate location. However, sometimes, these are not the exact locations - rather, similar ones. Perhaps, 1) two different churches, two different police stations, ... 2) same language (two different Portuguese restaurants, ...) 3) same/similar cultures... This project aims to formalize such proximity in DREAMS and how they contribute to the evolving emotions.
+
+**Current Status:** The current DREAMS prototype does not take such elaborate measures of proximity. However, proximity (not just geographically, but based on the multiple dimensions that compose the data) needs to be formalized in DREAMS to understand the emotions attached to a particular place (e.g., this particular church) vs. a specific class of places (e.g., any churches).
+
+**Expected Outcomes:** Complexities of time and ordering in the use of behavioral patterns and narratives, formalizing the representation of proximity in location beyond the geo-coordinates. This project contains a research portion. Several studies have been done on the topic. We should use the existing outcomes to expand our understanding further, while also implementing our findings.
+
+**Required Skills:** Python, digital image processing, and data mining.
+
+**Code Challenge:** Prior digital image processing or data mining experience is beneficial. Establish the experience through prior projects or related code samples.
+
+**Source Code:**  https://github.com/KathiraveluLab/DREAMS
+
+**Discussion Forum**: https://github.com/KathiraveluLab/DREAMS/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Intermediate
+
+***
+
+
+**[2] DICOM Image Retrieval and Processing in MATLAB.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
 
 **Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system), and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. Many DICOM processing tools exist. They support receiving images from the scanners and PACS to a research cluster in real-time as an imaging stream or on-demand, selectively. They also provide means to anonymize the DICOM images to preserve patient privacy, export the DICOM images into a format such as PNG or JPEG, and extract the textual metadata from DICOM files to store it in a CSV file format or a database. Machine learning pipelines cannot be executed in clinical systems such as scanners and PACS. Therefore, the DICOM images and their metadata in the research clusters can be used to run machine learning pipelines. 
 
 MATLAB [Medical Imaging Toolbox](https://www.mathworks.com/products/medical-imaging.html) provides comprehensive support for DICOM using the [DICOM Toolkit (DCMTK)](https://dicom.offis.de/dcmtk.php.en). The MATLAB [Image Processing Toolbox](https://www.mathworks.com/products/image-processing.html) also supports [directly processing DICOM](https://www.mathworks.com/help/images/dicom-support-in-the-image-processing-toolbox.html). Similarly, MATLAB supports [reading, processing, and writing 3-D Medical Images with Spatial Referencing](https://www.mathworks.com/help/medical-imaging/ug/read-process-and-write-3-d-medical-image-with-spatial-referencing.html). In addition, [Python programs can be integrated with MATLAB](https://www.mathworks.com/products/matlab/matlab-and-python.html), which makes it easy to port existing Python workflows into MATLAB incrementally or let them execute interoperably. The out-of-the-box support for DICOM provided by MATLAB could make our job easy in certain projects. This facilitates [processing the files from the file system](https://www.mathworks.com/help/images/dicom-support-in-the-image-processing-toolbox.html). MATLAB natively supports [finding Region-of-Interest for DICOM-RT files](https://www.mathworks.com/help/images/ref/dicomcontours.html). It also supports [deep learning on DICOM and NifTi files](https://www.mathworks.com/help/deeplearning/ug/preprocess-volumes-for-deep-learning.html). 
-
 
 **Current Status:** This project is currently in the research stage.
 
@@ -44,7 +67,7 @@ MATLAB [Medical Imaging Toolbox](https://www.mathworks.com/products/medical-imag
 
 
 
-**[2] Alaska Wildfire Prediction Using Satellite Imagery.**
+**[3] Alaska Wildfire Prediction Using Satellite Imagery.**
 
 **Mentors:**  Yali Wang (ywang35 -at- alaska.edu) and Arghya Kusum Das (akdas -at- alaska.edu)
 
@@ -111,7 +134,7 @@ A report on model performance and fire risk metrics.
 
 ***
 
-**[3] Support for Logarithmic Number Systems in Large Language Models.**
+**[4] Support for Logarithmic Number Systems in Large Language Models.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com) 
 
