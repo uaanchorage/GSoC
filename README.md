@@ -136,7 +136,7 @@ A report on model performance and fire risk metrics.
 
 **[4] Support for Logarithmic Number Systems in Large Language Models.**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Ed Chester (ed.chester -at- gmail.com)
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Alex Krentz (alexkrentz2 -at- gmail.com), and Ed Chester (ed.chester -at- gmail.com)
 
 **Overview:** The Logarithmic Number System (LNS) is an alternative to built-in Floating Point (FP), which makes multiplication and division easy at the expense of more difficult addition. Using overloaded operators, xlnscpp provides an open-source C++ library for both 16- and 32-bit LNS arithmetic. Interest in fabricating LNS hardware has grown since it may reduce power consumption for applications that tolerate approximate results, such as deep learning (see [1]-[5]).  Although LNS has been studied extensively for feed-forward networks, only recently [6] has LNS been considered for Large Language Models (LLMs). 
 
