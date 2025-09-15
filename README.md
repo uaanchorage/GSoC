@@ -238,16 +238,17 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 
 **Overview:** This project uses public health site data and Internet performance data to find the regions with limited healthcare access (known as the healthcare deserts) but with stable Internet access. The outcome is a web application with a dashboard that can shed light on the necessity and feasibility of telehealth across Alaskan cities and villages.  
  
-A compound metric should be defined to identify healthcare deserts, with information such as the number of health sites in the region, availability of specialist access, distance to the nearby clinic to any resident, and the availability of a transportation network. Health site data may be retrieved from public sources (such as [https://healthsites.io/map]) but should be supplemented with local sources for accuracy. Internet access and performance can be identified through measurement networks (such as [https://broadbandmapping.com]) and Internet Service Provider (ISP) data. 
+A compound metric should be defined to identify healthcare deserts, incorporating information such as the number of health sites in the region, the availability of specialist access, the distance to the nearest clinic for any resident, and the presence of a transportation network. Health site data may be retrieved from public sources (such as [https://healthsites.io/map]), but should be supplemented with local sources for accuracy. Internet access and performance can be identified through measurement networks (such as [https://broadbandmapping.com]) and Internet Service Provider (ISP) data. 
+
 A mashup of healthcare access (or the lack of it) combined with Internet access and performance should be visualized as an overlay on the map of Alaska using map platforms such as OpenStreetMap, with interactive visualizations. 
 
-**Current Status:** This is a new project.
+**Current Status:** This project is currently in the research stage.
 
-**Expected Outcomes:** 
+**Expected Outcomes:** A web application that is specific to highlight the telehealth feasibility and necessity in Alaska. The application should be generalizable to different locations. However, it should focus on Alaska, and as such, the map of Alaska (rather than the whole world) should load when a map-based interface is used.
 
-**Required Skills:** Python or a similar high-level language.
+**Required Skills:** Python or a similar high-level language, and experience in necessary front-end frameworks.
 
-**Code Challenge:** Prior experience working with similar projects in the language of choice.
+**Code Challenge:** Prior experience working with similar frameworks and projects in the language of choice.
 
 **Source Code:**  https://github.com/KathiraveluLab/DREAMS
 
