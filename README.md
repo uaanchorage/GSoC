@@ -232,7 +232,7 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 ***
 
 
-**[6] Telehealth Necessity and Feasibility Tracker for Alaska.**
+**[6] Telehealth Effectiveness and Necessity Tracker.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and David Moxley (dpmoxley -at- alaska.edu).
 
