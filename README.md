@@ -250,9 +250,9 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 
 **Code Challenge:** Prior experience working with similar frameworks and projects in the language of choice.
 
-**Source Code:**  https://github.com/KathiraveluLab/DREAMS
+**Source Code:**  https://github.com/KathiraveluLab/TENeT (New Project)
 
-**Discussion Forum**: https://github.com/KathiraveluLab/DREAMS/discussions/
+**Discussion Forum**: https://github.com/KathiraveluLab/TENeT/discussions/
 
 **Effort:** 350 Hours
 
