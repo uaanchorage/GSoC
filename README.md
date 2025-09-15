@@ -12,9 +12,38 @@ Many of the ideas proposed here have a research component. Contributors who work
 
 
 ***
+**[1] Automated coastline extraction for erosion modeling in Alaska.**
+
+**Mentors:** Frank Witmer (fwitmer -at- alaska.edu) and Rawan Elframawy (rawann.elframawy -at- gmail.com)
+
+**Overview:** The rapidly warming Arctic is leading to increased rates of coastal erosion, placing hundreds of Alaska communities at the frontline of climate change. Understanding current rates of coastline change and accurately forecasting future changes is critical for communities to mitigate and adapt to these changes. Current modeling approaches typically use a simple linear model based solely on historical coastline positions to measure rates of change and extrapolate them into the future. In doing so, these models fail to capture the dynamic effects associated with decreasing sea ice, increasing annual wave energy, and increasing temperatures. To improve the quality of these coastal models, we need to increase the quantity of digitized coastlines, but manual photointerpretation is slow and laborious.
+
+**Current Status:** An initial model and pipeline have been developed to automatically extract coastlines from [PlanetLabs imagery](https://www.planet.com/). An auto-download script is available to retrieve PlanetLabs imagery (3-5m spatial resolution) by specifying any timeframe, cloud coverage percentage, and geometry. Additionally, [NDWI](https://en.wikipedia.org/wiki/Normalized_difference_water_index) with a majority sliding window has been introduced, allowing a specific threshold for each window to improve water detection accuracy. The [DeepWaterMap](https://github.com/isikdogan/deepwatermap) algorithm was originally trained with the [Global Surface Water (GSW)](https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_GlobalSurfaceWater) dataset at 30 m resolution from [Landsat](https://landsat.gsfc.nasa.gov/) imagery, but the model did not not work well applied to PlanetLabs imagery. We are working to re-train the model using PlanetLabs imagery automatically labeled using the NDWI thresholding method. This project extends and expands on the progress made in 2024.
+
+_Potential areas of improvement:_
+- Data Expansion (Deering 2017–2019 and Beyond): Currently using data from 2017 to 2019 for Deering; we plan to include more recent data to extend the time series.
+- Improved Cliff Area Segmentation: Enhance segmentation performance specifically in steep or cliff-like coastal areas.
+- Handling Challenging Conditions: Improve segmentation in regions with water shadows, buildings, satellite artifacts, and other data quality issues.
+- SWIR and Elevation Data Integration: Investigate combining short-wave infrared (SWIR) data and elevation data (e.g., DEMs) to further refine segmentation accuracy.
 
 
-**[1] Understanding proximity in locations and emotions through digitized memories.**
+**Expected Outcomes:** A finished model with high accuracy that automatically extracts a vectorized coastline representation from PlanetLabs satellite imagery. Then, the model can be applied to large amounts of imagery to model coastline changes over time.
+
+**Required Skills:** Python 
+
+**Code Challenge:** Experience with multi-band satellite imagery, geospatial data processing, and machine learning.
+
+**Source Code:** https://github.com/fwitmer/CoastlineExtraction
+
+**Discussion Forum:** https://github.com/fwitmer/CoastlineExtraction/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Intermediate
+
+***
+
+**[2] Understanding proximity in locations and emotions through digitized memories.**
 
 **Mentors:** David Moxley (dpmoxley -at- alaska.edu), Jihye Kwon (jkwon2 -at- alaska.edu), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu).
 
@@ -39,7 +68,7 @@ Many of the ideas proposed here have a research component. Contributors who work
 ***
 
 
-**[2] DICOM Image Retrieval and Processing in MATLAB.**
+**[3] DICOM Image Retrieval and Processing in MATLAB.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
 
@@ -67,7 +96,7 @@ MATLAB [Medical Imaging Toolbox](https://www.mathworks.com/products/medical-imag
 
 
 
-**[3] Alaska Wildfire Prediction Using Satellite Imagery.**
+**[4] Alaska Wildfire Prediction Using Satellite Imagery.**
 
 **Mentors:**  Yali Wang (ywang35 -at- alaska.edu) and Arghya Kusum Das (akdas -at- alaska.edu)
 
@@ -134,7 +163,7 @@ A report on model performance and fire risk metrics.
 
 ***
 
-**[4] Support for Logarithmic Number Systems in Large Language Models.**
+**[5] Support for Logarithmic Number Systems in Large Language Models.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Alex Krentz (alexkrentz2 -at- gmail.com), and Ed Chester (ed.chester -at- gmail.com)
 
@@ -199,6 +228,34 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 **Effort:** 350 Hours 
 
 **Difficulty Level:** Hard
+
+***
+
+
+**[6] Telehealth Necessity and Feasibility Tracker for Alaska.**
+
+**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and David Moxley (dpmoxley -at- alaska.edu).
+
+**Overview:** This project uses public health site data and Internet performance data to find the regions with limited healthcare access (known as the healthcare deserts) but with stable Internet access. The outcome is a web application with a dashboard that can shed light on the necessity and feasibility of telehealth across Alaskan cities and villages.  
+ 
+A compound metric should be defined to identify healthcare deserts, with information such as the number of health sites in the region, availability of specialist access, distance to the nearby clinic to any resident, and the availability of a transportation network. Health site data may be retrieved from public sources (such as [https://healthsites.io/map]) but should be supplemented with local sources for accuracy. Internet access and performance can be identified through measurement networks (such as [https://broadbandmapping.com]) and Internet Service Provider (ISP) data. 
+A mashup of healthcare access (or the lack of it) combined with Internet access and performance should be visualized as an overlay on the map of Alaska using map platforms such as OpenStreetMap, with interactive visualizations. 
+
+**Current Status:** This is a new project.
+
+**Expected Outcomes:** 
+
+**Required Skills:** Python or a similar high-level language.
+
+**Code Challenge:** Prior experience working with similar projects in the language of choice.
+
+**Source Code:**  https://github.com/KathiraveluLab/DREAMS
+
+**Discussion Forum**: https://github.com/KathiraveluLab/DREAMS/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Intermediate
 
 ***
 
