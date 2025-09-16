@@ -139,7 +139,7 @@ A report on model performance and fire risk metrics.
 
 **[4] Building a Decentralized Application (dApp) for Data Analysis in Bio-Block.**
 
-**Mentors:** Karthik Sathish (karthiksathishjeemain -at- gmail.com), Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), and Erik Zvaigzne (erik.zvaigzne-at-gmail.com)
+**Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Karthik Sathish (karthiksathishjeemain -at- gmail.com), and Erik Zvaigzne (erik.zvaigzne -at- gmail.com)
 
 **Overview:** The open-source Bio-Block data and payment portal could theoretically admit health and medical information, subject to proper compliance and regulatory protocols. Can we build a dApp that takes this information and performs various levels of analytics: graphical, descriptive, inferential and possibly predictive? What blockchain architectures would permit such a dApp to reside on Bio-Block, and how can we make such a dApp scalable and open? Would the dApp connect through an API, and if so, what would that look like? This project explores and constructs a dApp that meets at least minimal architectural requirements, such as being decentralized, scalable and open, and implements at least two levels of analysis.
 
@@ -163,13 +163,9 @@ A report on model performance and fire risk metrics.
 ***
 
 
-
-
-
-
 **[5] Anonymization of Personal Health Information (PHI) Submitted to Bio-Block and Improving Data Retrieval.**
 
-**Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Forrester Kane Manis (Forrester-at-headword.co), and Karthik Sathish (karthiksathishjeemain -at- gmail.com).
+**Mentors:** Karthik Sathish (karthiksathishjeemain -at- gmail.com), Ashutosh Ingole (ashingole -at- gmail.com), Forrester Kane Manis (Forrester -at- headword.co).
 
 **Overview:** This is a two-part project. Bio-Block is meant to admit all types of bio-medical information. Some of these data types were explored and tackled in GSoC 2025. The personal health and identification information must be stripped from this data completely so that anonymization is achieved. The first part of the project explores algorithms and processes to completely anonymize the data while maintaining the ability to sort, query and analyze. After anonymization is achieved, there needs to be sufficient ability to query the data so that potential data retrieval is easy and meaningful. The second part of the project entails creating retrieval algorithms and processes to achieve this objective. 
 
