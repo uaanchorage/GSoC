@@ -43,60 +43,8 @@ _Potential areas of improvement:_
 
 ***
 
-**[2] Understanding proximity in locations and emotions through digitized memories.**
 
-**Mentors:** David Moxley (dpmoxley -at- alaska.edu), Jihye Kwon (jkwon2 -at- alaska.edu), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu).
-
-**Overview:** The project [DREAMS](https://github.com/KathiraveluLab/DREAMS) looks into how emotions evolve with time and uses the photos as a contributing factor towards the journey of recovery in marginalized folks, such as those battling drug use, alcohol use, or those with serious mental illnesses. This project extends our scope further, to understand how even seemingly unrelated places could be connected. While proximity is usually considered based on geo-coordinates, there can be other factors in determining how two locations are proximate in their digital representation. Taking two photos at the same spot will result in duplicate location or, more likely (due to minor changes in positioning), a near-duplicate location. However, sometimes, these are not the exact locations - rather, similar ones. Perhaps, 1) two different churches, two different police stations, ... 2) same language (two different Portuguese restaurants, ...) 3) same/similar cultures... This project aims to formalize such proximity in DREAMS and how they contribute to the evolving emotions.
-
-**Current Status:** The current DREAMS prototype does not take such elaborate measures of proximity. However, proximity (not just geographically, but based on the multiple dimensions that compose the data) needs to be formalized in DREAMS to understand the emotions attached to a particular place (e.g., this particular church) vs. a specific class of places (e.g., any churches).
-
-**Expected Outcomes:** Complexities of time and ordering in the use of behavioral patterns and narratives, formalizing the representation of proximity in location beyond the geo-coordinates. This project contains a research portion. Several studies have been done on the topic. We should use the existing outcomes to expand our understanding further, while also implementing our findings.
-
-**Required Skills:** Python, digital image processing, and data mining.
-
-**Code Challenge:** Prior digital image processing or data mining experience is beneficial. Establish the experience through prior projects or related code samples.
-
-**Source Code:**  https://github.com/KathiraveluLab/DREAMS
-
-**Discussion Forum**: https://github.com/KathiraveluLab/DREAMS/discussions/
-
-**Effort:** 350 Hours
-
-**Difficulty Level:** Intermediate
-
-***
-
-
-**[3] DICOM Image Retrieval and Processing in MATLAB.**
-
-**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
-
-**Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system), and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. Many DICOM processing tools exist. They support receiving images from the scanners and PACS to a research cluster in real-time as an imaging stream or on-demand, selectively. They also provide means to anonymize the DICOM images to preserve patient privacy, export the DICOM images into a format such as PNG or JPEG, and extract the textual metadata from DICOM files to store it in a CSV file format or a database. Machine learning pipelines cannot be executed in clinical systems such as scanners and PACS. Therefore, the DICOM images and their metadata in the research clusters can be used to run machine learning pipelines. 
-
-MATLAB [Medical Imaging Toolbox](https://www.mathworks.com/products/medical-imaging.html) provides comprehensive support for DICOM using the [DICOM Toolkit (DCMTK)](https://dicom.offis.de/dcmtk.php.en). The MATLAB [Image Processing Toolbox](https://www.mathworks.com/products/image-processing.html) also supports [directly processing DICOM](https://www.mathworks.com/help/images/dicom-support-in-the-image-processing-toolbox.html). Similarly, MATLAB supports [reading, processing, and writing 3-D Medical Images with Spatial Referencing](https://www.mathworks.com/help/medical-imaging/ug/read-process-and-write-3-d-medical-image-with-spatial-referencing.html). In addition, [Python programs can be integrated with MATLAB](https://www.mathworks.com/products/matlab/matlab-and-python.html), which makes it easy to port existing Python workflows into MATLAB incrementally or let them execute interoperably. The out-of-the-box support for DICOM provided by MATLAB could make our job easy in certain projects. This facilitates [processing the files from the file system](https://www.mathworks.com/help/images/dicom-support-in-the-image-processing-toolbox.html). MATLAB natively supports [finding Region-of-Interest for DICOM-RT files](https://www.mathworks.com/help/images/ref/dicomcontours.html). It also supports [deep learning on DICOM and NifTi files](https://www.mathworks.com/help/deeplearning/ug/preprocess-volumes-for-deep-learning.html). 
-
-**Current Status:** This project is currently in the research stage.
-
-**Expected Outcomes:** This project aims to create a MATLAB alternative to the [Niffler](https://github.com/Emory-HITI/Niffler) framework built in Python. Niffler allows real-time and on-demand batch retrieval of DICOM images from the scanners and PACS. It also provides additional features such as metadata extraction, conversion to PNG format, and anonymization. Sample workflows, such as scanner usage computation and IVC filter detection workflows, are included in Niffler. This project is an effort towards building a similar framework, but in MATLAB, using the existing extensive DICOM features provided by MATLAB. We will use MATLAB R2025a for this project. Since this is a research project, we should study the existing projects first to avoid re-inventing the wheel. From Google Scholar, we see many processing and pipelines (ROI, deep learning, ...) on DICOM/DICOM-RT have been implemented using MATLAB. Regardless of the scientific novelty, we can get an open-source solution to help with further ML stuff using MATLAB on the DICOM files. However, we should also observe how this could be a scientific contribution and its merits beyond what is already available. We can use readily available public DICOM data sources to test our implementations, such as [the Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/), thereby avoiding the handling of sensitive patient data with PHI. We propose using [Orthanc](https://www.orthanc-server.com/), with anonymized DICOM images retrieved from TCIA stored in it, in place of a PACS.
-
-**Required Skills:** MATLAB
-
-**Code Challenge:** Prior experience with MATLAB should be established through previous projects or code samples. Experience working with DICOM images will be a plus.
-
-**Source Code:** https://github.com/KathiraveluLab/DWiM (New Project).
-
-**Discussion Forum**: https://github.com/KathiraveluLab/DWiM/discussions/
-
-**Effort:** 350 Hours
-
-**Difficulty Level:** Intermediate
-
-***
-
-
-
-**[4] Alaska Wildfire Prediction Using Satellite Imagery.**
+**[2] Alaska Wildfire Prediction Using Satellite Imagery.**
 
 **Mentors:**  Yali Wang (ywang35 -at- alaska.edu) and Arghya Kusum Das (akdas -at- alaska.edu)
 
@@ -163,7 +111,118 @@ A report on model performance and fire risk metrics.
 
 ***
 
-**[5] Support for Logarithmic Number Systems in Large Language Models.**
+
+**[3] Understanding proximity in locations and emotions through digitized memories.**
+
+**Mentors:** David Moxley (dpmoxley -at- alaska.edu), Jihye Kwon (jkwon2 -at- alaska.edu), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu).
+
+**Overview:** The project [DREAMS](https://github.com/KathiraveluLab/DREAMS) looks into how emotions evolve with time and uses the photos as a contributing factor towards the journey of recovery in marginalized folks, such as those battling drug use, alcohol use, or those with serious mental illnesses. This project extends our scope further, to understand how even seemingly unrelated places could be connected. While proximity is usually considered based on geo-coordinates, there can be other factors in determining how two locations are proximate in their digital representation. Taking two photos at the same spot will result in duplicate location or, more likely (due to minor changes in positioning), a near-duplicate location. However, sometimes, these are not the exact locations - rather, similar ones. Perhaps, 1) two different churches, two different police stations, ... 2) same language (two different Portuguese restaurants, ...) 3) same/similar cultures... This project aims to formalize such proximity in DREAMS and how they contribute to the evolving emotions.
+
+**Current Status:** The current DREAMS prototype does not take such elaborate measures of proximity. However, proximity (not just geographically, but based on the multiple dimensions that compose the data) needs to be formalized in DREAMS to understand the emotions attached to a particular place (e.g., this particular church) vs. a specific class of places (e.g., any churches).
+
+**Expected Outcomes:** Complexities of time and ordering in the use of behavioral patterns and narratives, formalizing the representation of proximity in location beyond the geo-coordinates. This project contains a research portion. Several studies have been done on the topic. We should use the existing outcomes to expand our understanding further, while also implementing our findings.
+
+**Required Skills:** Python, digital image processing, and data mining.
+
+**Code Challenge:** Prior digital image processing or data mining experience is beneficial. Establish the experience through prior projects or related code samples.
+
+**Source Code:**  https://github.com/KathiraveluLab/DREAMS
+
+**Discussion Forum**: https://github.com/KathiraveluLab/DREAMS/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Intermediate
+
+***
+
+
+**[4] Building a Decentralized Application (dApp) for Data Analysis in Bio-Block.**
+
+**Mentors:** Karthik Sathish (karthiksathishjeemain -at- gmail.com), Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), and Erik Zvaigzne (erik.zvaigzne-at-gmail.com)
+
+**Overview:** The open-source Bio-Block data and payment portal could theoretically admit health and medical information, subject to proper compliance and regulatory protocols. Can we build a dApp that takes this information and performs various levels of analytics: graphical, descriptive, inferential and possibly predictive? What blockchain architectures would permit such a dApp to reside on Bio-Block, and how can we make such a dApp scalable and open? Would the dApp connect through an API, and if so, what would that look like? This project explores and constructs a dApp that meets at least minimal architectural requirements, such as being decentralized, scalable and open, and implements at least two levels of analysis.
+
+
+**Current Status:**. Bio-Block Healthy App was built as part of the GSoC 2025. This project expands on it to build a decentralized app for data analysis.
+
+**Expected Outcomes:** A dApp that provides data analysis features to Bio-Block.
+
+**Required Skills:** Python is proposed as the programming language. However, students can also propose their preferred alternative programming language and frameworks. Prior experience developing on Ethereum is a plus. 
+
+**Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples. Students are expected to establish their experience with Blockchain technologies in architecting and programming them through previous projects - ideally through their respective GitHub repository (or similar code repositories).
+
+**Source Code:** https://github.com/bio-block/healthy .
+
+**Discussion Forum:** https://github.com/bio-block/healthy/discussions 
+
+**Effort:** 350 hours 
+
+**Difficulty Level:** Intermediate
+
+***
+
+
+
+
+
+
+**[5] Anonymization of Personal Health Information (PHI) Submitted to Bio-Block and Improving Data Retrieval.**
+
+**Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Forrester Kane Manis (Forrester-at-headword.co), and Karthik Sathish (karthiksathishjeemain -at- gmail.com).
+
+**Overview:** This is a two-part project. Bio-Block is meant to admit all types of bio-medical information. Some of these data types were explored and tackled in GSoC 2025. The personal health and identification information must be stripped from this data completely so that anonymization is achieved. The first part of the project explores algorithms and processes to completely anonymize the data while maintaining the ability to sort, query and analyze. After anonymization is achieved, there needs to be sufficient ability to query the data so that potential data retrieval is easy and meaningful. The second part of the project entails creating retrieval algorithms and processes to achieve this objective. 
+
+**Current Status:**. . Bio-Block Healthy App was built as part of the GSoC 2025. This project expands on it to build the PHI anonymization pipelines.
+
+**Expected Outcomes:** Data anonymization pipelines built and integrated into bio-block, to remove PHI from data uploads prior to storing those in bio-block.
+
+**Required Skills:** Python is proposed as the programming language. However, students can also propose their preferred alternative programming language and frameworks. Prior experience developing on Ethereum is a plus. 
+
+**Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples. Students are expected to establish their experience with Blockchain technologies in architecting and programming them through previous projects - ideally through their respective GitHub repository (or similar code repositories).
+
+**Source Code:** https://github.com/bio-block/healthy .
+
+**Discussion Forum:** https://github.com/bio-block/healthy/discussions 
+
+**Effort:** 350 hours 
+
+**Difficulty Level:** Intermediate
+
+***
+
+
+
+
+
+**[6] DICOM Image Retrieval and Processing in MATLAB.**
+
+**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
+
+**Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system), and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. Many DICOM processing tools exist. They support receiving images from the scanners and PACS to a research cluster in real-time as an imaging stream or on-demand, selectively. They also provide means to anonymize the DICOM images to preserve patient privacy, export the DICOM images into a format such as PNG or JPEG, and extract the textual metadata from DICOM files to store it in a CSV file format or a database. Machine learning pipelines cannot be executed in clinical systems such as scanners and PACS. Therefore, the DICOM images and their metadata in the research clusters can be used to run machine learning pipelines. 
+
+MATLAB [Medical Imaging Toolbox](https://www.mathworks.com/products/medical-imaging.html) provides comprehensive support for DICOM using the [DICOM Toolkit (DCMTK)](https://dicom.offis.de/dcmtk.php.en). The MATLAB [Image Processing Toolbox](https://www.mathworks.com/products/image-processing.html) also supports [directly processing DICOM](https://www.mathworks.com/help/images/dicom-support-in-the-image-processing-toolbox.html). Similarly, MATLAB supports [reading, processing, and writing 3-D Medical Images with Spatial Referencing](https://www.mathworks.com/help/medical-imaging/ug/read-process-and-write-3-d-medical-image-with-spatial-referencing.html). In addition, [Python programs can be integrated with MATLAB](https://www.mathworks.com/products/matlab/matlab-and-python.html), which makes it easy to port existing Python workflows into MATLAB incrementally or let them execute interoperably. The out-of-the-box support for DICOM provided by MATLAB could make our job easy in certain projects. This facilitates [processing the files from the file system](https://www.mathworks.com/help/images/dicom-support-in-the-image-processing-toolbox.html). MATLAB natively supports [finding Region-of-Interest for DICOM-RT files](https://www.mathworks.com/help/images/ref/dicomcontours.html). It also supports [deep learning on DICOM and NifTi files](https://www.mathworks.com/help/deeplearning/ug/preprocess-volumes-for-deep-learning.html). 
+
+**Current Status:** This project is currently in the research stage.
+
+**Expected Outcomes:** This project aims to create a MATLAB alternative to the [Niffler](https://github.com/Emory-HITI/Niffler) framework built in Python. Niffler allows real-time and on-demand batch retrieval of DICOM images from the scanners and PACS. It also provides additional features such as metadata extraction, conversion to PNG format, and anonymization. Sample workflows, such as scanner usage computation and IVC filter detection workflows, are included in Niffler. This project is an effort towards building a similar framework, but in MATLAB, using the existing extensive DICOM features provided by MATLAB. We will use MATLAB R2025a for this project. Since this is a research project, we should study the existing projects first to avoid re-inventing the wheel. From Google Scholar, we see many processing and pipelines (ROI, deep learning, ...) on DICOM/DICOM-RT have been implemented using MATLAB. Regardless of the scientific novelty, we can get an open-source solution to help with further ML stuff using MATLAB on the DICOM files. However, we should also observe how this could be a scientific contribution and its merits beyond what is already available. We can use readily available public DICOM data sources to test our implementations, such as [the Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/), thereby avoiding the handling of sensitive patient data with PHI. We propose using [Orthanc](https://www.orthanc-server.com/), with anonymized DICOM images retrieved from TCIA stored in it, in place of a PACS.
+
+**Required Skills:** MATLAB
+
+**Code Challenge:** Prior experience with MATLAB should be established through previous projects or code samples. Experience working with DICOM images will be a plus.
+
+**Source Code:** https://github.com/KathiraveluLab/DWiM (New Project).
+
+**Discussion Forum**: https://github.com/KathiraveluLab/DWiM/discussions/
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Intermediate
+
+***
+
+
+**[7] Support for Logarithmic Number Systems in Large Language Models.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Alex Krentz (alexkrentz2 -at- gmail.com), and Ed Chester (ed.chester -at- gmail.com)
 
@@ -232,7 +291,7 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 ***
 
 
-**[6] Telehealth Effectiveness and Necessity Tracker.**
+**[8] Telehealth Effectiveness and Necessity Tracker for Alaska.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and David Moxley (dpmoxley -at- alaska.edu).
 
