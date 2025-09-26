@@ -14,7 +14,7 @@ Many of the ideas proposed here have a research component. Contributors who work
 ***
 **[1] Automated coastline extraction for erosion modeling in Alaska.**
 
-**Mentors:** Frank Witmer (fwitmer -at- alaska.edu) and Rawan Elframawy (rawann.elframawy -at- gmail.com)
+**Mentors:** Frank Witmer (fwitmer -at- alaska.edu), Rawan Elframawy (rawann.elframawy -at- gmail.com), and Ritika Kumari (rkjane333 -at- gmail.com)
 
 **Overview:** The rapidly warming Arctic is leading to increased rates of coastal erosion, placing hundreds of Alaska communities at the frontline of climate change. Understanding current rates of coastline change and accurately forecasting future changes is critical for communities to mitigate and adapt to these changes. Current modeling approaches typically use a simple linear model based solely on historical coastline positions to measure rates of change and extrapolate them into the future. In doing so, these models fail to capture the dynamic effects associated with decreasing sea ice, increasing annual wave energy, and increasing temperatures. To improve the quality of these coastal models, we need to increase the quantity of digitized coastlines, but manual photointerpretation is slow and laborious.
 
