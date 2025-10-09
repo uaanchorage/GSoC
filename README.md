@@ -43,8 +43,32 @@ _Potential areas of improvement:_
 
 ***
 
+**[2] BHV: Behavioral Health Vault.**
 
-**[2] Alaska Wildfire Prediction Using Satellite Imagery.**
+**Mentors:** Mohamed Abdullah F (abdullahfakrudeen2020 -at- gmail.com), David Moxley (dpmoxley -at- alaska.edu), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+
+**Overview:** The goal of this project is to provide a digitization approach to record the journey of recovery of people with serious mental illnesses and other social determinants. BHV (pronounced Beehive or Behave) aims to complement traditional Electronic Health Records (EHRs) by storing patient-provided images (photographs and scanned drawings) along with associated textual narratives, which may be provided by the patient or recorded by a social worker during an interview. BHV is a minimal, Python-based application that enables healthcare networks to store and retrieve patient-provided images. BHV aims to provide them access to upload, view, and edit their own images and narratives. It will provide admin-level access to system administrators, allowing them to view the entire ecosystem, upload images on behalf of users, along with the narrative, edit images on behalf of users, and delete images or narrations on behalf of users or as a moderation action.
+
+
+**Current Status:** Currently, we have [Beehive](https://github.com/kathiravelulab/beehive) project. However, it has a complex architecture, which has made it a difficult installation for community health clinics that lack the technical expertise. The goal of BHV is to provide the same functionality while minimizing the complex tech stack of Beehive. The eventual goal of BHV is to replace Beehive and be the "Beehive-2.0."
+
+**Expected Outcomes:** The system should be secure. But the signup process should be fairly easy. Email-based signups are ok. Log-ins should be straightforward. A simple username and password should be sufficient. The system should avoid unnecessary bloat and complex installation steps, to enable easy installation in healthcare networks. The documentation should be easy to follow. The minimal architecture, on the other hand, should help minimize the need for elaborate documentation. The front-end should be kept minimal, to allow the entire system to be run from a single command (rather than expecting the front-end, backend, and database to be run separately). The storage of the images could be in a file system with an index to retrieve them easily. The index itself could be in a database to allow easy queries.
+
+**Required Skills:** Python, a datastore such as MySQL, Postgresql, SQLite, or MongoDB, and a minimal front-end.
+
+**Code Challenge:** Prior experience with Python and database systems through established project experience, ideally through previous GitHub repositories.
+
+**Source Code:** https://github.com/KathiraveluLab/BHV
+
+**Discussion Forum:** https://github.com/KathiraveluLab/BHV/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Intermediate
+
+***
+
+**[3] Alaska Wildfire Prediction Using Satellite Imagery.**
 
 **Mentors:**  Yali Wang (ywang35 -at- alaska.edu) and Arghya Kusum Das (akdas -at- alaska.edu)
 
@@ -112,9 +136,9 @@ A report on model performance and fire risk metrics.
 ***
 
 
-**[3] Understanding proximity in locations and emotions through digitized memories.**
+**[4] Understanding proximity in locations and emotions through digitized memories.**
 
-**Mentors:** David Moxley (dpmoxley -at- alaska.edu), Jihye Kwon (jkwon2 -at- alaska.edu), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu).
+**Mentors:** Jihye Kwon (jkwon2 -at- alaska.edu) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu).
 
 **Overview:** The project [DREAMS](https://github.com/KathiraveluLab/DREAMS) looks into how emotions evolve with time and uses the photos as a contributing factor towards the journey of recovery in marginalized folks, such as those battling drug use, alcohol use, or those with serious mental illnesses. This project extends our scope further, to understand how even seemingly unrelated places could be connected. While proximity is usually considered based on geo-coordinates, there can be other factors in determining how two locations are proximate in their digital representation. Taking two photos at the same spot will result in duplicate location or, more likely (due to minor changes in positioning), a near-duplicate location. However, sometimes, these are not the exact locations - rather, similar ones. Perhaps, 1) two different churches, two different police stations, ... 2) same language (two different Portuguese restaurants, ...) 3) same/similar cultures... This project aims to formalize such proximity in DREAMS and how they contribute to the evolving emotions.
 
@@ -137,7 +161,7 @@ A report on model performance and fire risk metrics.
 ***
 
 
-**[4] Building a Decentralized Application (dApp) for Data Analysis in Bio-Block.**
+**[5] Building a Decentralized Application (dApp) for Data Analysis in Bio-Block.**
 
 **Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Karthik Sathish (karthiksathishjeemain -at- gmail.com), and Erik Zvaigzne (erik.zvaigzne -at- gmail.com)
 
@@ -163,7 +187,7 @@ A report on model performance and fire risk metrics.
 ***
 
 
-**[5] Anonymization of Personal Health Information (PHI) Submitted to Bio-Block and Improving Data Retrieval.**
+**[6] Anonymization of Personal Health Information (PHI) Submitted to Bio-Block and Improving Data Retrieval.**
 
 **Mentors:** Karthik Sathish (karthiksathishjeemain -at- gmail.com), Ashutosh Ingole (ashingole -at- gmail.com), Forrester Kane Manis (Forrester -at- headword.co).
 
@@ -191,7 +215,7 @@ A report on model performance and fire risk metrics.
 
 
 
-**[6] DICOM Image Retrieval and Processing in MATLAB.**
+**[7] DICOM Image Retrieval and Processing in MATLAB.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
 
@@ -218,7 +242,7 @@ MATLAB [Medical Imaging Toolbox](https://www.mathworks.com/products/medical-imag
 ***
 
 
-**[7] Support for Logarithmic Number Systems in Large Language Models.**
+**[8] Support for Logarithmic Number Systems in Large Language Models.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Alex Krentz (alexkrentz2 -at- gmail.com), and Ed Chester (ed.chester -at- gmail.com)
 
@@ -287,7 +311,7 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 ***
 
 
-**[8] Telehealth Effectiveness and Necessity Tracker for Alaska.**
+**[9] Telehealth Effectiveness and Necessity Tracker for Alaska.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and David Moxley (dpmoxley -at- alaska.edu).
 
