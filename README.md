@@ -45,7 +45,7 @@ _Potential areas of improvement:_
 
 **[2] BHV: Behavioral Health Vault.**
 
-**Mentors:** Mohamed Abdullah F (abdullahfakrudeen2020 -at- gmail.com), David Moxley (dpmoxley -at- alaska.edu), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+**Mentors:** Mohamed Abdullah F (abdullahfakrudeen2020 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
 **Overview:** The goal of this project is to provide a digitization approach to record the journey of recovery of people with serious mental illnesses and other social determinants. BHV (pronounced Beehive or Behave) aims to complement traditional Electronic Health Records (EHRs) by storing patient-provided images (photographs and scanned drawings) along with associated textual narratives, which may be provided by the patient or recorded by a social worker during an interview. BHV is a minimal, Python-based application that enables healthcare networks to store and retrieve patient-provided images. BHV aims to provide them access to upload, view, and edit their own images and narratives. It will provide admin-level access to system administrators, allowing them to view the entire ecosystem, upload images on behalf of users, along with the narrative, edit images on behalf of users, and delete images or narrations on behalf of users or as a moderation action.
 
@@ -58,7 +58,7 @@ _Potential areas of improvement:_
 
 **Code Challenge:** Prior experience with Python and database systems through established project experience, ideally through previous GitHub repositories.
 
-**Source Code:** https://github.com/KathiraveluLab/BHV
+**Source Code:** https://github.com/KathiraveluLab/BHV (New Project).
 
 **Discussion Forum:** https://github.com/KathiraveluLab/BHV/discussions
 
@@ -201,7 +201,7 @@ A report on model performance and fire risk metrics.
 
 **Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples. Students are expected to establish their experience with Blockchain technologies in architecting and programming them through previous projects - ideally through their respective GitHub repository (or similar code repositories).
 
-**Source Code:** https://github.com/bio-block/healthy .
+**Source Code:** https://github.com/bio-block/healthy 
 
 **Discussion Forum:** https://github.com/bio-block/healthy/discussions 
 
@@ -338,6 +338,35 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 **Difficulty Level:** Intermediate
 
 ***
+
+
+
+
+
+**[10] AAA for Beehive: Authentication, Authorization, and Access Control.**
+
+**Mentors:** David Moxley (dpmoxley -at- alaska.edu) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+
+**Overview:** The goal of this project is to test and improve on the data privacy and security aspects of Beehive. Currently, we are hosting Beehive locally and it is used in a controlled environment within the organizational firewalls. However, if we open up Beehive with a public URL, data privacy aspects will play a critical role. Current Beehive implementation did not consider these data privacy and security matters sufficiently. Furthermore, the Clark APIs are likely not fully utilized, as currently they are used in authentication - but many features and functionalities are run without checking for authorization. This project aims to address these critical security and data privacy shortcomings in Beehive.
+
+**Current Status:** The Beehive project is functionally complete. However, it has severe limitations in authentication, authorization, and access control. While several measures are taken for authorization and authentication, the approaches were largely untested for various cases. Also, some of the design choices might be questionable. Rather than having an external API key provider, such as Google Cloud and Clerk, we might have used an API gateway such as Kong, Tyk, or API Umbrella, and used their authentication, authorization, and access control mechanisms. There are some security flaws, in terms of authorization and access control, as can be observed from the issue tracker.
+
+**Expected Outcomes:** The system should be secure. But the signup process should be fairly easy. Email-based signups are ok. Log-ins should be straightforward. A simple username and password should be sufficient. The system should avoid unnecessary bloat and complex installation steps, to enable easy installation in healthcare networks. Consider using a locally deployed API Gateway and its API key-based features to protect access to Beehive front-end. This could complement or replace the current Clerk and Google cloud-based authentication.
+
+**Required Skills:** Python, Computer and Network Security, and API Gateways.
+
+**Code Challenge:** Prior experience working with Python and knowledge in security testing are essential. Experience with API Gateways is a plus. Pull requests are welcome.
+
+**Source Code:** https://github.com/KathiraveluLab/Beehive
+
+**Discussion Forum:** https://github.com/KathiraveluLab/Beehive/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+***
+
 
 
 You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas. However, if you are proposing a new project idea as a contributor, make sure they are relevant to Alaska specifically and the circumpolar north in general. Also, contact potential mentors from the above-listed mentors and confirm their interest in your project idea before drafting an entire proposal based on your own idea.
