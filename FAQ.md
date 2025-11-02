@@ -52,3 +52,26 @@ Yes, but not exceeding the overall limit imposed by Google (3 proposals per cont
 
 # Can I email the proposals to the mentors?
 Yes, please draft the proposal and email it to the mentors. CC all the mentors in one email rather than sending individual emails to each mentor. Make sure your proposal is in complete shape before sending it for reviews. You do not want mentors to review a very early draft.
+
+# How do I choose the right project for my skills and interests?
+
+Selecting the right project is crucial for your success in GSoC. Here are some practical tips:
+
+**Match your technical skills:** Each project lists required skills and difficulty levels (Easy/Intermediate/Hard). Be honest about your current abilities:
+- If you're new to machine learning, consider starting with Intermediate projects rather than jumping into Hard ones like the LNS for LLMs project
+- For projects requiring Python, ensure you're comfortable with the language beyond basic syntax
+- MATLAB projects require actual MATLAB experience, not just programming knowledge
+
+**Consider the time commitment:** Projects are sized for different commitment levels:
+- 350 hours (full-time): Requires consistent 35 hours/week commitment
+- 175 hours (medium): About 18 hours/week, good for those with other commitments  
+- 90 hours (small): Quarter-time projects, ideal for students with coursework
+
+**Research the project domain:** Alaska's projects span healthcare, climate science, polar research, and blockchain. Choose areas that genuinely interest you:
+- Read the linked source code repositories to understand the current state
+- Check the discussion forums to see what challenges contributors are facing
+- Look up recent papers or articles related to the project domain
+
+**Complete the code challenges first:** Before committing to a project, attempt its code challenge. This will give you a realistic sense of the complexity and whether you can handle the full project scope.
+
+**Start contributing early:** Begin engaging with project discussion forums, ask meaningful questions, and try to make small contributions. This helps you understand the project culture and technical requirements while demonstrating your commitment to mentors.

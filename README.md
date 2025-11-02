@@ -7,6 +7,12 @@ We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has 
 
 **Please avoid sending individual private emails (or social media messages!!) to mentors.** However, the mentors' emails with each project idea are listed below in case the mentor initiates or recommends an email communication later. If you are proposing your own idea, make sure that idea is relevant to Alaska and has a potential mentor from the list of mentors below.
 
+## 📋 Quick Navigation
+
+- **Getting Started:** [Contributor Guide](CONTRIBUTOR-GUIDE.md) | [AI Use Policy](Acceptable-and-Ethical-AI-Use-Policy.md) | [Evaluation Rubrics](Rubrics.md)
+- **Resources:** [FAQ](FAQ.md) | [Contributing Guidelines](CONTRIBUTING.md) | [Alaskan Season of Code](Alaskan-Season-of-Code.md)
+- **Project Ideas:** [↓ Browse all 10 projects below](#project-ideas)
+
 # Project Ideas
 Many of the ideas proposed here have a research component. Contributors who work on these ideas have the potential to author a research paper (as the first author, working with the researchers from the University of Alaska) or become co-authors in our ongoing research papers. We strongly encourage those interested in higher studies or research careers to apply for their GSoC with us.
 
