@@ -128,9 +128,9 @@ A report on model performance and fire risk metrics.
 
 **Code Challenge:** Experience with multi-band satellite imagery, geospatial data processing (like ArcGIS Pro), and remote sensing.
 
-**Source Code:** [https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction](https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction) (New Project)
+**Source Code:** https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction (New Project)
 
-**Discussion Forum:** [https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction/discussions](https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction/discussions)
+**Discussion Forum:** https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction/discussions
 
 **Effort:** 350 Hours
 
@@ -156,7 +156,7 @@ A report on model performance and fire risk metrics.
 
 **Source Code:**  https://github.com/KathiraveluLab/DREAMS
 
-**Discussion Forum**: https://github.com/KathiraveluLab/DREAMS/discussions/
+**Discussion Forum**: https://github.com/KathiraveluLab/DREAMS/discussions
 
 **Effort:** 350 Hours
 
@@ -180,7 +180,7 @@ A report on model performance and fire risk metrics.
 
 **Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples. Students are expected to establish their experience with Blockchain technologies in architecting and programming them through previous projects - ideally through their respective GitHub repository (or similar code repositories).
 
-**Source Code:** https://github.com/bio-block/healthy .
+**Source Code:** https://github.com/bio-block/healthy 
 
 **Discussion Forum:** https://github.com/bio-block/healthy/discussions 
 
@@ -237,7 +237,7 @@ MATLAB [Medical Imaging Toolbox](https://www.mathworks.com/products/medical-imag
 
 **Source Code:** https://github.com/KathiraveluLab/DWiM (New Project).
 
-**Discussion Forum**: https://github.com/KathiraveluLab/DWiM/discussions/
+**Discussion Forum**: https://github.com/KathiraveluLab/DWiM/discussions
 
 **Effort:** 350 Hours
 
@@ -321,7 +321,7 @@ These code challenges provide possible insight as to how the LNS-CPU backend you
 
 **Overview:** This project uses public health site data and Internet performance data to find the regions with limited healthcare access (known as the healthcare deserts) but with stable Internet access. The outcome is a web application with a dashboard that can shed light on the necessity and feasibility of telehealth across Alaskan cities and villages.  
  
-A compound metric should be defined to identify healthcare deserts, incorporating information such as the number of health sites in the region, the availability of specialist access, the distance to the nearest clinic for any resident, and the presence of a transportation network. Health site data may be retrieved from public sources (such as [https://healthsites.io/map]), but should be supplemented with local sources for accuracy. Internet access and performance can be identified through measurement networks (such as [https://broadbandmapping.com]) and Internet Service Provider (ISP) data. 
+A compound metric should be defined to identify healthcare deserts, incorporating information such as the number of health sites in the region, the availability of specialist access, the distance to the nearest clinic for any resident, and the presence of a transportation network. Health site data may be retrieved from public sources (such as https://healthsites.io/map), but should be supplemented with local sources for accuracy. Internet access and performance can be identified through measurement networks (such as https://broadbandmapping.com) and Internet Service Provider (ISP) data. 
 
 A mashup of healthcare access (or the lack of it) combined with Internet access and performance should be visualized as an overlay on the map of Alaska using map platforms such as OpenStreetMap, with interactive visualizations. 
 
