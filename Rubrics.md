@@ -2,7 +2,7 @@ The applicants to GSoC are evaluated based on several metrics.
 
 These metrics include,
 
-1. Successful completion of the code challanges (if any), prior contributions (pull requests/fixes) to the project, or related previous experience.
+1. Successful completion of the code challenges (if any), prior contributions (pull requests/fixes) to the project, or related previous experience.
 
 2. Understanding of the project idea, as established in the project proposal, prior GitHub discussions, and other communications with the mentors.
 
