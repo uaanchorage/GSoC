@@ -1,7 +1,7 @@
 # Alaska: Google Summer of Code (GSoC) 
 <img src="https://raw.githubusercontent.com/uaanchorage/GSoC/main/figures/Alaska.png" width="150" height="150" align="left" style="padding:10px;"/> 2026 will be our third time participating in the Google Summer of Code (GSoC) as a mentoring organization, and we are already excited about the potential and opportunities. We had four enthusiastic contributors as a [first-time organization in 2024](https://github.com/uaanchorage/GSoC/tree/GSoC-2024) and we doubled in 2025 with our excellent 8 contributors. We consist of stable open-source projects in production use in research and relatively young projects. We also have mentors who have participated in several GSoC instances over the past several years and have been active in open-source software development for decades.
 
-We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has a vibrant open-source community. Through this GSoC initiative, researchers from the [University of Alaska Anchorage (UAA)](https://www.uaa.alaska.edu/) and [University of Alaska Fairbanks (UAF)](https://www.uaf.edu/) join hands with the Alaska-based software experts that are part of open-source entities such as [Healthy](https://github.com/bio-block/healthy) and [Alaska Developer Alliance](https://www.akdevalliance.com/) to provide a perfect mentoring experience for interested contributors globally. We provide a glimpse of this northern state and its tech landscape to the Lower 48 and the outside world through this open-source remote summer coding program organized and funded by Google. Our projects focus on healthcare, climate science, polar science, and other research fields critical to the Circumpolar North and the rest of the world.
+We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has a vibrant open-source community. Through this GSoC initiative, researchers from the [University of Alaska Anchorage (UAA)](https://www.uaa.alaska.edu/) and [University of Alaska Fairbanks (UAF)](https://www.uaf.edu/) join hands with the Alaska-based software experts that are part of open-source entities such as [Healthy](https://github.com/healthyinc/) and [Alaska Developer Alliance](https://www.akdevalliance.com/) to provide a perfect mentoring experience for interested contributors globally. We provide a glimpse of this northern state and its tech landscape to the Lower 48 and the outside world through this open-source remote summer coding program organized and funded by Google. Our projects focus on healthcare, climate science, polar science, and other research fields critical to the Circumpolar North and the rest of the world.
 
 **Please first refer to the [contributor guidelines](/CONTRIBUTOR-GUIDE.md) to get started!** It puts you on the right track with application details and a standard template. **Please also refer to our [Acceptable and Ethical AI Use Policy](/Acceptable-and-Ethical-AI-Use-Policy.md) to make sure your use of AI/ML/LLM tools such as ChatGPT falls under the acceptable use.** A [rubrics](/Rubrics.md) is provided as reference material on being a competitive applicant for Alaska in GSoC.
 
@@ -180,9 +180,9 @@ A report on model performance and fire risk metrics.
 
 **Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples. Students are expected to establish their experience with Blockchain technologies in architecting and programming them through previous projects - ideally through their respective GitHub repository (or similar code repositories).
 
-**Source Code:** https://github.com/bio-block/healthy 
+**Source Code:** https://github.com/healthyinc/bio-block
 
-**Discussion Forum:** https://github.com/bio-block/healthy/discussions 
+**Discussion Forum:** https://github.com/healthyinc/bio-block/discussions 
 
 **Effort:** 350 hours 
 
@@ -197,7 +197,7 @@ A report on model performance and fire risk metrics.
 
 **Overview:** This is a two-part project. Bio-Block is meant to admit all types of bio-medical information. Some of these data types were explored and tackled in GSoC 2025. The personal health and identification information must be stripped from this data completely so that anonymization is achieved. The first part of the project explores algorithms and processes to completely anonymize the data while maintaining the ability to sort, query and analyze. After anonymization is achieved, there needs to be sufficient ability to query the data so that potential data retrieval is easy and meaningful. The second part of the project entails creating retrieval algorithms and processes to achieve this objective. 
 
-**Current Status:**. . Bio-Block Healthy App was built as part of the GSoC 2025. This project expands on it to build the PHI anonymization pipelines.
+**Current Status:** Bio-Block Healthy App was built as part of the GSoC 2025. This project expands on it to build the PHI anonymization pipelines.
 
 **Expected Outcomes:** Data anonymization pipelines built and integrated into bio-block, to remove PHI from data uploads prior to storing those in bio-block.
 
@@ -205,9 +205,9 @@ A report on model performance and fire risk metrics.
 
 **Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, Ethereum blockchain through established coding examples. Students are expected to establish their experience with Blockchain technologies in architecting and programming them through previous projects - ideally through their respective GitHub repository (or similar code repositories).
 
-**Source Code:** https://github.com/bio-block/healthy 
+**Source Code:** https://github.com/healthyinc/bio-block
 
-**Discussion Forum:** https://github.com/bio-block/healthy/discussions 
+**Discussion Forum:** https://github.com/healthyinc/bio-block/discussions 
 
 **Effort:** 350 hours 
 
