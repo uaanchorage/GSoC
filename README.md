@@ -57,7 +57,7 @@ BHV will support the option to create a private GitHub repository for each user,
 
 Those Private repo will create under the users account.
 
-We encourage that BHV will be in Minimal Design Structure like [Google Arts and Culture](https://artsandculture.google.com/category/art-movement).
+We encourage that BHV will be in Minimal Design Structure like [Google Arts and Culture](https://artsandculture.google.com/category/art-movement) and contributors can come up with your minimal design too.
 
 **Required Skills:** Python, a datastore such as MySQL, Postgresql, SQLite, or MongoDB, and a minimal front-end.
 
