@@ -375,7 +375,7 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 **[11] Alaska Permafrost Impact Risk Prediction Using Satellite Imagery.**
 
 **Mentors:**  
-Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) 
+Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu), (To Be Decided)
 
 **Overview:**  
 A significant portion of Alaska’s infrastructure and communities is built on permafrost, which is increasingly destabilized due to rising temperatures, altered freeze–thaw cycles, and changing surface conditions. While permafrost degradation is widely acknowledged, there is no integrated system that predicts **where and when permafrost-related ground instability is likely to cause real-world impact** such as road deformation, infrastructure damage, or loss of accessibility for remote villages.  
@@ -442,7 +442,7 @@ To be created.
 350 Hours
 
 **Difficulty Level:**  
-Intermediate/Hard
+Hard
 
 ***
 
