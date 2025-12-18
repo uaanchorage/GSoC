@@ -372,6 +372,79 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 
 ***
 
+**[11] Alaska Permafrost Impact Risk Prediction Using Satellite Imagery.**
+
+**Mentors:**  
+Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) 
+
+**Overview:**  
+A significant portion of Alaska’s infrastructure and communities is built on permafrost, which is increasingly destabilized due to rising temperatures, altered freeze–thaw cycles, and changing surface conditions. While permafrost degradation is widely acknowledged, there is no integrated system that predicts **where and when permafrost-related ground instability is likely to cause real-world impact** such as road deformation, infrastructure damage, or loss of accessibility for remote villages.  
+This project aims to develop a machine learning–based framework to predict **permafrost impact risk in Alaska** by integrating optical and synthetic aperture radar (SAR) satellite imagery with long-term climate and terrain data. Traditional permafrost assessments rely on static maps or sparse in-situ measurements, which are insufficient for proactive planning. In contrast, satellite imagery enables large-scale, repeatable monitoring of surface change, moisture dynamics, vegetation shifts, and terrain factors relevant to permafrost stability.
+
+Satellite choices:
+
+| Satellite | Resolution | Revisit Frequency | Why Use It? |
+| ------ | ------ | ------ | ------ |
+| Sentinel-1 (ESA) | 5m – 20m | 6–12 days | SAR sensitivity to surface deformation and soil moisture; cloud-independent. |
+| Sentinel-2 (ESA) | 10m (RGB, NIR), 20m (SWIR) | 5 days | Vegetation indices and surface condition changes linked to permafrost thaw. |
+| Landsat 8 & 9 (NASA/USGS) | 30m (multispectral), 100m (thermal) | 16 days | Long-term surface temperature and change detection. |
+| Digital Elevation Models (DEM) | 10m – 30m | Static | Terrain slope and elevation influencing permafrost stability. |
+
+Additional ground data sources:
+
+1). ERA5 Climate Reanalysis (ECMWF): Provides historical and near–real-time temperature and freeze–thaw cycle information spanning multiple decades.
+
+2). NOAA Climate and Weather Data: Supplemental temperature and seasonal climate observations across Alaska.
+
+3). Public Infrastructure and Settlement Data: Roads, villages, and critical infrastructure layers to contextualize impact risk (where available).
+
+**Current Status:**  
+This project is currently in the research stage.
+
+**Expected Outcomes:**  
+This project aims to develop a machine learning model that predicts permafrost-related ground instability risk in Alaska using a combination of satellite imagery, climate time series, and terrain data. The expected outcome includes both a data preprocessing pipeline and the performance evaluation of the developed model.
+
+Minimum viable product (MVP):
+
+Permafrost impact risk classification: Given historical satellite imagery and climate data, the model predicts the probability of permafrost-related ground instability occurring within defined future time frames such as 3 months, 6 months, or 12 months. The classifications should be "High Risk," "Moderate Risk," or "Low / Stable Risk."
+
+1) Data pipeline development:
+
+Preprocessing satellite images: Band selection, geospatial tiling, and cloud masking (with emphasis on Sentinel-2 data);
+
+Synthetic Aperture Radar (SAR) analysis: Extracting deformation- and moisture-sensitive features from Sentinel-1 SAR data;
+
+Climate time-series integration: Incorporating freeze–thaw cycles, temperature anomalies, and seasonal lag features using decades of ERA5 data;
+
+Terrain feature extraction: Using DEMs to derive slope and elevation features.
+
+2) Model training and prediction:
+
+Spatio-temporal models such as CNN-LSTM or related architectures that integrate spatial satellite features with temporal climate trends (model choice remains flexible);
+
+A web-based GIS dashboard to visualize permafrost impact risk across Alaska;
+
+A report on model performance and permafrost risk metrics.
+
+**Required Skills:**  
+Python. Experience with machine learning, deep learning, and geospatial data processing.
+
+**Code Challenge:**  
+Experience with multi-band satellite imagery, geospatial datasets, or spatio-temporal machine learning models.
+
+**Source Code:**  
+New Project.
+
+**Discussion Forum:**  
+To be created.
+
+**Effort:**  
+350 Hours
+
+**Difficulty Level:**  
+Intermediate/Hard
+
+***
 
 
 You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas. However, if you are proposing a new project idea as a contributor, make sure they are relevant to Alaska specifically and the circumpolar north in general. Also, contact potential mentors from the above-listed mentors and confirm their interest in your project idea before drafting an entire proposal based on your own idea.
