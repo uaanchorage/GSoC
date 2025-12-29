@@ -1,9 +1,21 @@
 # Alaska: Google Summer of Code (GSoC) 
-<img src="https://raw.githubusercontent.com/uaanchorage/GSoC/main/figures/Alaska.png" width="150" height="150" align="left" style="padding:10px;"/> 2026 will be our third time participating in the Google Summer of Code (GSoC) as a mentoring organization, and we are already excited about the potential and opportunities. We had four enthusiastic contributors as a [first-time organization in 2024](https://github.com/uaanchorage/GSoC/tree/GSoC-2024) and we doubled in 2025 with our excellent 8 contributors. We consist of stable open-source projects in production use in research and relatively young projects. We also have mentors who have participated in several GSoC instances over the past several years and have been active in open-source software development for decades.
+[![New Contributors - Start Here](https://img.shields.io/badge/New_Contributors-Start_Here-brightgreen?style=for-the-badge&logo=github)](QUICK-START.md)
+[![GSoC 2026](https://img.shields.io/badge/GSoC-2026-blue?style=for-the-badge&logo=google)](https://summerofcode.withgoogle.com/)
+<img src="https://raw.githubusercontent.com/uaanchorage/GSoC/main/figures/Alaska.png" 
+     width="150" height="150" style="float:left; margin-right:10px; margin-bottom:10px;"/> 2026 will be our third time participating in the Google Summer of Code (GSoC) as a mentoring organization, and we are already excited about the potential and opportunities. We had four enthusiastic contributors as a [first-time organization in 2024](https://github.com/uaanchorage/GSoC/tree/GSoC-2024) and we doubled in 2025 with our excellent 8 contributors. We consist of stable open-source projects in production use in research and relatively young projects. We also have mentors who have participated in several GSoC instances over the past several years and have been active in open-source software development for decades.
 
 We represent the 49th state, Alaska. Anchorage, the largest city in Alaska, has a vibrant open-source community. Through this GSoC initiative, researchers from the [University of Alaska Anchorage (UAA)](https://www.uaa.alaska.edu/) and [University of Alaska Fairbanks (UAF)](https://www.uaf.edu/) join hands with the Alaska-based software experts that are part of open-source entities such as [Healthy](https://github.com/healthyinc/) and [Alaska Developer Alliance](https://www.akdevalliance.com/) to provide a perfect mentoring experience for interested contributors globally. We provide a glimpse of this northern state and its tech landscape to the Lower 48 and the outside world through this open-source remote summer coding program organized and funded by Google. Our projects focus on healthcare, climate science, polar science, and other research fields critical to the Circumpolar North and the rest of the world.
 
-**Please first refer to the [contributor guidelines](/CONTRIBUTOR-GUIDE.md) to get started!** It puts you on the right track with application details and a standard template. **Please also refer to our [Acceptable and Ethical AI Use Policy](/Acceptable-and-Ethical-AI-Use-Policy.md) to make sure your use of AI/ML/LLM tools such as ChatGPT falls under the acceptable use.** A [rubrics](/Rubrics.md) is provided as reference material on being a competitive applicant for Alaska in GSoC.
+*## 🚀 Getting Started
+
+**New to GSoC or Alaska projects?** Start here:
+- **[📋 Quick Start Guide](QUICK-START.md)** - Get started in 5 minutes
+- **[📚 Full Contributor Guide](CONTRIBUTOR-GUIDE.md)** - Complete application details and template
+- **[🤖 AI Use Policy](Acceptable-and-Ethical-AI-Use-Policy.md)** - Acceptable use of AI/ML/LLM tools
+- **[📊 Rubrics](Rubrics.md)** - How we evaluate proposals
+
+**Please avoid sending individual private emails (or social media messages!!) to mentors.** Use the discussion forums for all communication.
+ **Please also refer to our [Acceptable and Ethical AI Use Policy](/Acceptable-and-Ethical-AI-Use-Policy.md) to make sure your use of AI/ML/LLM tools such as ChatGPT falls under the acceptable use.** A [rubrics](/Rubrics.md) is provided as reference material on being a competitive applicant for Alaska in GSoC.
 
 **Please avoid sending individual private emails (or social media messages!!) to mentors.** However, the mentors' emails with each project idea are listed below in case the mentor initiates or recommends an email communication later. If you are proposing your own idea, make sure that idea is relevant to Alaska and has a potential mentor from the list of mentors below.
 
