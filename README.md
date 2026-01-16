@@ -373,6 +373,29 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 ***
 
 
+**[11] A Reference Implementation for concore Library in Julia.**
+
+**Mentors:** Mayuresh Kothare (mvk2 -at- lehigh.edu) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Julia.
+
+**Current Status:** We developed the concore library initially in Python and then implemented support for other languages. The contributor will work towards a reference implementation in Julia in this project. The successful completion of this project will expand the user base of concore to include Julia developers.
+
+**Expected Outcomes:** A complete reference implementation of the concore Library in Julia.
+
+**Required Skills:** Julia and Python
+
+**Code Challenge:** Demonstration of previous expertise in Julia and Python can be beneficial.
+ 
+**Source Code:**  https://github.com/ControlCore-Project/concore
+
+**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
 
 You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas. However, if you are proposing a new project idea as a contributor, make sure they are relevant to Alaska specifically and the circumpolar north in general. Also, contact potential mentors from the above-listed mentors and confirm their interest in your project idea before drafting an entire proposal based on your own idea.
 
