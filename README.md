@@ -375,7 +375,7 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 
 **[11] A Reference Implementation for concore Library in Julia.**
 
-**Mentors:** Mayuresh Kothare (mvk2 -at- lehigh.edu) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+**Mentors:** Mayuresh Kothare (mvk2 -at- lehigh.edu), Rahul Jagwani (rahuljagwani1012 -at- gmail.com), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Julia.
 
