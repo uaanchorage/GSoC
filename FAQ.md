@@ -1,10 +1,14 @@
 We will keep this page updated as we start receiving recurring questions that are of common interest to this organization and its contributors. Please check this [FAQ](https://developers.google.com/open-source/gsoc/faq) first.
 
-# Do you mandate pull requests as a pre-requisite for acceptance to the GSoC?
+# Do you mandate pull requests (PRs) as a pre-requisite for acceptance to the GSoC?
 
 Short answer: No, there is no mandatory requirement for a pull request at the organizational level. Individual projects can have their own expectations.
 
 long answer: Yes, pull requests are appreciated, but please pay attention to a few factors listed below.
+
+Please check which branch to send the PR to. If the project has a dev branch, most likely you should be developing and sending PRs against the dev branch. Main branch is usually frozen when a dev branch exists. If there is a dev branch, please test and create PR against the dev branch. Otherwise, you are most likely simply fixing a bug that is already fixed in the main branch.
+
+Some projects are new and without a codebase yet. Check the policy for those repositories on contributions. We label "on-hold" to PRs made against certain projects while merging PRs made against other projects against experimental branch. Going through the existing PRs against any project should give you the necessary information on how a PR is handled in that project repository. As we are a collection/umbrella of several projects, this makes sense. Each project is unique and different after all.
 
 Given the research nature of our projects, Alaska does not make it mandatory to have pull requests. But meaningful pull requests are always welcome.
 
@@ -52,3 +56,12 @@ Yes, but not exceeding the overall limit imposed by Google (3 proposals per cont
 
 # Can I email the proposals to the mentors?
 Yes, please draft the proposal and email it to the mentors. CC all the mentors in one email rather than sending individual emails to each mentor. Make sure your proposal is in complete shape before sending it for reviews. You do not want mentors to review a very early draft.
+
+# Can you point me to easy projects and easy bugs to start?
+Project ideas as listed at https://github.com/uaanchorage/GSoC/ along with their GitHub links. Please find the respective bug reports and discussions from those individual repositories. Please note that while we welcome PRs, it is not necessary to create a PR just for the sake of doing it. Meaningless PRs (for example, those who make superficial meaningless changes while breaking critical features) waste everyone's time.
+
+# Is there a Discord, Slack, Telegram, or Whatsapp groups to discuss the Alaska projects?
+No, our discussions happen in the respective GitHub discussion forums. Any design specific discussions that you like to keep private and proposal drafts maybe shared with the mentors by email. But to maintain the true open source nature, we encourage keeping the discussions to GitHub when possible.
+
+# I have already contributed 350 hours or more during the application period. Can I apply for a full-time (350 hours) project, but not do much coding during the GSoC?
+No, the actual coding is meant to happen during the GSoC itself. If you are applying for a full-time project, you are expected to work 350 hours regardless of your previous contributions to Alaska.
