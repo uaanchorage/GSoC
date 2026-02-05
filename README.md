@@ -169,7 +169,7 @@ A report on model performance and fire risk metrics.
 
 **[5] Building a Decentralized Application (dApp) for Data Analysis in Bio-Block.**
 
-**Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Karthik Sathish (karthiksathishjeemain -at- gmail.com), and Erik Zvaigzne (erik.zvaigzne -at- gmail.com)
+**Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Karthik Sathish (karthiksathishjeemain -at- gmail.com), Albin Bajramovic (albin -at- cptolabs.com) and Erik Zvaigzne (erik.zvaigzne -at- gmail.com)
 
 **Overview:** The open-source Bio-Block data and payment portal could theoretically admit health and medical information, subject to proper compliance and regulatory protocols. Can we build a dApp that takes this information and performs various levels of analytics: graphical, descriptive, inferential and possibly predictive? What blockchain architectures would permit such a dApp to reside on Bio-Block, and how can we make such a dApp scalable and open? Would the dApp connect through an API, and if so, what would that look like? This project explores and constructs a dApp that meets at least minimal architectural requirements, such as being decentralized, scalable and open, and implements at least two levels of analysis.
 
