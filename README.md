@@ -169,7 +169,7 @@ A report on model performance and fire risk metrics.
 
 **[5] Building a Decentralized Application (dApp) for Data Analysis in Bio-Block.**
 
-**Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com) and Karthik Sathish (karthiksathishjeemain -at- gmail.com).
+**Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Karthik Sathish (karthiksathishjeemain -at- gmail.com), and Erik Zvaigzne (erik.zvaigzne -at- gmail.com)
 
 **Overview:** The open-source Bio-Block data and payment portal could theoretically admit health and medical information, subject to proper compliance and regulatory protocols. Can we build a dApp that takes this information and performs various levels of analytics: graphical, descriptive, inferential and possibly predictive? What blockchain architectures would permit such a dApp to reside on Bio-Block, and how can we make such a dApp scalable and open? Would the dApp connect through an API, and if so, what would that look like? This project explores and constructs a dApp that meets at least minimal architectural requirements, such as being decentralized, scalable and open, and implements at least two levels of analysis.
 
@@ -400,7 +400,7 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 
 **[12] WATER: Workflow Allocation Towards Edge Resources.**
 
-**Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Albin Bajramovic (albin -at- cptolabs.com), and Erik Zvaigzne (erik.zvaigzne -at- gmail.com)
+**Mentors:** David Creighton (david -at- equilibriacorp.com), Albin Bajramovic (albin -at- cptolabs.com), and Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com)
 
 **Overview:** This project scopes the cloud and edge landscape to build a hybrid-cloud/multi-cloud environment for healthcare workflows. The healthcare workflows can be executed on healthcare data across multiple nodes, in-cloud, across cloud providers, or in a hybrid edge-to-cloud compute continuum. The workflows can be machine learning (ML) models, artificial intelligence (AI) algorithms, and other pipelines that can be facilitated by open-source frameworks such as [Niffler](https://github.com/Emory-HITI/Niffler) and [CONTROL-CORE](https://github.com/ControlCore-Project/). The goal here is to develop WATER as a unified framework that facilitates workflow allocation towards edge resources, using the research and industry best practices with cutting edge, cloud, distributed, and decentralized frameworks.
 
