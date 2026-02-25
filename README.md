@@ -398,27 +398,27 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 
 ***
 
-[12] WATER: Workflow Allocation Towards Edge Resources
+**[12] WATER: Workflow Allocation Towards Edge Resources.**
 
-Mentors: Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Albin Bajramovic (albin -at- cptolabs.com), and Erik Zvaigzne (erik.zvaigzne -at- gmail.com)
+**Mentors:** Chalinda Weerasinghe (chalindaweerasinghe -at- gmail.com), Albin Bajramovic (albin -at- cptolabs.com), and Erik Zvaigzne (erik.zvaigzne -at- gmail.com)
 
-Overview: This project scopes the cloud and edge landscape to build a hybrid-cloud/multi-cloud environment for healthcare workflows. The healthcare workflows can be executed on healthcare data across multiple nodes, in-cloud, across cloud providers, or in a hybrid edge-to-cloud compute continuum. The workflows can be machine learning (ML) models, artificial intelligence (AI) algorithms, and other pipelines that can be facilitated by open-source frameworks such as [Niffler](https://github.com/Emory-HITI/Niffler) and [CONTROL-CORE](https://github.com/ControlCore-Project/). The goal here is to develop WATER as a unified framework that facilitates workflow allocation towards edge resources, using the research and industry best practices with cutting edge, cloud, distributed, and decentralized frameworks.
+**Overview:** This project scopes the cloud and edge landscape to build a hybrid-cloud/multi-cloud environment for healthcare workflows. The healthcare workflows can be executed on healthcare data across multiple nodes, in-cloud, across cloud providers, or in a hybrid edge-to-cloud compute continuum. The workflows can be machine learning (ML) models, artificial intelligence (AI) algorithms, and other pipelines that can be facilitated by open-source frameworks such as [Niffler](https://github.com/Emory-HITI/Niffler) and [CONTROL-CORE](https://github.com/ControlCore-Project/). The goal here is to develop WATER as a unified framework that facilitates workflow allocation towards edge resources, using the research and industry best practices with cutting edge, cloud, distributed, and decentralized frameworks.
 
-Current Status: This project is currently in the research stage.
+**Current Status:** This project is currently in the research stage.
 
-Expected Outcomes: A prototype implementation of the WATER framework and demonstration of decentralized execution with sample workflows. The focus is on building a utility framework and an abstraction that facilitates the edge workflow execution rather than a simple decentralized data storage.
+**Expected Outcomes:** A prototype implementation of the WATER framework and demonstration of decentralized execution with sample workflows. The focus is on building a utility framework and an abstraction that facilitates the edge workflow execution rather than a simple decentralized data storage.
 
-Required Skills: Python is proposed as the programming language. However, students can also propose their preferred alternative programming language and frameworks. Prior experience developing on cloud and edge environments is a plus.
+**Required Skills:** Python is proposed as the programming language. However, students can also propose their preferred alternative programming language and frameworks. Prior experience developing on cloud and edge environments is a plus.
 
-Code Challenge: Prior experience in Python (or the proposed alternative language) and, preferably, cloud and edge frameworks.
+**Code Challenge:** Prior experience in Python (or the proposed alternative language) and, preferably, cloud and edge frameworks.
 
-Source Code: https://github.com/healthyinc/WATER (New Project).
+**Source Code:** https://github.com/healthyinc/WATER (New Project).
 
-Discussion Forum: https://github.com/healthyinc/WATER/discussions
+**Discussion Forum:** https://github.com/healthyinc/WATER/discussions
 
-Effort: 350 hours
+**Effort:** 350 hours
 
-Difficulty Level: Intermediate
+**Difficulty Level:** Intermediate
 
 ***
 
