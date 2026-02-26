@@ -220,7 +220,7 @@ A report on model performance and fire risk metrics.
 
 **[7] DICOM Image Retrieval and Processing in MATLAB.**
 
-**Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
+**Mentors:** Ryan Birmingham (rainventions -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
 
 **Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system), and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. Many DICOM processing tools exist. They support receiving images from the scanners and PACS to a research cluster in real-time as an imaging stream or on-demand, selectively. They also provide means to anonymize the DICOM images to preserve patient privacy, export the DICOM images into a format such as PNG or JPEG, and extract the textual metadata from DICOM files to store it in a CSV file format or a database. Machine learning pipelines cannot be executed in clinical systems such as scanners and PACS. Therefore, the DICOM images and their metadata in the research clusters can be used to run machine learning pipelines. 
 
@@ -342,10 +342,6 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 
 ***
 
-
-
-
-
 **[10] AAA for Beehive: Authentication, Authorization, and Access Control.**
 
 **Mentors:** David Moxley (dpmoxley -at- alaska.edu) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
@@ -369,7 +365,6 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 **Difficulty Level:** Hard
 
 ***
-
 
 **[11] A Reference Implementation for concore Library in Julia.**
 
