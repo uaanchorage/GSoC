@@ -218,9 +218,6 @@ A report on model performance and fire risk metrics.
 ***
 
 
-
-
-
 **[7] DICOM Image Retrieval and Processing in MATLAB.**
 
 **Mentors:** Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu) and Ananth Reddy (bananthreddy30 -at- gmail.com)
@@ -376,9 +373,9 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 
 **[11] A Reference Implementation for concore Library in Julia.**
 
-**Mentors:** Mayuresh Kothare (mvk2 -at- lehigh.edu), Rahul Jagwani (rahuljagwani1012 -at- gmail.com), and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+**Mentors:** Mayuresh Kothare (mvk2 -at- lehigh.edu) and Rahul Jagwani (rahuljagwani1012 -at- gmail.com)
 
-**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Julia.
+**Overview:** [CONTROL-CORE](https://github.com/ControlCore-Project) is a lightweight framework for closed-loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Julia.
 
 **Current Status:** We developed the concore library initially in Python and then implemented support for other languages. The contributor will work towards a reference implementation in Julia in this project. The successful completion of this project will expand the user base of concore to include Julia developers.
 
@@ -419,6 +416,81 @@ A mashup of healthcare access (or the lack of it) combined with Internet access 
 **Effort:** 350 hours
 
 **Difficulty Level:** Intermediate
+
+***
+
+**[13] Creating shareable "albums" from locally stored DICOM images**
+
+**Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+
+**Overview:**  DICOM data sets downloaded from PACS environments typically remain in the local environments, such as a research server or a cluster where the DICOM retriever (C-MOVE) is run. To use this data, researchers must identify certain subsets of data. This can be achieved by querying the retrieved data. DICOM images consist of textual metadata. By querying the metadata, subsets of images can be identified. However, currently, creating "albums" from locally stored DICOM images is not seamless.
+
+**Current Status:** This feature does not exist in our open-source frameworks. We share images through other orthogonal approaches (via rclone, for example). This project will implement a stand-alone utility to effectively create albums from locally stored DICOM images.
+
+**Expected Outcomes:** Several approaches to implementing such album features exist. One approach is to use [Kheops](https://docs.kheops.online/) to provide an interface to create and view the albums. [MEDIator](https://github.com/sharmalab/MEDIator) can be extended to create subsets and share the images via a unique URL as well. The proposed feature will make the images accessible to more researchers for their experiments by replacing the current manual data sharing efforts. Moreover, Kheops natively integrates with OHIF Viewer. As such, images retrieved locally can be viewed through OHIF Viewer by creating albums with Kheops. Contributors are encouraged to use Kheops or alternatives rather than reinventing the wheel (unless there is a convincing reason).
+ 
+**Required Skills:** Python or Java.
+
+**Code Challenge:** Experience working with DICOM images from previous projects or through a sample dummy project will be a plus.
+
+**Source Code:** https://github.com/KathiraveluLab/Diomede
+
+**Discussion Forum**: https://github.com/KathiraveluLab/Diomede/discussions
+
+**Effort:** 90 Hours
+
+**Difficulty Level:** Easy
+
+***
+
+
+**[14] Dynamic DICOM Endpoints.**
+
+**Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Pradeeban Kathiravelu (pkathiravelu -at- alaska.edu)
+
+**Overview:** DICOM (Digital Imaging and Communications in Medicine) is a radiographic imaging standard for how various modalities of scanners, PACS (Picture archiving and communication system), and other imaging systems communicate. As a storage protocol, it defines how images are stored in a standard way. It also functions as a messaging protocol, an extension to TCP. DICOM implementations often have a queue to hold the images sent from the source. Since this is a networking communication, a queue may degrade the performance or introduce data loss. DICOM communications are defined by static source, query, and destination endpoints. Each endpoint is defined by hostname/IP address, port, and AE (Application Entity) Title. A DICOM endpoint, such as a PACS or a scanner, usually has these endpoints statically configured to ensure security and patient privacy.
+
+This project attempts to send data from a source to dynamic destinations based on the queue and the performance. This can be a use case for teleradiology with multiple remote healthcare/radiologist sites present or a potential framework to enable federated learning on radiographic images. [Orthanc](https://www.orthanc-server.com/) can be set up as a DICOM endpoint that mimics a PACS [1](https://github.com/Emory-HITI/Niffler/tree/master/modules/cold-extraction). With multiple Orthanc servers configured, such a federated deployment can be prototyped. Ultimately, this project aims to study the possibilities and opportunities of supporting dynamic DICOM endpoints in practice. 
+
+**Current Status:** This project is currently in the research stage.
+
+**Expected Outcomes:** A prototype implementation that supports dynamic DICOM endpoints.
+
+**Required Skills:** Python
+
+**Code Challenge:** Experience working with DICOM images from previous projects or through a sample dummy project will be a plus.
+
+**Source Code:** https://github.com/KathiraveluLab/Diomede
+
+**Discussion Forum**: https://github.com/KathiraveluLab/Diomede/discussions
+
+**Effort:** 175 Hours
+
+**Difficulty Level:** Intermediate
+
+***
+
+**[15] Usability enhancements to CONTROL-CORE**
+
+**Mentors:** Rahul Jagwani (rahuljagwani1012 -at- gmail.com) and Mayuresh Kothare (mvk2 -at- lehigh.edu)
+
+**Overview:** [CONTROL-CORE](https://github.com/ControlCore-Project/) is a lightweight framework for closed-loop peripheral neuromodulation control systems. It provides multi-language support for program development in various execution environments, such as Linux, Windows, MacOS, and Docker. Due to its research nature and multi-platform and multi-language support, configuring and using CONTROL-CORE has become more challenging for regular users. Through usability enhancements, both in terms of installation and usage, this project aims at reducing the learning curve surrounding the CONTROL-CORE project.
+
+**Current Status:** CONTROL-CORE is a mature research framework. The successful implementation of this project will make it more user-friendly and allow us to expand on the userbase.
+
+**Expected Outcomes:** Usability enhancements in terms of installation and continuous use across the target platforms and execution environments.
+
+**Required Skills:** Since this is somewhat an open-ended problem, contributors are allowed to use technologies that are suitable to implement installers and configurations. Docker experience, working with operating system installers, and Linux is expected. Python and ReactJS experience is a plus, given the CONTROL-CORE backend is largely implemented in Python, and the front-end (concore-editor) is developed in ReactJS.
+
+**Code Challenge:** Demonstration of experience in CONTROL-CORE through prior contributions is a plus.
+ 
+**Source Code:**  https://github.com/ControlCore-Project/concore
+
+**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
 
 ***
 
