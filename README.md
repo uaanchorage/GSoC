@@ -195,7 +195,7 @@ A report on model performance and fire risk metrics.
 
 **[6] Anonymization of Personal Health Information (PHI) Submitted to Bio-Block and Improving Data Retrieval.**
 
-**Mentors:** Karthik Sathish (karthiksathishjeemain -at- gmail.com), Ashutosh Ingole (ashingole -at- gmail.com), and Forrester Kane Manis (Forrester -at- headword.co).
+**Mentors:** Karthik Sathish (karthiksathishjeemain -at- gmail.com) and Ashutosh Ingole (ashingole -at- gmail.com).
 
 **Overview:** This is a two-part project. Bio-Block is meant to admit all types of bio-medical information. Some of these data types were explored and tackled in GSoC 2025. The personal health and identification information must be stripped from this data completely so that anonymization is achieved. The first part of the project explores algorithms and processes to completely anonymize the data while maintaining the ability to sort, query and analyze. After anonymization is achieved, there needs to be sufficient ability to query the data so that potential data retrieval is easy and meaningful. The second part of the project entails creating retrieval algorithms and processes to achieve this objective. 
 
