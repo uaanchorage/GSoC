@@ -54,19 +54,25 @@ Summarize the project in your own words.
      
 ..
 
-**8) Project Schedule**
+**8) Expected AI Use**
+
+Please note and justify the level of AI use you anticipate in completing this project:
+
+No AI use, medium-level AI use (elaborate on how and why AI will be used), or full AI-assisted coding (elaborate how the generated code will be tested).
+
+**9) Project Schedule**
 
 Break the timeline into periods of around seven days. Smaller time windows (7 days or fewer) are encouraged to make progress easier to track.
 
-**8.1) Community Bonding Period**
+**9.1) Community Bonding Period**
 
-**8.2) Development Phase**
+**9.2) Development Phase**
 
-**8.3) Project Completion, testing, and documentation**
+**9.3) Project Completion, testing, and documentation**
 
-**9) Planned GSoC work hours**
+**10) Planned GSoC work hours**
 
-This year, the full-time projects are expected to contribute 35 hours a week (large projects, 350 hours in total), half-time projects are expected to make an 18-hour-a-week contribution (medium-sized size projects, 175 hours total), and small projects, a 90-hour contribution. Please indicate your choice of the project length. 
+This year, the full-time projects are expected to contribute around 35 hours a week (large projects, 350 hours in total), medium-sized projects are expected to contribute 175-hours in total, and small projects, a 90-hours contribution. Please indicate your choice of the project length. 
 
 Please also indicate the work hours (including the time zone) in which you hope to work on your project. It is best practice to indicate the time in the organization's local time zone (Alaska time), as that will be convenient for most mentors.
 
@@ -74,7 +80,7 @@ We recommend daily commits (and pull requests, if appropriate) to ensure you're 
 
 We also usually meet weekly with each accepted contributor during the GSoC. We use Zoom or Skype for this. Please indicate your preferences and availability.
 
-**10) Planned absence/vacation days and other commitments during the GSoC period (including the community bonding period)**
+**11) Planned absence/vacation days and other commitments during the GSoC period (including the community bonding period)**
 
 Please indicate if you have any lectures/classes, examinations, or other personal commitments.
 
@@ -82,7 +88,7 @@ GSoC  also allows flexibility of an additional two months to complete the projec
 
 If you choose a full-time project, you may not have much flexibility. However, if you are working on a small project, you can have several other parallel commitments.
 
-**11) Skill Set**
+**12) Skill Set**
 
 Your relevant skill set to complete this project. Include pointers to bug fixes, demos, and previous work.
 
