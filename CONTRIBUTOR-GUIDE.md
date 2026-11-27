@@ -58,7 +58,7 @@ Summarize the project in your own words.
 
 Please note and justify the level of AI use you anticipate in completing this project:
 
-No AI use, medium-level AI use (elaborate on how and why AI will be used), or full AI-assisted coding (elaborate how the generated code will be tested).
+No AI use, medium-level AI use (elaborate on how and why AI will be used), or full AI-assisted coding (elaborate how the generated code will be tested). We surely do not want you to mark "No AI use" and then use AI to complete the 350-hours project in 10-hours. ;) Be truthful and fair.
 
 **9) Project Schedule**
 
