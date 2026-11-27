@@ -9,7 +9,7 @@ If you have questions beyond the general introduction, start a [separate thread]
 
 Each project idea listed below has a "Discussion Forum" listed. Please use these discussion forums to discuss your project ideas and approaches. That contributes to and boosts the open-source spirit in our community. 
 
-We also have a [wiki](https://github.com/uaanchorage/GSoC/wiki) that we will use as a blog and announcement channel. We aim to unify the Google Summer of Code conversations and announcements in this repository rather than fragmenting them across different media. We hope our contributors will have an enriching and productive summer with Alaska.
+We aim to unify the Google Summer of Code conversations and announcements in this repository rather than fragmenting them across different media. We hope our contributors will have an enriching and productive summer with Alaska.
 
 # Communicating with the mentors
 
