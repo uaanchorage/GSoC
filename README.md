@@ -100,29 +100,6 @@ _Potential areas of improvement:_
 
 ***
 
-**[4] Usability enhancements to CONTROL-CORE**
-
-**Mentors:** Rahul Jagwani (rahuljagwani1012 -at- gmail.com) and Mayuresh Kothare (mvk2 -at- lehigh.edu)
-
-**Overview:** [CONTROL-CORE](https://github.com/ControlCore-Project/) is a lightweight framework for closed-loop peripheral neuromodulation control systems. It provides multi-language support for program development in various execution environments, such as Linux, Windows, MacOS, and Docker. Due to its research nature and multi-platform and multi-language support, configuring and using CONTROL-CORE has become more challenging for regular users. Through usability enhancements, both in terms of installation and usage, this project aims at reducing the learning curve surrounding the CONTROL-CORE project.
-
-**Current Status:** CONTROL-CORE is a mature research framework. The successful implementation of this project will make it more user-friendly and allow us to expand on the userbase.
-
-**Expected Outcomes:** Usability enhancements in terms of installation and continuous use across the target platforms and execution environments.
-
-**Required Skills:** Since this is somewhat an open-ended problem, contributors are allowed to use technologies that are suitable to implement installers and configurations. Docker experience, working with operating system installers, and Linux is expected. Python and ReactJS experience is a plus, given the CONTROL-CORE backend is largely implemented in Python, and the front-end (concore-editor) is developed in ReactJS.
-
-**Code Challenge:** Demonstration of experience in CONTROL-CORE through prior contributions is a plus.
- 
-**Source Code:**  https://github.com/ControlCore-Project/concore
-
-**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
-
-**Effort:** 350 Hours
-
-**Difficulty Level:** Medium
-
-***
 
 You are welcome to propose new open-source project ideas, especially those that serve the state of Alaska and its people. Please use the below template to create new project ideas. However, if you are proposing a new project idea as a contributor, make sure they are relevant to Alaska specifically and the circumpolar north in general. Also, contact potential mentors from the above-listed mentors and confirm their interest in your project idea before drafting an entire proposal based on your own idea.
 
