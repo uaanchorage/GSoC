@@ -16,7 +16,7 @@ These metrics include,
    
 5. NOT abusing AI.
   
-   While we appreciate PRs (AI-assisted or not), a sudden surge of 20 PRs with a wall-of-text response to mentor/developer queries are considered a negative contribution. We want to bring in human contributors. If your response to a simple question is a nicely copy-pasted ChatGPT/Gemini response, you are likely to be ranked lower. Same with hallucinated text and references. We do not want to be the first to review an AI slop of a text.
+   While we appreciate PRs (AI-assisted or not), a sudden surge of 20 PRs with a wall-of-text response to mentor/developer queries are considered a negative contribution. We want to bring in human contributors. If your response to a simple question is a nicely copy-pasted ChatGPT/Gemini response, you are likely to be ranked lower. Same with hallucinated text and references. We do not want to be the first to review an AI slop of a text. Quality >> Quantity, when it comes to PRs and contributions.
 
 6. Your CV and experience. 
 
