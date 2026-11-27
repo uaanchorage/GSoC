@@ -32,6 +32,4 @@ These metrics include,
 
 9. Alignment with our vision "Many Traditions, One Alaska" as established through the GSoC Proposal and GitHub Discussions.
 
-   While we have project ideas from organizations beyond Alaska, our projects are centered around Alaska and the "Many Traditions, One Alaska" motto of the University of Alaska. We want our contributors to maintain that friendly and welcoming environment.
-
-Please note that GSoC is competitive. Oftentimes, Google offers organizations fewer slots than we asked for. However, we will try to mentor as many projects as possible. For 2025, we have 15 project ideas listed and 17 mentors available. We have sufficient mentoring capacity.
+   While we have project ideas from organizations beyond Alaska, our projects are centered around Alaska and the "Many Traditions, One Alaska" motto of the University of Alaska. We want our contributors to maintain that friendly and welcoming environment. Please note that GSoC is competitive. Oftentimes, Google offers organizations fewer slots than we asked for. We will try to mentor as many projects as possible. In 2026, we asked for 12 slots and received only 8 from Google. If you are not accepted, please do not feel discouraged. We still appreciated your contributions.
