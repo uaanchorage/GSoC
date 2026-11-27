@@ -8,7 +8,7 @@ These metrics include,
 
 2. Successful completion of the code challenges (if any), prior contributions (pull requests/fixes) to the project, or related previous experience.
 
-   It is important to complete any mandatory code challenge. It is also appreciated when an applicant establishes their understanding of the project through a PR. However, in the AI-assisted coding world, it is critical to note that the "numbers game" does not help much. Your goal should **not** be to contribute 100 PRs and complete 75% of the project during the application period.
+   It is important to complete any mandatory code challenge. It is also appreciated when an applicant establishes their understanding of the project through a PR. However, in the AI-assisted coding world, it is critical to note that the "numbers game" does not help much. Your goal should **not** be to contribute 100 PRs and complete 75% of the project during the application period. We have had situations in the past where the contributor had already completed a majority of the project during the application period, and did not have much left to do during the coding period. We specifically want to avoid those situations as well. GSoC specifically expects you to put in that 350/180/90 hours during the coding period. Anything you contribute before getting accepted to the GSoC or after the GSoC coding period are considered volunteer contributions and are not part of the GSoC coding itself.
 
 3. Contributions to the project communications (such as reviewing other PRs, productive contributions to discussions, and overall community spirit).
 
